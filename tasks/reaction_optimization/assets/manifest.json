@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "files": {
+    "assets/suzuki_prior.json": {
+      "sha256": "7c31261a1fd6f1723539cd088814ce13c93fd512381e0f44eccdcc8bb0230d2a",
+      "bytes": 132966
+    }
+  },
+  "candidate_count": 321,
+  "source_calibrated_prior_npz_sha256": "74e6626ee25f9a2b4a27d979e0ae0254130562379be15c112f02a78fcc6a4c26"
+}

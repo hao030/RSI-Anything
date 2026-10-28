@@ -1,0 +1,4508 @@
+{
+  "schema_version": 1,
+  "model_id": "reactiont5-jepa-suzuki-v1",
+  "task": "Suzuki-Miyaura condition selection",
+  "units": "yield percentage points",
+  "acquisition": {
+    "method": "expected_improvement",
+    "xi_percent_points": 0.01,
+    "tie_break": "ascending candidate_index"
+  },
+  "source_calibrated_prior_npz_sha256": "74e6626ee25f9a2b4a27d979e0ae0254130562379be15c112f02a78fcc6a4c26",
+  "candidates": [
+    {
+      "candidate_index": 0,
+      "original_table_index": 1113,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 63.426317560420834,
+      "calibrated_std_percent_points": 6.002491666145933
+    },
+    {
+      "candidate_index": 1,
+      "original_table_index": 1114,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Ph)3",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 65.46434772794849,
+      "calibrated_std_percent_points": 5.822152834798697
+    },
+    {
+      "candidate_index": 2,
+      "original_table_index": 1115,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 63.62507959519458,
+      "calibrated_std_percent_points": 5.900125005326781
+    },
+    {
+      "candidate_index": 3,
+      "original_table_index": 1116,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.43573739886153,
+      "calibrated_std_percent_points": 5.8620742301157875
+    },
+    {
+      "candidate_index": 4,
+      "original_table_index": 1117,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 61.832145798604394,
+      "calibrated_std_percent_points": 5.778244389537866
+    },
+    {
+      "candidate_index": 5,
+      "original_table_index": 1118,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 65.04808279034756,
+      "calibrated_std_percent_points": 5.75956903876981
+    },
+    {
+      "candidate_index": 6,
+      "original_table_index": 1119,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 33.06518052077304,
+      "calibrated_std_percent_points": 8.343149416894429
+    },
+    {
+      "candidate_index": 7,
+      "original_table_index": 1120,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 66.08508151569059,
+      "calibrated_std_percent_points": 5.565603487941309
+    },
+    {
+      "candidate_index": 8,
+      "original_table_index": 1121,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 35.117053376579335,
+      "calibrated_std_percent_points": 8.680697104338881
+    },
+    {
+      "candidate_index": 9,
+      "original_table_index": 1122,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 14.954428966677082,
+      "calibrated_std_percent_points": 6.528076663958597
+    },
+    {
+      "candidate_index": 10,
+      "original_table_index": 1123,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "NaOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 25.628616005691228,
+      "calibrated_std_percent_points": 8.016514727398949
+    },
+    {
+      "candidate_index": 11,
+      "original_table_index": 1124,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "NaHCO3",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 65.94377518711697,
+      "calibrated_std_percent_points": 5.819082023691457
+    },
+    {
+      "candidate_index": 12,
+      "original_table_index": 1125,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "NaHCO3",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.88585165631375,
+      "calibrated_std_percent_points": 6.036760036378377
+    },
+    {
+      "candidate_index": 13,
+      "original_table_index": 1126,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "NaHCO3",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 62.686901489950074,
+      "calibrated_std_percent_points": 6.034815310837524
+    },
+    {
+      "candidate_index": 14,
+      "original_table_index": 1127,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "NaHCO3",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 61.539330467318365,
+      "calibrated_std_percent_points": 6.652347931100895
+    },
+    {
+      "candidate_index": 15,
+      "original_table_index": 1128,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "NaHCO3",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 65.74365013600283,
+      "calibrated_std_percent_points": 5.9272557235065415
+    },
+    {
+      "candidate_index": 16,
+      "original_table_index": 1129,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "NaHCO3",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 57.18716259565169,
+      "calibrated_std_percent_points": 6.942504259926631
+    },
+    {
+      "candidate_index": 17,
+      "original_table_index": 1130,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "NaHCO3",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 66.57082362506543,
+      "calibrated_std_percent_points": 5.757169772311134
+    },
+    {
+      "candidate_index": 18,
+      "original_table_index": 1131,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "NaHCO3",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 37.62836048538219,
+      "calibrated_std_percent_points": 8.859705485044643
+    },
+    {
+      "candidate_index": 19,
+      "original_table_index": 1132,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "NaHCO3",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 13.497813684041745,
+      "calibrated_std_percent_points": 6.833644948281377
+    },
+    {
+      "candidate_index": 20,
+      "original_table_index": 1133,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "NaHCO3",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 47.640006261498755,
+      "calibrated_std_percent_points": 7.91171052796907
+    },
+    {
+      "candidate_index": 21,
+      "original_table_index": 1134,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "CsF",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.31341120228743,
+      "calibrated_std_percent_points": 5.657369733026611
+    },
+    {
+      "candidate_index": 22,
+      "original_table_index": 1135,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "CsF",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.63987398438483,
+      "calibrated_std_percent_points": 5.803243693341882
+    },
+    {
+      "candidate_index": 23,
+      "original_table_index": 1136,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "CsF",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 61.62295137913895,
+      "calibrated_std_percent_points": 5.911668285320651
+    },
+    {
+      "candidate_index": 24,
+      "original_table_index": 1137,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "CsF",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.06110483583524,
+      "calibrated_std_percent_points": 5.763112041292954
+    },
+    {
+      "candidate_index": 25,
+      "original_table_index": 1138,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "CsF",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 27.694324592336024,
+      "calibrated_std_percent_points": 8.117266795650504
+    },
+    {
+      "candidate_index": 26,
+      "original_table_index": 1139,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "CsF",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.95169899871021,
+      "calibrated_std_percent_points": 5.913731782082824
+    },
+    {
+      "candidate_index": 27,
+      "original_table_index": 1140,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "CsF",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 36.49790111678115,
+      "calibrated_std_percent_points": 8.353342960112075
+    },
+    {
+      "candidate_index": 28,
+      "original_table_index": 1141,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "CsF",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 13.945474829395252,
+      "calibrated_std_percent_points": 6.810905623737832
+    },
+    {
+      "candidate_index": 29,
+      "original_table_index": 1142,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "CsF",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 25.573022892705357,
+      "calibrated_std_percent_points": 7.933673626393068
+    },
+    {
+      "candidate_index": 30,
+      "original_table_index": 1143,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 51.076065362057534,
+      "calibrated_std_percent_points": 6.625382836719269
+    },
+    {
+      "candidate_index": 31,
+      "original_table_index": 1144,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Ph)3",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 57.408067223318106,
+      "calibrated_std_percent_points": 6.572309576336891
+    },
+    {
+      "candidate_index": 32,
+      "original_table_index": 1145,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 51.166203932063894,
+      "calibrated_std_percent_points": 5.845818262409988
+    },
+    {
+      "candidate_index": 33,
+      "original_table_index": 1146,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 51.15366160962715,
+      "calibrated_std_percent_points": 6.257099219200432
+    },
+    {
+      "candidate_index": 34,
+      "original_table_index": 1147,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 52.11296672811204,
+      "calibrated_std_percent_points": 6.389968714315806
+    },
+    {
+      "candidate_index": 35,
+      "original_table_index": 1148,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 51.962452205910864,
+      "calibrated_std_percent_points": 6.544249480385641
+    },
+    {
+      "candidate_index": 36,
+      "original_table_index": 1149,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 51.32014103986421,
+      "calibrated_std_percent_points": 5.940687018664516
+    },
+    {
+      "candidate_index": 37,
+      "original_table_index": 1150,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 52.15256379304967,
+      "calibrated_std_percent_points": 5.882307672413299
+    },
+    {
+      "candidate_index": 38,
+      "original_table_index": 1151,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 35.03487985676784,
+      "calibrated_std_percent_points": 8.612171211708434
+    },
+    {
+      "candidate_index": 39,
+      "original_table_index": 1152,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 11.512795367400793,
+      "calibrated_std_percent_points": 5.995053925182474
+    },
+    {
+      "candidate_index": 40,
+      "original_table_index": 1153,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "K3PO4",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 44.92542257473013,
+      "calibrated_std_percent_points": 7.25389446889529
+    },
+    {
+      "candidate_index": 41,
+      "original_table_index": 1154,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "KOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 65.42162763478608,
+      "calibrated_std_percent_points": 6.129324020355324
+    },
+    {
+      "candidate_index": 42,
+      "original_table_index": 1155,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "KOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 65.72826218873524,
+      "calibrated_std_percent_points": 6.1495536635216865
+    },
+    {
+      "candidate_index": 43,
+      "original_table_index": 1156,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "KOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 62.577595598491115,
+      "calibrated_std_percent_points": 5.727825554830943
+    },
+    {
+      "candidate_index": 44,
+      "original_table_index": 1157,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "KOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 66.30267234862026,
+      "calibrated_std_percent_points": 5.982172530609402
+    },
+    {
+      "candidate_index": 45,
+      "original_table_index": 1158,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "KOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 59.643998428914735,
+      "calibrated_std_percent_points": 7.014379860408822
+    },
+    {
+      "candidate_index": 46,
+      "original_table_index": 1159,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "KOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 68.33187429770142,
+      "calibrated_std_percent_points": 5.524927550046641
+    },
+    {
+      "candidate_index": 47,
+      "original_table_index": 1160,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "KOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 33.62744940955024,
+      "calibrated_std_percent_points": 8.645827709117865
+    },
+    {
+      "candidate_index": 48,
+      "original_table_index": 1161,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "KOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 13.537635182250337,
+      "calibrated_std_percent_points": 6.004472065028696
+    },
+    {
+      "candidate_index": 49,
+      "original_table_index": 1162,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "KOH",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 40.015177783053026,
+      "calibrated_std_percent_points": 8.379950032757314
+    },
+    {
+      "candidate_index": 50,
+      "original_table_index": 1163,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "LiOtBu",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 65.19559774138786,
+      "calibrated_std_percent_points": 5.757045229371817
+    },
+    {
+      "candidate_index": 51,
+      "original_table_index": 1164,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "LiOtBu",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.41456964042666,
+      "calibrated_std_percent_points": 5.954159023212179
+    },
+    {
+      "candidate_index": 52,
+      "original_table_index": 1165,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "LiOtBu",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 62.014425761542995,
+      "calibrated_std_percent_points": 5.956186631308835
+    },
+    {
+      "candidate_index": 53,
+      "original_table_index": 1166,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "LiOtBu",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 54.48684803701986,
+      "calibrated_std_percent_points": 7.254298859299856
+    },
+    {
+      "candidate_index": 54,
+      "original_table_index": 1167,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "LiOtBu",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.71820565288311,
+      "calibrated_std_percent_points": 5.832998512149656
+    },
+    {
+      "candidate_index": 55,
+      "original_table_index": 1168,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "LiOtBu",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 37.80788024756523,
+      "calibrated_std_percent_points": 8.944801414820306
+    },
+    {
+      "candidate_index": 56,
+      "original_table_index": 1169,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "LiOtBu",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 30.480883877134485,
+      "calibrated_std_percent_points": 10.209746867485432
+    },
+    {
+      "candidate_index": 57,
+      "original_table_index": 1170,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "LiOtBu",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 47.06921834879857,
+      "calibrated_std_percent_points": 7.71620279809587
+    },
+    {
+      "candidate_index": 58,
+      "original_table_index": 1171,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "Et3N",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 65.016644787527,
+      "calibrated_std_percent_points": 6.041382463736747
+    },
+    {
+      "candidate_index": 59,
+      "original_table_index": 1172,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "Et3N",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 57.45808449266784,
+      "calibrated_std_percent_points": 7.0685250621342295
+    },
+    {
+      "candidate_index": 60,
+      "original_table_index": 1173,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "Et3N",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 62.179182124621526,
+      "calibrated_std_percent_points": 5.9219801706770525
+    },
+    {
+      "candidate_index": 61,
+      "original_table_index": 1174,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "Et3N",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 63.47498819071104,
+      "calibrated_std_percent_points": 6.093017302609223
+    },
+    {
+      "candidate_index": 62,
+      "original_table_index": 1175,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "Et3N",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 54.532098822342626,
+      "calibrated_std_percent_points": 7.2871738510089585
+    },
+    {
+      "candidate_index": 63,
+      "original_table_index": 1176,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "Et3N",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.1098456343567,
+      "calibrated_std_percent_points": 6.225458625888998
+    },
+    {
+      "candidate_index": 64,
+      "original_table_index": 1177,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "Et3N",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 36.36203647782126,
+      "calibrated_std_percent_points": 8.693872134717688
+    },
+    {
+      "candidate_index": 65,
+      "original_table_index": 1178,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "Et3N",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 13.923270306184559,
+      "calibrated_std_percent_points": 6.500630831472797
+    },
+    {
+      "candidate_index": 66,
+      "original_table_index": 1179,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "Et3N",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 46.794661601561245,
+      "calibrated_std_percent_points": 7.796477940001307
+    },
+    {
+      "candidate_index": 67,
+      "original_table_index": 1180,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "nothing",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.7671277174551,
+      "calibrated_std_percent_points": 5.800228723036662
+    },
+    {
+      "candidate_index": 68,
+      "original_table_index": 1181,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "nothing",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 61.602442394142564,
+      "calibrated_std_percent_points": 6.052194774489519
+    },
+    {
+      "candidate_index": 69,
+      "original_table_index": 1182,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "nothing",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.17461604391549,
+      "calibrated_std_percent_points": 5.936329403192246
+    },
+    {
+      "candidate_index": 70,
+      "original_table_index": 1183,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "nothing",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 52.832529052518986,
+      "calibrated_std_percent_points": 7.224852213730884
+    },
+    {
+      "candidate_index": 71,
+      "original_table_index": 1184,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "nothing",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 64.81101446300653,
+      "calibrated_std_percent_points": 5.814537318410013
+    },
+    {
+      "candidate_index": 72,
+      "original_table_index": 1185,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "nothing",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 32.65266390541456,
+      "calibrated_std_percent_points": 8.741278892617974
+    },
+    {
+      "candidate_index": 73,
+      "original_table_index": 1186,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "nothing",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 22.34442264440266,
+      "calibrated_std_percent_points": 8.555059708304878
+    },
+    {
+      "candidate_index": 74,
+      "original_table_index": 1187,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "nothing",
+        "solvent": "MeCN"
+      },
+      "predicted_yield_percent": 30.300446505276643,
+      "calibrated_std_percent_points": 8.190443235093253
+    },
+    {
+      "candidate_index": 75,
+      "original_table_index": 1188,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "NaOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 45.975255666216995,
+      "calibrated_std_percent_points": 7.508606409345415
+    },
+    {
+      "candidate_index": 76,
+      "original_table_index": 1189,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "NaOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 46.27035412052782,
+      "calibrated_std_percent_points": 7.718228803713831
+    },
+    {
+      "candidate_index": 77,
+      "original_table_index": 1190,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "NaOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 50.429257481807134,
+      "calibrated_std_percent_points": 7.284458124372304
+    },
+    {
+      "candidate_index": 78,
+      "original_table_index": 1191,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "NaOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 47.820556604193854,
+      "calibrated_std_percent_points": 7.498566636385079
+    },
+    {
+      "candidate_index": 79,
+      "original_table_index": 1192,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "NaOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 45.08033659882355,
+      "calibrated_std_percent_points": 7.780366395427316
+    },
+    {
+      "candidate_index": 80,
+      "original_table_index": 1193,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "NaOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 36.48670988490968,
+      "calibrated_std_percent_points": 6.816903028826991
+    },
+    {
+      "candidate_index": 81,
+      "original_table_index": 1194,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "NaOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 34.157041898921975,
+      "calibrated_std_percent_points": 7.156077654502401
+    },
+    {
+      "candidate_index": 82,
+      "original_table_index": 1195,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "NaOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 17.918637581969623,
+      "calibrated_std_percent_points": 6.534240259298284
+    },
+    {
+      "candidate_index": 83,
+      "original_table_index": 1196,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "NaOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 30.470913359572005,
+      "calibrated_std_percent_points": 6.769887047418473
+    },
+    {
+      "candidate_index": 84,
+      "original_table_index": 1197,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "NaHCO3",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 46.759604637065344,
+      "calibrated_std_percent_points": 7.589930767176524
+    },
+    {
+      "candidate_index": 85,
+      "original_table_index": 1198,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "NaHCO3",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 45.83692722374336,
+      "calibrated_std_percent_points": 8.012920705127588
+    },
+    {
+      "candidate_index": 86,
+      "original_table_index": 1199,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "NaHCO3",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 47.04302438898703,
+      "calibrated_std_percent_points": 7.62731596103769
+    },
+    {
+      "candidate_index": 87,
+      "original_table_index": 1200,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "NaHCO3",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 45.842945663935964,
+      "calibrated_std_percent_points": 7.910756647476679
+    },
+    {
+      "candidate_index": 88,
+      "original_table_index": 1201,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "NaHCO3",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 50.245820057241545,
+      "calibrated_std_percent_points": 7.512455849879819
+    },
+    {
+      "candidate_index": 89,
+      "original_table_index": 1202,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "NaHCO3",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 46.01774463914103,
+      "calibrated_std_percent_points": 7.2470277154530764
+    },
+    {
+      "candidate_index": 90,
+      "original_table_index": 1203,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "NaHCO3",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 35.7983602791157,
+      "calibrated_std_percent_points": 7.365756547279797
+    },
+    {
+      "candidate_index": 91,
+      "original_table_index": 1204,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "NaHCO3",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 16.616977965496215,
+      "calibrated_std_percent_points": 6.5076837068010835
+    },
+    {
+      "candidate_index": 92,
+      "original_table_index": 1205,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "NaHCO3",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 40.153341916346164,
+      "calibrated_std_percent_points": 6.854346363504523
+    },
+    {
+      "candidate_index": 93,
+      "original_table_index": 1206,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "CsF",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 42.82377685483984,
+      "calibrated_std_percent_points": 7.489876079257086
+    },
+    {
+      "candidate_index": 94,
+      "original_table_index": 1207,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "CsF",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 42.49482218994421,
+      "calibrated_std_percent_points": 7.759397850624509
+    },
+    {
+      "candidate_index": 95,
+      "original_table_index": 1208,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "CsF",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 43.810655059358425,
+      "calibrated_std_percent_points": 7.457477004304659
+    },
+    {
+      "candidate_index": 96,
+      "original_table_index": 1209,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "CsF",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 43.8470678048275,
+      "calibrated_std_percent_points": 7.561558527484545
+    },
+    {
+      "candidate_index": 97,
+      "original_table_index": 1210,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "CsF",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 47.62741385172271,
+      "calibrated_std_percent_points": 7.29522780447113
+    },
+    {
+      "candidate_index": 98,
+      "original_table_index": 1211,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "CsF",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 33.64892310663835,
+      "calibrated_std_percent_points": 6.64263344141398
+    },
+    {
+      "candidate_index": 99,
+      "original_table_index": 1212,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "CsF",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 48.47929106060049,
+      "calibrated_std_percent_points": 7.171252915057908
+    },
+    {
+      "candidate_index": 100,
+      "original_table_index": 1213,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "CsF",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 35.922087368810516,
+      "calibrated_std_percent_points": 7.053024421110631
+    },
+    {
+      "candidate_index": 101,
+      "original_table_index": 1214,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "CsF",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 16.458716090457155,
+      "calibrated_std_percent_points": 6.2328913810331965
+    },
+    {
+      "candidate_index": 102,
+      "original_table_index": 1215,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "CsF",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 29.193491092193256,
+      "calibrated_std_percent_points": 6.817863725553047
+    },
+    {
+      "candidate_index": 103,
+      "original_table_index": 1216,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 43.650677508406815,
+      "calibrated_std_percent_points": 7.058925841887434
+    },
+    {
+      "candidate_index": 104,
+      "original_table_index": 1217,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 44.14628949143658,
+      "calibrated_std_percent_points": 7.562620528839655
+    },
+    {
+      "candidate_index": 105,
+      "original_table_index": 1218,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 52.18891501728229,
+      "calibrated_std_percent_points": 6.799979889502244
+    },
+    {
+      "candidate_index": 106,
+      "original_table_index": 1219,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 44.92950980009036,
+      "calibrated_std_percent_points": 7.265064496951004
+    },
+    {
+      "candidate_index": 107,
+      "original_table_index": 1220,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 44.307953492890746,
+      "calibrated_std_percent_points": 7.419056741561149
+    },
+    {
+      "candidate_index": 108,
+      "original_table_index": 1221,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 46.63936191286768,
+      "calibrated_std_percent_points": 7.024614527406911
+    },
+    {
+      "candidate_index": 109,
+      "original_table_index": 1222,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 47.0554386595478,
+      "calibrated_std_percent_points": 7.330576307413127
+    },
+    {
+      "candidate_index": 110,
+      "original_table_index": 1223,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 49.22579748884452,
+      "calibrated_std_percent_points": 7.3477449911570005
+    },
+    {
+      "candidate_index": 111,
+      "original_table_index": 1224,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 36.9279939312933,
+      "calibrated_std_percent_points": 7.265146824211037
+    },
+    {
+      "candidate_index": 112,
+      "original_table_index": 1225,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 13.60693922938307,
+      "calibrated_std_percent_points": 5.845944356565894
+    },
+    {
+      "candidate_index": 113,
+      "original_table_index": 1226,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "K3PO4",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 40.5201634327434,
+      "calibrated_std_percent_points": 6.979140766793182
+    },
+    {
+      "candidate_index": 114,
+      "original_table_index": 1227,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "KOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 43.296086539259576,
+      "calibrated_std_percent_points": 7.293274056389065
+    },
+    {
+      "candidate_index": 115,
+      "original_table_index": 1228,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "KOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 43.676452776824874,
+      "calibrated_std_percent_points": 7.6413330635296255
+    },
+    {
+      "candidate_index": 116,
+      "original_table_index": 1229,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "KOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 48.57363900827581,
+      "calibrated_std_percent_points": 7.57662830075932
+    },
+    {
+      "candidate_index": 117,
+      "original_table_index": 1230,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "KOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 45.38615284782724,
+      "calibrated_std_percent_points": 7.4620452579035765
+    },
+    {
+      "candidate_index": 118,
+      "original_table_index": 1231,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "KOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 43.20912630799641,
+      "calibrated_std_percent_points": 7.5467664101938245
+    },
+    {
+      "candidate_index": 119,
+      "original_table_index": 1232,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "KOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 45.92501664911205,
+      "calibrated_std_percent_points": 7.254058605429984
+    },
+    {
+      "candidate_index": 120,
+      "original_table_index": 1233,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "KOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 33.74485147638558,
+      "calibrated_std_percent_points": 7.101842267459466
+    },
+    {
+      "candidate_index": 121,
+      "original_table_index": 1234,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "KOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 16.826358533918615,
+      "calibrated_std_percent_points": 6.11637696066144
+    },
+    {
+      "candidate_index": 122,
+      "original_table_index": 1235,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "KOH",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 40.684287037229424,
+      "calibrated_std_percent_points": 7.720640828991899
+    },
+    {
+      "candidate_index": 123,
+      "original_table_index": 1236,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "LiOtBu",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 45.22220653723551,
+      "calibrated_std_percent_points": 7.376275569066215
+    },
+    {
+      "candidate_index": 124,
+      "original_table_index": 1237,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "LiOtBu",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 44.904870045907074,
+      "calibrated_std_percent_points": 7.610123480955665
+    },
+    {
+      "candidate_index": 125,
+      "original_table_index": 1238,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "LiOtBu",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 50.78806728169123,
+      "calibrated_std_percent_points": 7.104086118179653
+    },
+    {
+      "candidate_index": 126,
+      "original_table_index": 1239,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "LiOtBu",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 45.20394095877627,
+      "calibrated_std_percent_points": 7.4254053596225535
+    },
+    {
+      "candidate_index": 127,
+      "original_table_index": 1240,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "LiOtBu",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 44.61676308507189,
+      "calibrated_std_percent_points": 7.5240667693568914
+    },
+    {
+      "candidate_index": 128,
+      "original_table_index": 1241,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "LiOtBu",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 43.03694374833384,
+      "calibrated_std_percent_points": 6.988620012060967
+    },
+    {
+      "candidate_index": 129,
+      "original_table_index": 1242,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "LiOtBu",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 34.35411855845888,
+      "calibrated_std_percent_points": 7.462838137726613
+    },
+    {
+      "candidate_index": 130,
+      "original_table_index": 1243,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "LiOtBu",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 21.627271863833858,
+      "calibrated_std_percent_points": 7.433204206937506
+    },
+    {
+      "candidate_index": 131,
+      "original_table_index": 1244,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "LiOtBu",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 41.579442599230035,
+      "calibrated_std_percent_points": 6.936795390857778
+    },
+    {
+      "candidate_index": 132,
+      "original_table_index": 1245,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "Et3N",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 44.656974080138205,
+      "calibrated_std_percent_points": 7.364375631373596
+    },
+    {
+      "candidate_index": 133,
+      "original_table_index": 1246,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "Et3N",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 45.21434875559701,
+      "calibrated_std_percent_points": 7.884026197371381
+    },
+    {
+      "candidate_index": 134,
+      "original_table_index": 1247,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "Et3N",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 53.55089668136029,
+      "calibrated_std_percent_points": 7.254936761143135
+    },
+    {
+      "candidate_index": 135,
+      "original_table_index": 1248,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "Et3N",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 45.75304591940104,
+      "calibrated_std_percent_points": 7.642318695652031
+    },
+    {
+      "candidate_index": 136,
+      "original_table_index": 1249,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "Et3N",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 44.39679714357535,
+      "calibrated_std_percent_points": 7.667142425877509
+    },
+    {
+      "candidate_index": 137,
+      "original_table_index": 1250,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "Et3N",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 43.2672462139457,
+      "calibrated_std_percent_points": 7.087649614859067
+    },
+    {
+      "candidate_index": 138,
+      "original_table_index": 1251,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "Et3N",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 34.47257617021883,
+      "calibrated_std_percent_points": 7.313134217263271
+    },
+    {
+      "candidate_index": 139,
+      "original_table_index": 1252,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "Et3N",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 15.761351128046229,
+      "calibrated_std_percent_points": 6.197993035391645
+    },
+    {
+      "candidate_index": 140,
+      "original_table_index": 1253,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "Et3N",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 43.074098913615614,
+      "calibrated_std_percent_points": 7.093347323929665
+    },
+    {
+      "candidate_index": 141,
+      "original_table_index": 1254,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "nothing",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 42.02157904320229,
+      "calibrated_std_percent_points": 6.825076761788891
+    },
+    {
+      "candidate_index": 142,
+      "original_table_index": 1255,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "nothing",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 42.21532389996918,
+      "calibrated_std_percent_points": 7.1567365225828325
+    },
+    {
+      "candidate_index": 143,
+      "original_table_index": 1256,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "nothing",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 43.21051141856791,
+      "calibrated_std_percent_points": 7.004389640138599
+    },
+    {
+      "candidate_index": 144,
+      "original_table_index": 1257,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "nothing",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 41.740931426695,
+      "calibrated_std_percent_points": 7.26906960154533
+    },
+    {
+      "candidate_index": 145,
+      "original_table_index": 1258,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "nothing",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 44.55526380372525,
+      "calibrated_std_percent_points": 7.136801511248861
+    },
+    {
+      "candidate_index": 146,
+      "original_table_index": 1259,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "nothing",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 33.60540934767755,
+      "calibrated_std_percent_points": 7.321448991273038
+    },
+    {
+      "candidate_index": 147,
+      "original_table_index": 1260,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "nothing",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 19.433214516239133,
+      "calibrated_std_percent_points": 6.768729667242482
+    },
+    {
+      "candidate_index": 148,
+      "original_table_index": 1261,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "nothing",
+        "solvent": "THF"
+      },
+      "predicted_yield_percent": 28.946416432182836,
+      "calibrated_std_percent_points": 7.77124407808007
+    },
+    {
+      "candidate_index": 149,
+      "original_table_index": 1262,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 48.995057201306274,
+      "calibrated_std_percent_points": 7.335199111664674
+    },
+    {
+      "candidate_index": 150,
+      "original_table_index": 1263,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Ph)3",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 62.480127237483494,
+      "calibrated_std_percent_points": 6.00375075003203
+    },
+    {
+      "candidate_index": 151,
+      "original_table_index": 1264,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 51.90491269304313,
+      "calibrated_std_percent_points": 6.541259400971371
+    },
+    {
+      "candidate_index": 152,
+      "original_table_index": 1265,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 53.92966953714271,
+      "calibrated_std_percent_points": 6.313069741577637
+    },
+    {
+      "candidate_index": 153,
+      "original_table_index": 1266,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 38.120316753498116,
+      "calibrated_std_percent_points": 7.537407045405658
+    },
+    {
+      "candidate_index": 154,
+      "original_table_index": 1267,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 55.31346283773797,
+      "calibrated_std_percent_points": 6.462047663358463
+    },
+    {
+      "candidate_index": 155,
+      "original_table_index": 1268,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 54.31559580503747,
+      "calibrated_std_percent_points": 6.5877159460167425
+    },
+    {
+      "candidate_index": 156,
+      "original_table_index": 1269,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 29.356809768764215,
+      "calibrated_std_percent_points": 8.07188753649997
+    },
+    {
+      "candidate_index": 157,
+      "original_table_index": 1270,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 46.807194166450536,
+      "calibrated_std_percent_points": 7.293170255411812
+    },
+    {
+      "candidate_index": 158,
+      "original_table_index": 1271,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 29.98787959278178,
+      "calibrated_std_percent_points": 9.085624354731104
+    },
+    {
+      "candidate_index": 159,
+      "original_table_index": 1272,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 13.504552997641564,
+      "calibrated_std_percent_points": 5.702447679760715
+    },
+    {
+      "candidate_index": 160,
+      "original_table_index": 1273,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "NaOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 21.855041183814233,
+      "calibrated_std_percent_points": 6.9909088516628115
+    },
+    {
+      "candidate_index": 161,
+      "original_table_index": 1274,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 36.36013422917654,
+      "calibrated_std_percent_points": 7.0022738710530685
+    },
+    {
+      "candidate_index": 162,
+      "original_table_index": 1275,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 48.49437127239481,
+      "calibrated_std_percent_points": 6.837289561444132
+    },
+    {
+      "candidate_index": 163,
+      "original_table_index": 1276,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 45.55337927989088,
+      "calibrated_std_percent_points": 6.96944917705823
+    },
+    {
+      "candidate_index": 164,
+      "original_table_index": 1277,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 30.54300663923837,
+      "calibrated_std_percent_points": 6.968400357322799
+    },
+    {
+      "candidate_index": 165,
+      "original_table_index": 1278,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 51.81858422346009,
+      "calibrated_std_percent_points": 7.329068482682296
+    },
+    {
+      "candidate_index": 166,
+      "original_table_index": 1279,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 42.66453567110885,
+      "calibrated_std_percent_points": 6.9719055018864315
+    },
+    {
+      "candidate_index": 167,
+      "original_table_index": 1280,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 39.060072295061225,
+      "calibrated_std_percent_points": 7.154329920247814
+    },
+    {
+      "candidate_index": 168,
+      "original_table_index": 1281,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 43.83278010392437,
+      "calibrated_std_percent_points": 7.242599203739982
+    },
+    {
+      "candidate_index": 169,
+      "original_table_index": 1282,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 29.374993094102468,
+      "calibrated_std_percent_points": 8.658893886584591
+    },
+    {
+      "candidate_index": 170,
+      "original_table_index": 1283,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 13.047111555491849,
+      "calibrated_std_percent_points": 5.761781969272098
+    },
+    {
+      "candidate_index": 171,
+      "original_table_index": 1284,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "NaHCO3",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 35.7683194007892,
+      "calibrated_std_percent_points": 7.0397697211650945
+    },
+    {
+      "candidate_index": 172,
+      "original_table_index": 1285,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "CsF",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 38.305840189669055,
+      "calibrated_std_percent_points": 7.459014177920035
+    },
+    {
+      "candidate_index": 173,
+      "original_table_index": 1286,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "CsF",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 49.43571965590241,
+      "calibrated_std_percent_points": 6.821825613543688
+    },
+    {
+      "candidate_index": 174,
+      "original_table_index": 1287,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "CsF",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 34.890100217777686,
+      "calibrated_std_percent_points": 7.242141927585217
+    },
+    {
+      "candidate_index": 175,
+      "original_table_index": 1288,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "CsF",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 50.06163889649071,
+      "calibrated_std_percent_points": 7.54563056661914
+    },
+    {
+      "candidate_index": 176,
+      "original_table_index": 1289,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "CsF",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 25.660968694839053,
+      "calibrated_std_percent_points": 7.102034685041618
+    },
+    {
+      "candidate_index": 177,
+      "original_table_index": 1290,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "CsF",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 40.58575615721863,
+      "calibrated_std_percent_points": 7.316199223163457
+    },
+    {
+      "candidate_index": 178,
+      "original_table_index": 1291,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "CsF",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 30.34170698346905,
+      "calibrated_std_percent_points": 8.55113590652407
+    },
+    {
+      "candidate_index": 179,
+      "original_table_index": 1292,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "CsF",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 13.030141972243133,
+      "calibrated_std_percent_points": 5.854394778224925
+    },
+    {
+      "candidate_index": 180,
+      "original_table_index": 1293,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "CsF",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 23.685137356070364,
+      "calibrated_std_percent_points": 7.088996974305027
+    },
+    {
+      "candidate_index": 181,
+      "original_table_index": 1294,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 41.36502587121743,
+      "calibrated_std_percent_points": 7.387018426305312
+    },
+    {
+      "candidate_index": 182,
+      "original_table_index": 1295,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 46.9073256555702,
+      "calibrated_std_percent_points": 7.742693904080814
+    },
+    {
+      "candidate_index": 183,
+      "original_table_index": 1296,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 47.27290386575299,
+      "calibrated_std_percent_points": 6.763179766145287
+    },
+    {
+      "candidate_index": 184,
+      "original_table_index": 1297,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 34.01793300999938,
+      "calibrated_std_percent_points": 7.400476941666788
+    },
+    {
+      "candidate_index": 185,
+      "original_table_index": 1298,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 50.71294139556419,
+      "calibrated_std_percent_points": 7.240650308600853
+    },
+    {
+      "candidate_index": 186,
+      "original_table_index": 1299,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 42.92641556701897,
+      "calibrated_std_percent_points": 6.978208193074023
+    },
+    {
+      "candidate_index": 187,
+      "original_table_index": 1300,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 41.62057469472397,
+      "calibrated_std_percent_points": 7.151158136443746
+    },
+    {
+      "candidate_index": 188,
+      "original_table_index": 1301,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 41.94540638743595,
+      "calibrated_std_percent_points": 7.188277166248224
+    },
+    {
+      "candidate_index": 189,
+      "original_table_index": 1302,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 27.44902607518866,
+      "calibrated_std_percent_points": 8.025786440249792
+    },
+    {
+      "candidate_index": 190,
+      "original_table_index": 1303,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 12.177712522790866,
+      "calibrated_std_percent_points": 5.773898886837722
+    },
+    {
+      "candidate_index": 191,
+      "original_table_index": 1304,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "K3PO4",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 37.537791140087336,
+      "calibrated_std_percent_points": 7.229322516225194
+    },
+    {
+      "candidate_index": 192,
+      "original_table_index": 1305,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "KOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 46.567041462582566,
+      "calibrated_std_percent_points": 7.373877427360804
+    },
+    {
+      "candidate_index": 193,
+      "original_table_index": 1306,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "KOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 52.165131834533724,
+      "calibrated_std_percent_points": 6.313553258984733
+    },
+    {
+      "candidate_index": 194,
+      "original_table_index": 1307,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "KOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 37.41667599588256,
+      "calibrated_std_percent_points": 7.382700700336328
+    },
+    {
+      "candidate_index": 195,
+      "original_table_index": 1308,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "KOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 54.681737059467515,
+      "calibrated_std_percent_points": 6.4465300664048435
+    },
+    {
+      "candidate_index": 196,
+      "original_table_index": 1309,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "KOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 53.49692742266396,
+      "calibrated_std_percent_points": 6.850652941612611
+    },
+    {
+      "candidate_index": 197,
+      "original_table_index": 1310,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "KOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 41.47125190094269,
+      "calibrated_std_percent_points": 7.058595734403601
+    },
+    {
+      "candidate_index": 198,
+      "original_table_index": 1311,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "KOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 46.7113430710526,
+      "calibrated_std_percent_points": 7.363129232309976
+    },
+    {
+      "candidate_index": 199,
+      "original_table_index": 1312,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "KOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 29.07372926081616,
+      "calibrated_std_percent_points": 8.674438356688679
+    },
+    {
+      "candidate_index": 200,
+      "original_table_index": 1313,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "KOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 13.164045155529127,
+      "calibrated_std_percent_points": 5.774620583009477
+    },
+    {
+      "candidate_index": 201,
+      "original_table_index": 1314,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "KOH",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 35.302135933384434,
+      "calibrated_std_percent_points": 7.108583880318334
+    },
+    {
+      "candidate_index": 202,
+      "original_table_index": 1315,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 41.16414119918423,
+      "calibrated_std_percent_points": 7.590353235620685
+    },
+    {
+      "candidate_index": 203,
+      "original_table_index": 1316,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 48.88653116724073,
+      "calibrated_std_percent_points": 6.9183863078813355
+    },
+    {
+      "candidate_index": 204,
+      "original_table_index": 1317,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 49.05877102316855,
+      "calibrated_std_percent_points": 6.7721849514650065
+    },
+    {
+      "candidate_index": 205,
+      "original_table_index": 1318,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 32.18901131015035,
+      "calibrated_std_percent_points": 6.848834684572006
+    },
+    {
+      "candidate_index": 206,
+      "original_table_index": 1319,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 51.21766135882899,
+      "calibrated_std_percent_points": 7.295397443551496
+    },
+    {
+      "candidate_index": 207,
+      "original_table_index": 1320,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 48.025799503344764,
+      "calibrated_std_percent_points": 7.379598274304502
+    },
+    {
+      "candidate_index": 208,
+      "original_table_index": 1321,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 40.0848126146838,
+      "calibrated_std_percent_points": 7.1785521534266215
+    },
+    {
+      "candidate_index": 209,
+      "original_table_index": 1322,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 45.196781257206794,
+      "calibrated_std_percent_points": 7.097270474052876
+    },
+    {
+      "candidate_index": 210,
+      "original_table_index": 1323,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 28.852828644054348,
+      "calibrated_std_percent_points": 8.704657930981638
+    },
+    {
+      "candidate_index": 211,
+      "original_table_index": 1324,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 16.367395713601827,
+      "calibrated_std_percent_points": 7.046918938096279
+    },
+    {
+      "candidate_index": 212,
+      "original_table_index": 1325,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "LiOtBu",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 35.976601681952005,
+      "calibrated_std_percent_points": 7.086824618517288
+    },
+    {
+      "candidate_index": 213,
+      "original_table_index": 1326,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 38.07148604271609,
+      "calibrated_std_percent_points": 7.00832586117697
+    },
+    {
+      "candidate_index": 214,
+      "original_table_index": 1327,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 48.73854427484103,
+      "calibrated_std_percent_points": 6.833090386362369
+    },
+    {
+      "candidate_index": 215,
+      "original_table_index": 1328,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 45.32401081983271,
+      "calibrated_std_percent_points": 6.911496199237389
+    },
+    {
+      "candidate_index": 216,
+      "original_table_index": 1329,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 32.267812369184384,
+      "calibrated_std_percent_points": 7.023141974130951
+    },
+    {
+      "candidate_index": 217,
+      "original_table_index": 1330,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 52.098463478050306,
+      "calibrated_std_percent_points": 7.170602975018317
+    },
+    {
+      "candidate_index": 218,
+      "original_table_index": 1331,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 45.35024052877743,
+      "calibrated_std_percent_points": 7.689806779174194
+    },
+    {
+      "candidate_index": 219,
+      "original_table_index": 1332,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 37.854331325446246,
+      "calibrated_std_percent_points": 7.0450189538553225
+    },
+    {
+      "candidate_index": 220,
+      "original_table_index": 1333,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 42.88860011042145,
+      "calibrated_std_percent_points": 7.336733675281024
+    },
+    {
+      "candidate_index": 221,
+      "original_table_index": 1334,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 28.169911790025946,
+      "calibrated_std_percent_points": 8.360282476623944
+    },
+    {
+      "candidate_index": 222,
+      "original_table_index": 1335,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 13.252357488728768,
+      "calibrated_std_percent_points": 5.759841888861733
+    },
+    {
+      "candidate_index": 223,
+      "original_table_index": 1336,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "Et3N",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 37.55866372434604,
+      "calibrated_std_percent_points": 7.631544642393462
+    },
+    {
+      "candidate_index": 224,
+      "original_table_index": 1337,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 34.94907520858261,
+      "calibrated_std_percent_points": 6.973562079409866
+    },
+    {
+      "candidate_index": 225,
+      "original_table_index": 1338,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Ph)3",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 63.11294726275083,
+      "calibrated_std_percent_points": 5.986246604570943
+    },
+    {
+      "candidate_index": 226,
+      "original_table_index": 1339,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 46.790533988171774,
+      "calibrated_std_percent_points": 7.024576925334907
+    },
+    {
+      "candidate_index": 227,
+      "original_table_index": 1340,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 44.10598128458867,
+      "calibrated_std_percent_points": 7.536838164985149
+    },
+    {
+      "candidate_index": 228,
+      "original_table_index": 1341,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 31.704690268956895,
+      "calibrated_std_percent_points": 6.401888462109354
+    },
+    {
+      "candidate_index": 229,
+      "original_table_index": 1342,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 49.86743484768272,
+      "calibrated_std_percent_points": 7.860232546654701
+    },
+    {
+      "candidate_index": 230,
+      "original_table_index": 1343,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 42.13218632443705,
+      "calibrated_std_percent_points": 7.4870638834686
+    },
+    {
+      "candidate_index": 231,
+      "original_table_index": 1344,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 38.066127097856324,
+      "calibrated_std_percent_points": 7.688800227740625
+    },
+    {
+      "candidate_index": 232,
+      "original_table_index": 1345,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 39.65562058738732,
+      "calibrated_std_percent_points": 7.126130085192723
+    },
+    {
+      "candidate_index": 233,
+      "original_table_index": 1346,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 29.110150544052722,
+      "calibrated_std_percent_points": 8.702535304382119
+    },
+    {
+      "candidate_index": 234,
+      "original_table_index": 1347,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 17.035348494511943,
+      "calibrated_std_percent_points": 7.4884692173683165
+    },
+    {
+      "candidate_index": 235,
+      "original_table_index": 1348,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "nothing",
+        "solvent": "DMF"
+      },
+      "predicted_yield_percent": 29.033345676756483,
+      "calibrated_std_percent_points": 8.496616393528692
+    },
+    {
+      "candidate_index": 236,
+      "original_table_index": 1349,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.62024126980796,
+      "calibrated_std_percent_points": 6.172900843960841
+    },
+    {
+      "candidate_index": 237,
+      "original_table_index": 1350,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 57.34166690042695,
+      "calibrated_std_percent_points": 6.006270421480501
+    },
+    {
+      "candidate_index": 238,
+      "original_table_index": 1351,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 56.819090045788506,
+      "calibrated_std_percent_points": 6.150290679743639
+    },
+    {
+      "candidate_index": 239,
+      "original_table_index": 1352,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 56.490183668462954,
+      "calibrated_std_percent_points": 5.77061185286551
+    },
+    {
+      "candidate_index": 240,
+      "original_table_index": 1353,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 55.238257927790386,
+      "calibrated_std_percent_points": 6.1592420113406865
+    },
+    {
+      "candidate_index": 241,
+      "original_table_index": 1354,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 55.12543456058668,
+      "calibrated_std_percent_points": 6.258536504443584
+    },
+    {
+      "candidate_index": 242,
+      "original_table_index": 1355,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 33.00699966953737,
+      "calibrated_std_percent_points": 8.906007180220191
+    },
+    {
+      "candidate_index": 243,
+      "original_table_index": 1356,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 55.54587861416459,
+      "calibrated_std_percent_points": 6.176253778237661
+    },
+    {
+      "candidate_index": 244,
+      "original_table_index": 1357,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 32.19109163850111,
+      "calibrated_std_percent_points": 9.004531673515979
+    },
+    {
+      "candidate_index": 245,
+      "original_table_index": 1358,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 17.714536207780665,
+      "calibrated_std_percent_points": 6.304169352898179
+    },
+    {
+      "candidate_index": 246,
+      "original_table_index": 1359,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "NaOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 34.989860468799975,
+      "calibrated_std_percent_points": 8.860462015878506
+    },
+    {
+      "candidate_index": 247,
+      "original_table_index": 1360,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "NaHCO3",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 51.04652900002825,
+      "calibrated_std_percent_points": 6.702108288425791
+    },
+    {
+      "candidate_index": 248,
+      "original_table_index": 1361,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "NaHCO3",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 53.999731446062206,
+      "calibrated_std_percent_points": 6.669201129996889
+    },
+    {
+      "candidate_index": 249,
+      "original_table_index": 1362,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "NaHCO3",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 53.150838821119116,
+      "calibrated_std_percent_points": 6.655471366821875
+    },
+    {
+      "candidate_index": 250,
+      "original_table_index": 1363,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "NaHCO3",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 50.212408431768395,
+      "calibrated_std_percent_points": 7.194401940045417
+    },
+    {
+      "candidate_index": 251,
+      "original_table_index": 1364,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "NaHCO3",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 53.22641149800001,
+      "calibrated_std_percent_points": 6.659397779852368
+    },
+    {
+      "candidate_index": 252,
+      "original_table_index": 1365,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "NaHCO3",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 46.3601178054222,
+      "calibrated_std_percent_points": 7.535407866961422
+    },
+    {
+      "candidate_index": 253,
+      "original_table_index": 1366,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "NaHCO3",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.56439996274041,
+      "calibrated_std_percent_points": 6.389410031635186
+    },
+    {
+      "candidate_index": 254,
+      "original_table_index": 1367,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "NaHCO3",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 26.327345367714646,
+      "calibrated_std_percent_points": 7.9338093866181
+    },
+    {
+      "candidate_index": 255,
+      "original_table_index": 1368,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "NaHCO3",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 15.07032007132968,
+      "calibrated_std_percent_points": 5.9234763986419505
+    },
+    {
+      "candidate_index": 256,
+      "original_table_index": 1369,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "NaHCO3",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 46.34228976606349,
+      "calibrated_std_percent_points": 6.963261038487978
+    },
+    {
+      "candidate_index": 257,
+      "original_table_index": 1370,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 52.15524507407558,
+      "calibrated_std_percent_points": 6.795645149722919
+    },
+    {
+      "candidate_index": 258,
+      "original_table_index": 1371,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.64727246731572,
+      "calibrated_std_percent_points": 6.696405842101473
+    },
+    {
+      "candidate_index": 259,
+      "original_table_index": 1372,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.76617515908802,
+      "calibrated_std_percent_points": 6.63689103413613
+    },
+    {
+      "candidate_index": 260,
+      "original_table_index": 1373,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 53.616351239746535,
+      "calibrated_std_percent_points": 6.255975656893679
+    },
+    {
+      "candidate_index": 261,
+      "original_table_index": 1374,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 53.165491825504056,
+      "calibrated_std_percent_points": 6.826746273971291
+    },
+    {
+      "candidate_index": 262,
+      "original_table_index": 1375,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.07364636008452,
+      "calibrated_std_percent_points": 6.23454246431234
+    },
+    {
+      "candidate_index": 263,
+      "original_table_index": 1376,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 30.45665441331977,
+      "calibrated_std_percent_points": 8.157302397066436
+    },
+    {
+      "candidate_index": 264,
+      "original_table_index": 1377,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 53.51278575130265,
+      "calibrated_std_percent_points": 6.255618246465688
+    },
+    {
+      "candidate_index": 265,
+      "original_table_index": 1378,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 25.758961083977383,
+      "calibrated_std_percent_points": 7.878118698366374
+    },
+    {
+      "candidate_index": 266,
+      "original_table_index": 1379,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 14.299749128400013,
+      "calibrated_std_percent_points": 5.823668097151303
+    },
+    {
+      "candidate_index": 267,
+      "original_table_index": 1380,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "CsF",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 31.142630342733515,
+      "calibrated_std_percent_points": 8.13242105385829
+    },
+    {
+      "candidate_index": 268,
+      "original_table_index": 1381,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "K3PO4",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 47.76899664650474,
+      "calibrated_std_percent_points": 7.304430733146044
+    },
+    {
+      "candidate_index": 269,
+      "original_table_index": 1382,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "K3PO4",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 49.372328689082856,
+      "calibrated_std_percent_points": 7.299258025799758
+    },
+    {
+      "candidate_index": 270,
+      "original_table_index": 1383,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "K3PO4",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 51.239384739089,
+      "calibrated_std_percent_points": 6.80203946611366
+    },
+    {
+      "candidate_index": 271,
+      "original_table_index": 1384,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "K3PO4",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 49.673229901543515,
+      "calibrated_std_percent_points": 7.338698913825835
+    },
+    {
+      "candidate_index": 272,
+      "original_table_index": 1385,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "K3PO4",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 48.620815940593175,
+      "calibrated_std_percent_points": 7.186103141614307
+    },
+    {
+      "candidate_index": 273,
+      "original_table_index": 1386,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "K3PO4",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.55384933908341,
+      "calibrated_std_percent_points": 6.45802185366842
+    },
+    {
+      "candidate_index": 274,
+      "original_table_index": 1387,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "K3PO4",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 53.7330727916803,
+      "calibrated_std_percent_points": 6.388405685319035
+    },
+    {
+      "candidate_index": 275,
+      "original_table_index": 1388,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "K3PO4",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 31.010481497944255,
+      "calibrated_std_percent_points": 8.756900923462569
+    },
+    {
+      "candidate_index": 276,
+      "original_table_index": 1389,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "K3PO4",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 14.668403663148398,
+      "calibrated_std_percent_points": 6.000846896172164
+    },
+    {
+      "candidate_index": 277,
+      "original_table_index": 1390,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "K3PO4",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 46.17609217868441,
+      "calibrated_std_percent_points": 7.178744558869438
+    },
+    {
+      "candidate_index": 278,
+      "original_table_index": 1391,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "KOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 52.85261401672507,
+      "calibrated_std_percent_points": 6.3458541969403095
+    },
+    {
+      "candidate_index": 279,
+      "original_table_index": 1392,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "KOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 56.20960839025355,
+      "calibrated_std_percent_points": 6.183014436270758
+    },
+    {
+      "candidate_index": 280,
+      "original_table_index": 1393,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "KOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 55.43107277176651,
+      "calibrated_std_percent_points": 5.920943305763032
+    },
+    {
+      "candidate_index": 281,
+      "original_table_index": 1394,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "KOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.01464605745033,
+      "calibrated_std_percent_points": 6.440251683817547
+    },
+    {
+      "candidate_index": 282,
+      "original_table_index": 1395,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "KOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 53.67995737840325,
+      "calibrated_std_percent_points": 6.261366246429733
+    },
+    {
+      "candidate_index": 283,
+      "original_table_index": 1396,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "KOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 43.360964418528184,
+      "calibrated_std_percent_points": 8.058178658369211
+    },
+    {
+      "candidate_index": 284,
+      "original_table_index": 1397,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "KOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.017197011526406,
+      "calibrated_std_percent_points": 6.3370218593106085
+    },
+    {
+      "candidate_index": 285,
+      "original_table_index": 1398,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "KOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 29.365627350004036,
+      "calibrated_std_percent_points": 8.458577268243111
+    },
+    {
+      "candidate_index": 286,
+      "original_table_index": 1399,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "KOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 17.429462822557415,
+      "calibrated_std_percent_points": 6.070081535948882
+    },
+    {
+      "candidate_index": 287,
+      "original_table_index": 1400,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "KOH",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 43.27576702631903,
+      "calibrated_std_percent_points": 8.192170202218854
+    },
+    {
+      "candidate_index": 288,
+      "original_table_index": 1401,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "LiOtBu",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 51.501011519633266,
+      "calibrated_std_percent_points": 6.586973337739176
+    },
+    {
+      "candidate_index": 289,
+      "original_table_index": 1402,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "LiOtBu",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.647122905807024,
+      "calibrated_std_percent_points": 6.604025479687031
+    },
+    {
+      "candidate_index": 290,
+      "original_table_index": 1403,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "LiOtBu",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 52.605257215067155,
+      "calibrated_std_percent_points": 6.3059150242798205
+    },
+    {
+      "candidate_index": 291,
+      "original_table_index": 1404,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "LiOtBu",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.04411232451002,
+      "calibrated_std_percent_points": 6.262207437384346
+    },
+    {
+      "candidate_index": 292,
+      "original_table_index": 1405,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "LiOtBu",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.520859465426575,
+      "calibrated_std_percent_points": 6.468871426275743
+    },
+    {
+      "candidate_index": 293,
+      "original_table_index": 1406,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "LiOtBu",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 44.10688326583917,
+      "calibrated_std_percent_points": 7.819480774297764
+    },
+    {
+      "candidate_index": 294,
+      "original_table_index": 1407,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "LiOtBu",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 55.11871716845819,
+      "calibrated_std_percent_points": 6.465469412346717
+    },
+    {
+      "candidate_index": 295,
+      "original_table_index": 1408,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "LiOtBu",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 26.15168909780001,
+      "calibrated_std_percent_points": 7.8759479215516635
+    },
+    {
+      "candidate_index": 296,
+      "original_table_index": 1409,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "LiOtBu",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 15.276547154000575,
+      "calibrated_std_percent_points": 6.229057008566785
+    },
+    {
+      "candidate_index": 297,
+      "original_table_index": 1410,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "LiOtBu",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 46.44786726277796,
+      "calibrated_std_percent_points": 6.900898287909171
+    },
+    {
+      "candidate_index": 298,
+      "original_table_index": 1411,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 51.24034729133484,
+      "calibrated_std_percent_points": 6.8167992430107756
+    },
+    {
+      "candidate_index": 299,
+      "original_table_index": 1412,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 55.527225476152886,
+      "calibrated_std_percent_points": 6.43367421208411
+    },
+    {
+      "candidate_index": 300,
+      "original_table_index": 1413,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 28.99272436666794,
+      "calibrated_std_percent_points": 8.185868845712866
+    },
+    {
+      "candidate_index": 301,
+      "original_table_index": 1414,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 52.806005586646094,
+      "calibrated_std_percent_points": 6.924190130427268
+    },
+    {
+      "candidate_index": 302,
+      "original_table_index": 1415,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 47.18407774150975,
+      "calibrated_std_percent_points": 7.678121821124641
+    },
+    {
+      "candidate_index": 303,
+      "original_table_index": 1416,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 54.610944209565126,
+      "calibrated_std_percent_points": 6.455428873084295
+    },
+    {
+      "candidate_index": 304,
+      "original_table_index": 1417,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 43.149921950010956,
+      "calibrated_std_percent_points": 8.291894204173214
+    },
+    {
+      "candidate_index": 305,
+      "original_table_index": 1418,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 51.0963077827079,
+      "calibrated_std_percent_points": 6.506555451628784
+    },
+    {
+      "candidate_index": 306,
+      "original_table_index": 1419,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 25.284641909039163,
+      "calibrated_std_percent_points": 8.0283574827482
+    },
+    {
+      "candidate_index": 307,
+      "original_table_index": 1420,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 14.747461957643576,
+      "calibrated_std_percent_points": 6.009241839208845
+    },
+    {
+      "candidate_index": 308,
+      "original_table_index": 1421,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "Et3N",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 46.75312301730925,
+      "calibrated_std_percent_points": 6.902118918013235
+    },
+    {
+      "candidate_index": 309,
+      "original_table_index": 1422,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 49.24341458989769,
+      "calibrated_std_percent_points": 6.36624838707639
+    },
+    {
+      "candidate_index": 310,
+      "original_table_index": 1423,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Ph)3",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 61.521909112158,
+      "calibrated_std_percent_points": 6.063116659928795
+    },
+    {
+      "candidate_index": 311,
+      "original_table_index": 1424,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "AmPhos",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 51.725741236296045,
+      "calibrated_std_percent_points": 6.581746209974996
+    },
+    {
+      "candidate_index": 312,
+      "original_table_index": 1425,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(Cy)3",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 55.986836267589425,
+      "calibrated_std_percent_points": 6.361616006573692
+    },
+    {
+      "candidate_index": 313,
+      "original_table_index": 1426,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(o-Tol)3",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 51.61121166069553,
+      "calibrated_std_percent_points": 6.449610421938593
+    },
+    {
+      "candidate_index": 314,
+      "original_table_index": 1427,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "CataCXium A",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 50.78823464934346,
+      "calibrated_std_percent_points": 6.6276206968686315
+    },
+    {
+      "candidate_index": 315,
+      "original_table_index": 1428,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "SPhos",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 52.54553656274298,
+      "calibrated_std_percent_points": 6.43059219195678
+    },
+    {
+      "candidate_index": 316,
+      "original_table_index": 1429,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dtbpf",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 32.06400211895839,
+      "calibrated_std_percent_points": 8.812724870942919
+    },
+    {
+      "candidate_index": 317,
+      "original_table_index": 1430,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "XPhos",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 53.43629448914886,
+      "calibrated_std_percent_points": 6.427968048604338
+    },
+    {
+      "candidate_index": 318,
+      "original_table_index": 1431,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "dppf",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 23.88679065606474,
+      "calibrated_std_percent_points": 7.410717025407481
+    },
+    {
+      "candidate_index": 319,
+      "original_table_index": 1432,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "Xantphos",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 17.15161519770173,
+      "calibrated_std_percent_points": 7.011311428288883
+    },
+    {
+      "candidate_index": 320,
+      "original_table_index": 1433,
+      "conditions": {
+        "electrophile": "1c, 6-OTf-Q",
+        "nucleophile": "2b, Boronic Ester",
+        "catalyst": "Pd(OAc)2",
+        "ligand": "nothing",
+        "base": "nothing",
+        "solvent": "MeOH"
+      },
+      "predicted_yield_percent": 28.09562625476643,
+      "calibrated_std_percent_points": 7.649856803812008
+    }
+  ]
+}

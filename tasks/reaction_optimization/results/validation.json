@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "date": "2026-10-12",
+  "local_inference_tests": {
+    "runner": "unittest",
+    "tests": 9,
+    "status": "pass",
+    "python": "3.12.8",
+    "numpy": "2.2.4",
+    "scipy": "1.15.2"
+  },
+  "asset_manifest": "pass",
+  "sealed_evaluation_replay": {
+    "status": "pass",
+    "runs_verified": 100,
+    "recommendations_replayed": 3200,
+    "observed_yields_verified_in_evaluation_environment": 4000,
+    "initial_designs_verified": 100,
+    "candidate_condition_mappings_verified": 321,
+    "prediction_arrays_match_sealed_prior_exactly": true,
+    "all_reported_metrics_recomputed": true,
+    "target_measurements_exported": false
+  }
+}

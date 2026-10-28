@@ -1,0 +1,7 @@
+{
+  "task": "gui",
+  "mode": "smoke",
+  "run_root": "../../runs/gui-smoke",
+  "python": "../../.venv-gui/bin/python",
+  "options": {"episodes": 4}
+}

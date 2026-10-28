@@ -1,0 +1,11 @@
+RSI-Anything
+Copyright 2026 RSI-Anything contributors.
+
+Project-owned source code is licensed under Apache-2.0.
+
+This project includes JEPA-Anything core (Apache-2.0) and MiniWoB++ task
+resources (MIT), with their original copyright and license notices retained.
+See THIRD_PARTY_NOTICES.md for component locations and model/data terms.
+
+Built with Qwen. Model weights, adapters and datasets carry the terms stated
+in their own release materials.

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-07",
+  "reviewed_base_commit": "f4f32ee674981be3e8441a560547335e23f88da0",
+  "project_code_license": "Apache-2.0",
+  "assets_release": "assets-v1",
+  "checks": {
+    "workflow_and_asset_tests_passed": 22,
+    "code_repair_tests_passed": 7,
+    "gui_browser_and_core_tests_passed": 76,
+    "computational_training_rows_compared": 104072,
+    "changed_computational_training_rows": 0,
+    "rebuilt_training_datasets": 3,
+    "rebuilt_training_hashes_match": true,
+    "checkpoint_internal_manifests_verified": 4,
+    "final_checkpoint_loaded_on_cpu": true,
+    "final_checkpoint_identity": "6d68629ead66699ce8c99c12362bcba1c33e23dd0810b0b37cf9360b276338ed",
+    "github_asset_download_evaluate_then_full": true,
+    "installed_nonmodel_files_verified": 2440,
+    "workflow_and_gui_distributions_built": true,
+    "gui_wheel_source_and_asset_entries_verified": 392,
+    "wheel_apache_license_bytes_verified": true,
+    "gui_wheel_upstream_license_files_included": true,
+    "clean_wheel_environment_asset_verification": true,
+    "first_party_markdown_files_checked": 19,
+    "broken_local_markdown_links": 0,
+    "each_asset_archive_contains_licenses": true
+  },
+  "asset_archives": {
+    "evaluation": {
+      "bytes": 64141702,
+      "sha256": "583d97577863aad971d005168bf91c9ff5ac100837590e04dfaa45e2ab4edaba"
+    },
+    "training": {
+      "bytes": 236034010,
+      "sha256": "3748eef3a94f3fe73ab176777a3108f7eb61002e9aeecb68ac708157becd90e4"
+    }
+  },
+  "portable_training_sha256": {
+    "expanded": "c6dc9c5a7afc7aa3fbc225f432ec9148bf6d2d2b96dbcd3671a25e23446a2550",
+    "incumbent": "c336e9454dd42a0bbf8391a152dd4abb8e8b2c8f8c05052331f29465135bd304",
+    "initial": "e13072cd66289572f194dc23cb5909feff657fb623c8c5cf876bfcc72cb2812c",
+    "semantic": "d6b24187fb98e2eef39fafeb7ba604d8f1f1ec1ee1354d38a1e2db785e71e75f"
+  },
+  "gpu_training_repeated": false,
+  "changes": [
+    "Apache-2.0 license and notices in both packages",
+    "Versioned Code Repair data/checkpoint bundles and official model revisions",
+    "Portable location metadata with original file hashes retained",
+    "Atomic checksum-verified downloader, profile upgrade and offline verification",
+    "Updated bilingual quick start and asset documentation"
+  ]
+}

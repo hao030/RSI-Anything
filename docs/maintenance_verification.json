@@ -1,0 +1,41 @@
+{
+  "reviewed_base_commit": "e42d6c326b6cf8f40b644124d383896104782ed9",
+  "date": "2026-10-07",
+  "checks": {
+    "workflow_tests_passed": 17,
+    "code_repair_tests_passed": 7,
+    "gui_tests_passed": 76,
+    "gui_skipped": 0,
+    "paired_comparisons_reproduced": 13,
+    "browser_workflow_episodes": 4,
+    "browser_workflow_successes": 4,
+    "resume_stage_attempt": 1,
+    "first_party_markdown_files_checked": 18,
+    "broken_local_markdown_links": 0,
+    "installed_dependency_check": "passed",
+    "workflow_wheel_and_sdist": "built",
+    "gui_wheel_assets_verified": 369,
+    "gui_sdist_manifest_files_verified": 441,
+    "evaluation_scientific_definitions_unchanged": 7
+  },
+  "fixes": [
+    "Clean up owned evaluation workers on failure and SIGTERM",
+    "Hash declared checkpoint directories and result rows before resume",
+    "Include browser assets in workflow source identity",
+    "Validate recipe types with actionable errors",
+    "Clear stale workflow errors after successful recovery",
+    "Correct code-repair test command and GUI CLI name",
+    "Update migrated provenance paths and verify their current hashes",
+    "Declare GUI wheel assets explicitly"
+  ],
+  "environment": {
+    "platform": "macOS CPU",
+    "python": "3.12.8"
+  },
+  "gpu_training_repeated": false,
+  "release_followups": [
+    "Choose project license",
+    "Provide a distribution location for code-repair model and data assets"
+  ],
+  "release_followups_resolved": "See release_verification.json (2026-10-07)"
+}

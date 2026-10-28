@@ -1,0 +1,44 @@
+{
+  "status": "verified source release candidate",
+  "project_license": "awaiting owner choice",
+  "original_frozen_source_modules_verified": 14,
+  "scientific_utility_function_bodies_unchanged_ignoring_imports": 93,
+  "retained_gui_backbone_methods_unchanged": true,
+  "upstream_core_unchanged": true,
+  "official_task_assets_unchanged": true,
+  "pytest": {
+    "passed": 76,
+    "failed": 0,
+    "skipped": 0,
+    "actual_browser_contract_test": true,
+    "runtime_workarounds": [
+      "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1",
+      "pytest -p no:capture"
+    ],
+    "python": "3.12.8",
+    "torch": "2.9.1",
+    "platform": "macOS CPU"
+  },
+  "statistics": {
+    "paired_comparisons_reproduced": 13,
+    "endpoint_records": 7980,
+    "six_comparison_holm_reproduced": true
+  },
+  "source_browser_smoke": {
+    "passed": true,
+    "chromium": "140.0.7339.16",
+    "episodes": 4
+  },
+  "wheel": {
+    "build_passed": true,
+    "installed_outside_source_tree": true,
+    "task_assets_included": true,
+    "third_party_licenses_included": true,
+    "browser_smoke_passed": true,
+    "smoke_episodes": 4
+  },
+  "model_download_and_hash_verification_implementation": "provided; full model download not repeated locally",
+  "gpu_training_preflight_repeated": false,
+  "full_gpu_experiment_repeated": false,
+  "original_experiment_results_not_relabelled_as_release_rerun": true
+}

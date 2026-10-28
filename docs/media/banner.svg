@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">RSI-Anything — World-model adaptation for code repair</title>
+<desc id="desc">JEPA initialization, execution adaptation, expanded training, and incumbent-aware update.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1830"/><stop offset="1" stop-color="#183454"/></linearGradient><linearGradient id="accent"><stop stop-color="#73e4d6"/><stop offset="1" stop-color="#8fb9ff"/></linearGradient></defs>
+<rect width="1200" height="320" rx="22" fill="#10223a"/>
+<path d="M810 0H1200V320H960Z" fill="#ffffff" opacity=".025"/>
+<rect x="56" y="44" width="42" height="4" rx="2" fill="#73e4d6"/>
+<text font-family="Arial,Helvetica,sans-serif" x="110" y="51" font-size="13" letter-spacing="2.8" fill="#8edfdc">CODE REPAIR · TRAINING RELEASE</text>
+<text font-family="Arial,Helvetica,sans-serif" x="56" y="125" font-size="60" font-weight="700" letter-spacing="-1.5" fill="#ffffff">RSI-Anything</text>
+<text font-family="Arial,Helvetica,sans-serif" x="58" y="166" font-size="23" fill="#c4d4e8">Unlocking Recursive Self-Improvement with World Models</text>
+<g font-size="16">
+<rect x="56" y="216" width="244" height="54" rx="12" fill="#183c50" stroke="#467b89"/><text font-family="Arial,Helvetica,sans-serif" x="75" y="249" fill="#8eebe0">01</text><text font-family="Arial,Helvetica,sans-serif" x="110" y="249" fill="#f0f6fc">JEPA initialization</text>
+<path d="M308 243h20m-6-5 6 5-6 5" stroke="#7695b4" fill="none" stroke-width="2"/>
+<rect x="336" y="216" width="244" height="54" rx="12" fill="#183c50" stroke="#467b89"/><text font-family="Arial,Helvetica,sans-serif" x="355" y="249" fill="#8eebe0">02</text><text font-family="Arial,Helvetica,sans-serif" x="390" y="249" fill="#f0f6fc">Execution adaptation</text>
+<path d="M588 243h20m-6-5 6 5-6 5" stroke="#7695b4" fill="none" stroke-width="2"/>
+<rect x="616" y="216" width="244" height="54" rx="12" fill="#203d62" stroke="#527ba9"/><text font-family="Arial,Helvetica,sans-serif" x="635" y="249" fill="#a7c9ff">03</text><text font-family="Arial,Helvetica,sans-serif" x="670" y="249" fill="#f0f6fc">Expanded training</text>
+<path d="M868 243h20m-6-5 6 5-6 5" stroke="#7695b4" fill="none" stroke-width="2"/>
+<rect x="896" y="216" width="248" height="54" rx="12" fill="#203d62" stroke="#527ba9"/><text font-family="Arial,Helvetica,sans-serif" x="915" y="249" fill="#a7c9ff">04</text><text font-family="Arial,Helvetica,sans-serif" x="950" y="249" fill="#f0f6fc">Incumbent update</text>
+</g></svg>

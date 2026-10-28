@@ -1,0 +1,13 @@
+{
+  "run_root": "../runs/full",
+  "world_model": null,
+  "policy_model": null,
+  "assets": null,
+  "policy_port": 8767,
+  "resource_plan": {
+    "policy_gpu": 0,
+    "workers": [1],
+    "rsi_world_gpu": 1,
+    "rsi_policy_gpu": 2
+  }
+}

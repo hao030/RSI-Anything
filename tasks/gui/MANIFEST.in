@@ -1,0 +1,14 @@
+recursive-include src/rsi_anything_gui/assets *
+recursive-include vendor *
+recursive-include licenses *
+recursive-include docs *
+recursive-include configs *.json
+recursive-include tests *.py
+recursive-include scripts *.py
+include requirements.txt README_zh.md CHANGELOG.md THIRD_PARTY_NOTICES.md LICENSE_STATUS.md
+include .gitignore release_manifest.json
+global-exclude __pycache__ *.py[cod] .DS_Store
+
+include INTEGRATION.md
+
+include LICENSE NOTICE

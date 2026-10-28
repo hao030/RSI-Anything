@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rsi-anything-gui"
+version = "1.0.0"
+description = "Expert-assisted GUI policy adaptation with auditable JEPA world models"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+browser = ["playwright==1.55.0"]
+
+[project.scripts]
+rsi-anything-gui = "rsi_anything_gui.cli:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md", "licenses/*.LICENSE"]
+packages = ["rsi_anything_gui", "jepa_anything_core"]
+package-dir = {rsi_anything_gui = "src/rsi_anything_gui", jepa_anything_core = "vendor/jepa-anything-core/src/jepa_anything_core"}
+include-package-data = false
+
+[tool.setuptools.package-data]
+rsi_anything_gui = ["assets/**/*", "assets/*", "assets/miniwob_html/.gitignore"]
+jepa_anything_core = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "vendor/jepa-anything-core/tests"]
+addopts = "-ra"

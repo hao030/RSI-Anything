@@ -1,0 +1,38 @@
+{
+  "code_repair_base_commit": "6a7f9686acf37df34c40c0be17d8d02f2684bb24",
+  "gui_source_archive_sha256": "d55f0b74202fc63d8cbacb1aeb8869e811f998ae67561e849fb9c4690fa75d7b",
+  "gui_runtime_python_bytes_unchanged": true,
+  "runtime_files": {
+    "worker.py": "0bd748ae665151a626d1ab8b08f245571fb0f02aefd4754fae25ae19daee9e7b",
+    "world.py": "663b8db3a48c18f959566af8e92ec434ee21beb10c20e24b07d795501986e58e",
+    "aggregate.py": "ea46a53f39e6672e040ba520d60758a5c540d57ea4dff2387c0997e133fa111d",
+    "audit.py": "123d71fe3167921235da9c1e0db50f04c8b28d77acde6f229a4b27bc680788cf",
+    "models.py": "6f85698801a5b3038a0bc16ec2ea4cd8181a172becd9fcc0e46e20cd5ad8911c",
+    "protocol.py": "1aa12a52fa71512e2bf88de297d8a89eee704c65dd8e4ffa0f10c6646136ed17",
+    "gui_world.py": "ec8c8871b0573e8d2f8fb45a1d1e2452449cd25b75973be574ec9dc490b093f7",
+    "__init__.py": "d000fdc7513ec0c9a77cc5eaf627f4f24831ade94eda2d39753f62c369ab7b3a",
+    "orchestrate.py": "2a55051d8dfb49c54cf389360c13a5782fb15c9fbcb2f9c257007d202868a5f3",
+    "gui_env.py": "47de761c7b53534efa8a38846927bfd41c976cc9660d02804efb64bda37fb5ee",
+    "experiment.py": "acce4677369202a48334c8301ed39094b28a13b8b58601d3d7e125c9707da84f",
+    "cli.py": "0d259f1167e99f58410636b18f9a9c989f5712f6f468399886ffbaf02fad007d",
+    "common.py": "84017d18c12009b367ffc9e3d8960299c343ffe190a723e17347672af71096b2",
+    "policy_service.py": "ff639ff98feaf7197704c0456867d6fce9997d9c43fcc683aa54fc8994ee729e",
+    "contracts.py": "8cbffd8e5999a8198ae14349c795e2d5bc6788bc7293d7e743444e9d35fa17df",
+    "settings.py": "6a7f8e17f0facba1191b71daefa5ade03c4f1450c262a176130336d70f16e78d",
+    "statistics.py": "d9bc9385eb5ee0e5dcf7d455effea43f82f491360dbb7d376ab471a04d7e1a59",
+    "rsi.py": "2921ebc989f6b37bff86c954b57a6f7e30026122022d3291eb4671522b408322",
+    "policy_train.py": "d85dd491140081f36027011a7a8e28937b69e30664792a52f87768741264828a",
+    "doctor.py": "05bbe116ef5e1de3f2e159b220f3441b6aadc68f2ecbcb59c6fb317f804ea96d",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "prepare.py": "1f2635f0c6b0c2bfe74cb9e6d1d9ddd12a9e156a336fc091dac428c15a8150a5",
+    "smoke.py": "78a614a3e128f2d6305e40b06b390b4580920c651ee881420bb992a7e01fc544"
+  },
+  "changes": [
+    "Relocated GitHub workflow to repository root",
+    "Added integration guide and provenance",
+    "Linked integration guide from GUI README",
+    "Included integration guide in source distribution",
+    "Regenerated directory release manifest"
+  ],
+  "scientific_settings_and_numeric_results_changed": false
+}

@@ -1,0 +1,1 @@
+{"id": "example-plan", "context": "A sample is ready for washing and isolation.", "goal": "Wash the sample, then isolate the product.", "constraints": ["Use the provided operations."], "available_inputs": "[{\"name\": \"sample\", \"description\": \"starting sample\"}]", "action_pool": "def wash(sample, cycles):\n    pass\ndef isolate(sample):\n    pass"}

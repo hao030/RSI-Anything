@@ -1,0 +1,44 @@
+{
+  "base_commit": "6a7f9686acf37df34c40c0be17d8d02f2684bb24",
+  "scope": "Local repository integration; no remote push or workflow execution",
+  "scientific_integrity": {
+    "unchanged_code_repair_runtime_scientific_files": 31,
+    "unchanged_gui_runtime_python_files": 23,
+    "identical_jepa_core_python_files": 5,
+    "historical_numeric_and_hash_values_preserved": true,
+    "source_and_validation_path_descriptions_normalized": true
+  },
+  "tests": {
+    "code_repair_unittest_passed": 5,
+    "gui_pytest_passed": 76,
+    "gui_skipped": 0,
+    "real_chromium_contracts_passed": true,
+    "paired_statistical_comparisons_reproduced": 13,
+    "original_endpoint_records": 7980
+  },
+  "packaging": {
+    "gui_sdist_built": true,
+    "gui_wheel_built": true,
+    "all_sdist_manifest_files_verified": true,
+    "wheel_runtime_sources_and_task_html_verified": true,
+    "integration_guide_in_source_distribution": true
+  },
+  "ci": {
+    "workflow_yaml_documents_parsed": 3,
+    "separate_dependency_environments": true,
+    "github_runs_executed": false
+  },
+  "local_environment": {
+    "platform": "macOS CPU",
+    "python": "3.12.8",
+    "torch": "2.9.1",
+    "playwright": "1.55.0",
+    "pytest_environment_workarounds": [
+      "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1",
+      "pytest -p no:capture"
+    ]
+  },
+  "gpu_training_repeated": false,
+  "project_license_choice": "Apache-2.0",
+  "project_license_confirmed": "2026-10-07"
+}

@@ -1,0 +1,18 @@
+{
+  "candidate_index": 46,
+  "original_table_index": 1159,
+  "conditions": {
+    "electrophile": "1c, 6-OTf-Q",
+    "nucleophile": "2b, Boronic Ester",
+    "catalyst": "Pd(OAc)2",
+    "ligand": "XPhos",
+    "base": "KOH",
+    "solvent": "MeCN"
+  },
+  "predicted_yield_percent": 68.33187429770142,
+  "calibrated_std_percent_points": 5.524927550046641,
+  "expected_improvement": 4.251883146444857,
+  "observations_used": 8,
+  "best_observed_yield_percent": 65.0,
+  "model_id": "reactiont5-jepa-suzuki-v1"
+}

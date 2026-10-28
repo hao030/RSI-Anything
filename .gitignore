@@ -1,0 +1,29 @@
+/assets/
+runs/
+validation/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+._*
+
+# Local model/runtime material from either experiment
+.venv-*/
+env/
+models/
+checkpoints/
+logs/
+screenshots/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+.env
+.env.*
+*.pem
+*.key
+known_hosts*
+
+# Native code-repair assets
+/tasks/code_repair/assets/

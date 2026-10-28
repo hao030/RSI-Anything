@@ -1,0 +1,16 @@
+{
+  "task": "gui",
+  "mode": "full",
+  "run_root": "../../runs/gui",
+  "python": "../../.venv-gui/bin/python",
+  "options": {
+    "download_models": true,
+    "policy_port": 8767,
+    "resource_plan": {
+      "policy_gpu": 0,
+      "workers": [1],
+      "rsi_world_gpu": 1,
+      "rsi_policy_gpu": 2
+    }
+  }
+}

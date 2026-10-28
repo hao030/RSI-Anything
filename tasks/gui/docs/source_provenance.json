@@ -1,0 +1,2400 @@
+{
+  "original_archive_sha256": "2115f9fcf0a70ab52073a9971919d8083e669a31578f3f6672e41f96ad8b7404",
+  "original_experiment_modules_verified": 14,
+  "unchanged_function_bodies_ignoring_imports": 93,
+  "portability_body_changes": {
+    "audit.py": [
+      "main"
+    ],
+    "protocol.py": [
+      "freeze",
+      "bases"
+    ],
+    "orchestrate.py": [
+      "launch",
+      "main"
+    ],
+    "gui_env.py": [
+      "GUIEnv.__init__"
+    ],
+    "rsi.py": [
+      "run"
+    ]
+  },
+  "gui_backbone_retained_methods_unchanged": true,
+  "full_gpu_rerun": false,
+  "files": [
+    {
+      "original_sha256": "c70ca8add9fe136b71617f76d8ba6e931f48744c4ac3864921d27e5f3b05fcc2",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/worker.py",
+      "release_sha256": "0bd748ae665151a626d1ab8b08f245571fb0f02aefd4754fae25ae19daee9e7b"
+    },
+    {
+      "original_sha256": "57cb7f77b8a0c15000c8c4b277af535462d4dcab02a18807892615335f103cbb",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/aggregate.py",
+      "release_sha256": "ea46a53f39e6672e040ba520d60758a5c540d57ea4dff2387c0997e133fa111d"
+    },
+    {
+      "original_sha256": "9c024eb08e18b9af62a6a24659b9be1c52d9012a354f3827401918a8187f5c54",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/audit.py",
+      "release_sha256": "f34a89289def3243fa31aa4ee81e1f1fa76b3fe351c24b4b5a958646254d1afb",
+      "baseline_release_sha256": "123d71fe3167921235da9c1e0db50f04c8b28d77acde6f229a4b27bc680788cf",
+      "runtime_update": "Audit timeout endpoints, including episodes with no applied actions."
+    },
+    {
+      "original_sha256": "0f5b72246202262645f1451d3d6cb41a4c799a270dcc0f9250b1dc3da57b4424",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/protocol.py",
+      "release_sha256": "1aa12a52fa71512e2bf88de297d8a89eee704c65dd8e4ffa0f10c6646136ed17"
+    },
+    {
+      "original_sha256": "f5576c08d191e3fea9ae2b94da82663db28243d8a8c353eee9106e413529a601",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/gui_world.py",
+      "release_sha256": "ec8c8871b0573e8d2f8fb45a1d1e2452449cd25b75973be574ec9dc490b093f7"
+    },
+    {
+      "original_sha256": "8307c6a6ce57360221ef0e0e54a5ce30968c9235a0e3089aedcc3556a29ace28",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/orchestrate.py",
+      "release_sha256": "bf32a860c8ce3549dc6eee8ddcba76bea1ccbbd1af9a870411ababb2369e42f5",
+      "standalone_release_sha256": "2a55051d8dfb49c54cf389360c13a5782fb15c9fbcb2f9c257007d202868a5f3"
+    },
+    {
+      "original_sha256": "900787738a70ac2745668f170c3ff71a0d768e27d64788f00e7276a3531cfeff",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/gui_env.py",
+      "release_sha256": "530afdfd0c16de56325217e33ebebe61f167ccc4c46307f0fb73b12aae7bda10",
+      "baseline_release_sha256": "47de761c7b53534efa8a38846927bfd41c976cc9660d02804efb64bda37fb5ee",
+      "runtime_update": "Expose the final observation when an episode expires before an action."
+    },
+    {
+      "original_sha256": "6014171a4e26cd495d76bc79dd39b17d6f94e1f54a42a75aa6f061e7d3dc1c24",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/experiment.py",
+      "release_sha256": "49edcf1774ac8ac74f985877cd7cc305b7adbfde156fd687eca12aea4026a3c3",
+      "baseline_release_sha256": "acce4677369202a48334c8301ed39094b28a13b8b58601d3d7e125c9707da84f",
+      "runtime_update": "Commit timeout failures and continue remaining rollout instances."
+    },
+    {
+      "original_sha256": "60b00222006353a4048162d7a93a6b3067597c1c85b6cb3e605d9cc3d1b7eee4",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/common.py",
+      "release_sha256": "84017d18c12009b367ffc9e3d8960299c343ffe190a723e17347672af71096b2"
+    },
+    {
+      "original_sha256": "483f58c049ec1658b8052e794ded9aa592a97ae018925edff99ebc14f3d31dbe",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/policy_service.py",
+      "release_sha256": "ff639ff98feaf7197704c0456867d6fce9997d9c43fcc683aa54fc8994ee729e"
+    },
+    {
+      "original_sha256": "1349d4f046e3d2abb8795323fc8130cca73c1e5d33e483a0a5dd2396791218b9",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/contracts.py",
+      "release_sha256": "8cbffd8e5999a8198ae14349c795e2d5bc6788bc7293d7e743444e9d35fa17df"
+    },
+    {
+      "original_sha256": "2acd0a9523cce336a326db44b08a2eed3709999fefc58fb97ddea74f2243f306",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/rsi.py",
+      "release_sha256": "cd8839d95cdc802b93a3690fdf29bbd4c126141dd489d59ac4c509d1e6570338",
+      "standalone_release_sha256": "2921ebc989f6b37bff86c954b57a6f7e30026122022d3291eb4671522b408322"
+    },
+    {
+      "original_sha256": "4c8239e2bf3b0c0644c43ebf685c0bd87ea79a32f3eb813c02747587d01c6a8e",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/policy_train.py",
+      "release_sha256": "d85dd491140081f36027011a7a8e28937b69e30664792a52f87768741264828a"
+    },
+    {
+      "original_sha256": "e2b58d80fd659974b02e29979feba40964a51834b47e8164530f2290ed70f295",
+      "origin": "validated experiment source",
+      "release_path": "src/rsi_anything_gui/prepare.py",
+      "release_sha256": "1f2635f0c6b0c2bfe74cb9e6d1d9ddd12a9e156a336fc091dac428c15a8150a5"
+    },
+    {
+      "original_sha256": "382b8d28addf034c78dec242f5a7f8d4a83fa4c9bb2e3a275d1f95f13f94a640",
+      "origin": "miniwob_commit.txt",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_commit.txt",
+      "release_sha256": "382b8d28addf034c78dec242f5a7f8d4a83fa4c9bb2e3a275d1f95f13f94a640"
+    },
+    {
+      "original_sha256": "805b1f26123b54989fb0d715687c9e8f3b467324881bfc244122fca74bbc04ba",
+      "origin": "source_g6/src/world.py",
+      "release_path": "src/rsi_anything_gui/world.py",
+      "release_sha256": "663b8db3a48c18f959566af8e92ec434ee21beb10c20e24b07d795501986e58e"
+    },
+    {
+      "original_sha256": "956f9000f7a82cc5d997e72bd0134aa465bf6ab5e4686f7f3da38dd7ac310af0",
+      "origin": "source_g6/vendor/JEPA-Anything/LICENSE",
+      "release_path": "licenses/JEPA-Anything.LICENSE",
+      "release_sha256": "956f9000f7a82cc5d997e72bd0134aa465bf6ab5e4686f7f3da38dd7ac310af0"
+    },
+    {
+      "original_sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/LICENSE",
+      "release_path": "vendor/jepa-anything-core/LICENSE",
+      "release_sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+    },
+    {
+      "original_sha256": "7b4ca6827782a5ace6424764f297f01eacbb37a911945d414ce74c47e575a106",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/MANIFEST.in",
+      "release_path": "vendor/jepa-anything-core/MANIFEST.in",
+      "release_sha256": "7b4ca6827782a5ace6424764f297f01eacbb37a911945d414ce74c47e575a106"
+    },
+    {
+      "original_sha256": "26030a38f5fb4c42bb638935de47969dfaee9082080e375ebfb6f0b3dfa670c8",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/README.md",
+      "release_path": "vendor/jepa-anything-core/README.md",
+      "release_sha256": "26030a38f5fb4c42bb638935de47969dfaee9082080e375ebfb6f0b3dfa670c8"
+    },
+    {
+      "original_sha256": "9298acbf55594281b5205af85af1bd93dcb8461242b43d7a067c038a1c4ea845",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/pyproject.toml",
+      "release_path": "vendor/jepa-anything-core/pyproject.toml",
+      "release_sha256": "9298acbf55594281b5205af85af1bd93dcb8461242b43d7a067c038a1c4ea845"
+    },
+    {
+      "original_sha256": "948480eee6d619fa3b6bfd126b60539242afd5549b9e85fd8bed0d1e5b9c62f4",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/src/jepa_anything_core/__init__.py",
+      "release_path": "vendor/jepa-anything-core/src/jepa_anything_core/__init__.py",
+      "release_sha256": "948480eee6d619fa3b6bfd126b60539242afd5549b9e85fd8bed0d1e5b9c62f4"
+    },
+    {
+      "original_sha256": "24f6faeb8d926de6c6832531833a0a28868f911acb93b486a68947aba8c0f3a2",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/src/jepa_anything_core/audit.py",
+      "release_path": "vendor/jepa-anything-core/src/jepa_anything_core/audit.py",
+      "release_sha256": "24f6faeb8d926de6c6832531833a0a28868f911acb93b486a68947aba8c0f3a2"
+    },
+    {
+      "original_sha256": "c2c84d5f42994e2e591ab945e9acfa283194028f1b5bd0af8c4419ee12e879ec",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/src/jepa_anything_core/baselines.py",
+      "release_path": "vendor/jepa-anything-core/src/jepa_anything_core/baselines.py",
+      "release_sha256": "c2c84d5f42994e2e591ab945e9acfa283194028f1b5bd0af8c4419ee12e879ec"
+    },
+    {
+      "original_sha256": "bf71499b2a7f610c0b78475a0e60ea2c3726b7e94be65a9ead8d2a3acb097097",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/src/jepa_anything_core/losses.py",
+      "release_path": "vendor/jepa-anything-core/src/jepa_anything_core/losses.py",
+      "release_sha256": "bf71499b2a7f610c0b78475a0e60ea2c3726b7e94be65a9ead8d2a3acb097097"
+    },
+    {
+      "original_sha256": "36eeeccd3e15baa5bc34db24cb190fce0eb5f5ea6d0f41ff3f19e1a79dac8751",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/src/jepa_anything_core/opf.py",
+      "release_path": "vendor/jepa-anything-core/src/jepa_anything_core/opf.py",
+      "release_sha256": "36eeeccd3e15baa5bc34db24cb190fce0eb5f5ea6d0f41ff3f19e1a79dac8751"
+    },
+    {
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/src/jepa_anything_core/py.typed",
+      "release_path": "vendor/jepa-anything-core/src/jepa_anything_core/py.typed",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "original_sha256": "0d6dac502fe1172031cc521ffb4b8b5a5c14906a46af81171e39d5245c6020a8",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/tests/test_audit.py",
+      "release_path": "vendor/jepa-anything-core/tests/test_audit.py",
+      "release_sha256": "0d6dac502fe1172031cc521ffb4b8b5a5c14906a46af81171e39d5245c6020a8"
+    },
+    {
+      "original_sha256": "dd2450c9d91fc4d5a8abe14aa8d34e702eb7c35b08259b97b6d39fff06a74596",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/tests/test_baselines.py",
+      "release_path": "vendor/jepa-anything-core/tests/test_baselines.py",
+      "release_sha256": "dd2450c9d91fc4d5a8abe14aa8d34e702eb7c35b08259b97b6d39fff06a74596"
+    },
+    {
+      "original_sha256": "145b452d79e77dab005d18cd8cb34794918e6ea609399d22cc6afb62c838670b",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/tests/test_losses.py",
+      "release_path": "vendor/jepa-anything-core/tests/test_losses.py",
+      "release_sha256": "145b452d79e77dab005d18cd8cb34794918e6ea609399d22cc6afb62c838670b"
+    },
+    {
+      "original_sha256": "4dd671d006c20f3c61bc2810f6ce7d228d663df5a8757fe060b73bed0cc2552e",
+      "origin": "source_g6/vendor/JEPA-Anything/jepa-anything-core/tests/test_opf.py",
+      "release_path": "vendor/jepa-anything-core/tests/test_opf.py",
+      "release_sha256": "4dd671d006c20f3c61bc2810f6ce7d228d663df5a8757fe060b73bed0cc2552e"
+    },
+    {
+      "original_sha256": "fd6529fb8f648d4130fd969e3d7fc740c9992a0bd94a1998f52555a873311511",
+      "origin": "vendor/miniwob-plusplus/LICENSE",
+      "release_path": "vendor/miniwob-plusplus/LICENSE",
+      "release_sha256": "fd6529fb8f648d4130fd969e3d7fc740c9992a0bd94a1998f52555a873311511"
+    },
+    {
+      "original_sha256": "144b8832f1efaddd90b51289cd436f8c98ca50d895174f0c86319655a9838abf",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/.gitignore",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/.gitignore",
+      "release_sha256": "144b8832f1efaddd90b51289cd436f8c98ca50d895174f0c86319655a9838abf"
+    },
+    {
+      "original_sha256": "0160839b9695cef26de53625170a3f4a01dbb6a474ec8fb81a4d6b058dc0d7c0",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/shapes.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/shapes.js",
+      "release_sha256": "0160839b9695cef26de53625170a3f4a01dbb6a474ec8fb81a4d6b058dc0d7c0"
+    },
+    {
+      "original_sha256": "493982bee63ce225d2f380f6ced3d38e16abe65d0ac261b4c2286042f79c583f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/book-flight/domestic.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/book-flight/domestic.js",
+      "release_sha256": "493982bee63ce225d2f380f6ced3d38e16abe65d0ac261b4c2286042f79c583f"
+    },
+    {
+      "original_sha256": "232c7f3106837500910564d35155f1a06a2d95f8939f87c9b5d0801dc48c55fe",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/checkbox-numbers/ch_0.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/checkbox-numbers/ch_0.png",
+      "release_sha256": "232c7f3106837500910564d35155f1a06a2d95f8939f87c9b5d0801dc48c55fe"
+    },
+    {
+      "original_sha256": "69a408b3f1859c4e3ef5973a5362322f2df740dccb59c4448dba5b430cc89c05",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/checkbox-numbers/ch_1.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/checkbox-numbers/ch_1.png",
+      "release_sha256": "69a408b3f1859c4e3ef5973a5362322f2df740dccb59c4448dba5b430cc89c05"
+    },
+    {
+      "original_sha256": "5fa4fae7ee713a9d75fddb5064236ac2e1645217e2379f9732b83731b618a5ec",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/checkbox-numbers/ch_2.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/checkbox-numbers/ch_2.png",
+      "release_sha256": "5fa4fae7ee713a9d75fddb5064236ac2e1645217e2379f9732b83731b618a5ec"
+    },
+    {
+      "original_sha256": "112e0b4e5e1cad652821a3c0431b7a9c0afb9985c00afaf9451791933c15b2d7",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/checkbox-numbers/ch_3.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/checkbox-numbers/ch_3.png",
+      "release_sha256": "112e0b4e5e1cad652821a3c0431b7a9c0afb9985c00afaf9451791933c15b2d7"
+    },
+    {
+      "original_sha256": "90e297031a9fecd6016d4227d068a49c31b26cc212648a024eeff9e182fc05a0",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/checkbox-numbers/ch_4.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/checkbox-numbers/ch_4.png",
+      "release_sha256": "90e297031a9fecd6016d4227d068a49c31b26cc212648a024eeff9e182fc05a0"
+    },
+    {
+      "original_sha256": "872e25c4eba83f49a3806406fd0722c401343fabffebd6987729f8aeaafba7f9",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/checkbox-numbers/ch_5.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/checkbox-numbers/ch_5.png",
+      "release_sha256": "872e25c4eba83f49a3806406fd0722c401343fabffebd6987729f8aeaafba7f9"
+    },
+    {
+      "original_sha256": "300589af6b4fcb48f6ffa730b278d44c4794e14dba37ea9a2f8f4af49e3a99d3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/checkbox-numbers/ch_6.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/checkbox-numbers/ch_6.png",
+      "release_sha256": "300589af6b4fcb48f6ffa730b278d44c4794e14dba37ea9a2f8f4af49e3a99d3"
+    },
+    {
+      "original_sha256": "a33bdeb6f61c84f278527b64992ba7b109f85c34611667c6063f28bee19b63cd",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/checkbox-numbers/ch_7.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/checkbox-numbers/ch_7.png",
+      "release_sha256": "a33bdeb6f61c84f278527b64992ba7b109f85c34611667c6063f28bee19b63cd"
+    },
+    {
+      "original_sha256": "cbc46ab5434b5c409587896318e7ba054c74cad1087616a4d88db1b9e9d2323b",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/checkbox-numbers/ch_8.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/checkbox-numbers/ch_8.png",
+      "release_sha256": "cbc46ab5434b5c409587896318e7ba054c74cad1087616a4d88db1b9e9d2323b"
+    },
+    {
+      "original_sha256": "27e96b8b591249ec37ac703941c4500df289fd00bea9bc1f7e40dfca496e72ea",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/checkbox-numbers/ch_9.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/checkbox-numbers/ch_9.png",
+      "release_sha256": "27e96b8b591249ec37ac703941c4500df289fd00bea9bc1f7e40dfca496e72ea"
+    },
+    {
+      "original_sha256": "51777d20fdcc55bc673839642611f675c61ab0e20ed7e256092edb3fc36146b2",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/click-pie/raphael.icons.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/click-pie/raphael.icons.min.js",
+      "release_sha256": "51777d20fdcc55bc673839642611f675c61ab0e20ed7e256092edb3fc36146b2"
+    },
+    {
+      "original_sha256": "0a02d6021c8cf2597497dfad2df84ef4f952dc049e7dff68fbd010f953fb46a6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/click-pie/raphael.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/click-pie/raphael.min.js",
+      "release_sha256": "0a02d6021c8cf2597497dfad2df84ef4f952dc049e7dff68fbd010f953fb46a6"
+    },
+    {
+      "original_sha256": "0d1ce8836d0e136fb064113ee7f71c0c6183a0c3cb61731532b8db964dd14912",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/click-pie/wheelnav.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/click-pie/wheelnav.min.js",
+      "release_sha256": "0d1ce8836d0e136fb064113ee7f71c0c6183a0c3cb61731532b8db964dd14912"
+    },
+    {
+      "original_sha256": "47e44a83e8debe7374243e1a4e7b86917ad3922d21556fd9c74797ab4a9b4264",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/drag-cube/blank.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/drag-cube/blank.png",
+      "release_sha256": "47e44a83e8debe7374243e1a4e7b86917ad3922d21556fd9c74797ab4a9b4264"
+    },
+    {
+      "original_sha256": "69497b56a0a62fd15f268e2b8d2469b2d44b1a74071be337d99f240ecb7f09c2",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/drag-cube/cube.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/drag-cube/cube.css",
+      "release_sha256": "69497b56a0a62fd15f268e2b8d2469b2d44b1a74071be337d99f240ecb7f09c2"
+    },
+    {
+      "original_sha256": "1918a3d201bab64bcd070f8e4565162077a012ff5fead5c60f55bf886303c5f1",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/drag-cube/cube.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/drag-cube/cube.js",
+      "release_sha256": "1918a3d201bab64bcd070f8e4565162077a012ff5fead5c60f55bf886303c5f1"
+    },
+    {
+      "original_sha256": "a5ea7d59083ae327a804de07310cda8dcb97d03f4295733d63cfeec808d5fc3b",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/dropdown/jquery.selectric.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/dropdown/jquery.selectric.js",
+      "release_sha256": "a5ea7d59083ae327a804de07310cda8dcb97d03f4295733d63cfeec808d5fc3b"
+    },
+    {
+      "original_sha256": "aabc43c572699468e8b19b1116a641e64a7292146977f96e56937f0661e3069a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/dropdown/selectric.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/dropdown/selectric.css",
+      "release_sha256": "aabc43c572699468e8b19b1116a641e64a7292146977f96e56937f0661e3069a"
+    },
+    {
+      "original_sha256": "7f310ee07564a625ab48d8e12eb98cfcdc760e6c864339bb11ac9516855242e7",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox-nl/templates.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox-nl/templates.js",
+      "release_sha256": "7f310ee07564a625ab48d8e12eb98cfcdc760e6c864339bb11ac9516855242e7"
+    },
+    {
+      "original_sha256": "8ad69e8d19c866e6dd5a6dfc33d7ffc2001dc2440b1168a69512cdbe89d62945",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox/delete.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox/delete.png",
+      "release_sha256": "8ad69e8d19c866e6dd5a6dfc33d7ffc2001dc2440b1168a69512cdbe89d62945"
+    },
+    {
+      "original_sha256": "53e2cf3e449d1230119c551f7b8d6b4c50f9dc005f204c87761829007e06f6ac",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox/email-inbox.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox/email-inbox.css",
+      "release_sha256": "53e2cf3e449d1230119c551f7b8d6b4c50f9dc005f204c87761829007e06f6ac"
+    },
+    {
+      "original_sha256": "d617e91fd8b0bfb5540aaec5d62f3040bc13198cfd5cc30d041430e296d91985",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox/forward.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox/forward.png",
+      "release_sha256": "d617e91fd8b0bfb5540aaec5d62f3040bc13198cfd5cc30d041430e296d91985"
+    },
+    {
+      "original_sha256": "c02c687b2aabe57ab3c1359d5b96cd72bbb9905dc17a71bec6e7fb67b61428e3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox/left-arrow-white.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox/left-arrow-white.png",
+      "release_sha256": "c02c687b2aabe57ab3c1359d5b96cd72bbb9905dc17a71bec6e7fb67b61428e3"
+    },
+    {
+      "original_sha256": "38c89acb2dcc7e03c439e024520ca3e6c1a4352b46d82badbfbc22db2a6f248f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox/left-arrow.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox/left-arrow.png",
+      "release_sha256": "38c89acb2dcc7e03c439e024520ca3e6c1a4352b46d82badbfbc22db2a6f248f"
+    },
+    {
+      "original_sha256": "e16ebf20e8cd8869c9ed6ac62049c6a4463950f2f3dfd8cc34a4f2ab01e25441",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox/reply.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox/reply.png",
+      "release_sha256": "e16ebf20e8cd8869c9ed6ac62049c6a4463950f2f3dfd8cc34a4f2ab01e25441"
+    },
+    {
+      "original_sha256": "4a555920ee4706a0cc8d049af8c89fcb4bf810e20cf592f68adcd8b830e199c8",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox/search.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox/search.png",
+      "release_sha256": "4a555920ee4706a0cc8d049af8c89fcb4bf810e20cf592f68adcd8b830e199c8"
+    },
+    {
+      "original_sha256": "93b59a3c739f01b53a24ccedcc121c2d2cfac355b91b254a126ec35771c1075f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox/send.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox/send.png",
+      "release_sha256": "93b59a3c739f01b53a24ccedcc121c2d2cfac355b91b254a126ec35771c1075f"
+    },
+    {
+      "original_sha256": "923d28e1b4dcbe0bbcb14185ce1638ae81993beea1ba731936ea593727d76241",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox/star-clicked.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox/star-clicked.png",
+      "release_sha256": "923d28e1b4dcbe0bbcb14185ce1638ae81993beea1ba731936ea593727d76241"
+    },
+    {
+      "original_sha256": "bdc602208c586f8ad33206870f47b76675d0b5ce7ff01abeb324e795ed865fb8",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/email-inbox/star.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/email-inbox/star.png",
+      "release_sha256": "bdc602208c586f8ad33206870f47b76675d0b5ce7ff01abeb324e795ed865fb8"
+    },
+    {
+      "original_sha256": "1df4dd3c108e3e85e40180eb02a033f559e9b5bb722a7330fd9bb370c044d411",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/ajax-loader.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/ajax-loader.gif",
+      "release_sha256": "1df4dd3c108e3e85e40180eb02a033f559e9b5bb722a7330fd9bb370c044d411"
+    },
+    {
+      "original_sha256": "73173da9b90c8a89a390878c437e293c1046b05be4218e845c5914d50a06de24",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/file.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/file.gif",
+      "release_sha256": "73173da9b90c8a89a390878c437e293c1046b05be4218e845c5914d50a06de24"
+    },
+    {
+      "original_sha256": "42293492f245e078452625420435b56277b8b05e86382c27cf76826b1fadd97d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/folder-closed.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/folder-closed.gif",
+      "release_sha256": "42293492f245e078452625420435b56277b8b05e86382c27cf76826b1fadd97d"
+    },
+    {
+      "original_sha256": "dd387c11742e0ff12f4fd19dbe2915eb67a9bbb426359573f4b070d78b577894",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/folder.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/folder.gif",
+      "release_sha256": "dd387c11742e0ff12f4fd19dbe2915eb67a9bbb426359573f4b070d78b577894"
+    },
+    {
+      "original_sha256": "8f271434a3eb711dbb59497c3051fe5a7477c108d012e943a6df927c9bc3c076",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/minus.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/minus.gif",
+      "release_sha256": "8f271434a3eb711dbb59497c3051fe5a7477c108d012e943a6df927c9bc3c076"
+    },
+    {
+      "original_sha256": "bb97306d4987562d7b29840f39332560f7eb11f500a5b55f8422a5ab1e32655c",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/plus.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/plus.gif",
+      "release_sha256": "bb97306d4987562d7b29840f39332560f7eb11f500a5b55f8422a5ab1e32655c"
+    },
+    {
+      "original_sha256": "40ee9c3661fe961d676c156d6b8cf1d2028609518ad619cb7d4a2123c89cdc49",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/treeview-black-line.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/treeview-black-line.gif",
+      "release_sha256": "40ee9c3661fe961d676c156d6b8cf1d2028609518ad619cb7d4a2123c89cdc49"
+    },
+    {
+      "original_sha256": "ba3c8525639f9b23d0127d41a45e7b8b321cf311328d556c34a27b57c0151e4a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/treeview-black.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/treeview-black.gif",
+      "release_sha256": "ba3c8525639f9b23d0127d41a45e7b8b321cf311328d556c34a27b57c0151e4a"
+    },
+    {
+      "original_sha256": "0125011b7c87fd0eddaf5a8b8fd1dcd095442995124f04105a86761f292b4388",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/treeview-default-line.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/treeview-default-line.gif",
+      "release_sha256": "0125011b7c87fd0eddaf5a8b8fd1dcd095442995124f04105a86761f292b4388"
+    },
+    {
+      "original_sha256": "3a2019b92f90c4595c2272f1e6f3a0de62bf67943448354da427819ff4f755d1",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/treeview-default.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/treeview-default.gif",
+      "release_sha256": "3a2019b92f90c4595c2272f1e6f3a0de62bf67943448354da427819ff4f755d1"
+    },
+    {
+      "original_sha256": "0f9d325cb33d0ba162264bc4e7121b5c7f3f48b51ae160d14261ff17b076ecf6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/treeview-famfamfam-line.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/treeview-famfamfam-line.gif",
+      "release_sha256": "0f9d325cb33d0ba162264bc4e7121b5c7f3f48b51ae160d14261ff17b076ecf6"
+    },
+    {
+      "original_sha256": "1ab9f55e88e98546c9c8d00cc294ccff374d96e2cc23d828812e86f296f5acd1",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/treeview-famfamfam.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/treeview-famfamfam.gif",
+      "release_sha256": "1ab9f55e88e98546c9c8d00cc294ccff374d96e2cc23d828812e86f296f5acd1"
+    },
+    {
+      "original_sha256": "cc3386d7c76bc04733ad4c1d0158cd86a9af5a627bbb669fc7fda3045e40ca44",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/treeview-gray-line.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/treeview-gray-line.gif",
+      "release_sha256": "cc3386d7c76bc04733ad4c1d0158cd86a9af5a627bbb669fc7fda3045e40ca44"
+    },
+    {
+      "original_sha256": "ba8223b715f3d1e8a9f7255b5923b1930eba88b8e95a2ee693bf331c48dba5a3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/treeview-gray.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/treeview-gray.gif",
+      "release_sha256": "ba8223b715f3d1e8a9f7255b5923b1930eba88b8e95a2ee693bf331c48dba5a3"
+    },
+    {
+      "original_sha256": "fa320d187fe18519200603a5e52606558e04334b640935b386c40e95e269f63c",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/treeview-red-line.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/treeview-red-line.gif",
+      "release_sha256": "fa320d187fe18519200603a5e52606558e04334b640935b386c40e95e269f63c"
+    },
+    {
+      "original_sha256": "b6ef22d6864b3dfa19a11fdb61bf110ffa0cc0a73ca30bb8db942a43a6be9ef3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/images/treeview-red.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/images/treeview-red.gif",
+      "release_sha256": "b6ef22d6864b3dfa19a11fdb61bf110ffa0cc0a73ca30bb8db942a43a6be9ef3"
+    },
+    {
+      "original_sha256": "28dd4703ae60962dd3480e7a37a9ca4b432b33baa14dbfc3b202accc04942cec",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/jquery.treeview.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/jquery.treeview.css",
+      "release_sha256": "28dd4703ae60962dd3480e7a37a9ca4b432b33baa14dbfc3b202accc04942cec"
+    },
+    {
+      "original_sha256": "b2254d2d32275f5993020eccbf8c4a216446af5cbc4249f104c0cdb2ae4a9cb3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/navigate-tree/jquery.treeview.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/navigate-tree/jquery.treeview.min.js",
+      "release_sha256": "b2254d2d32275f5993020eccbf8c4a216446af5cbc4249f104c0cdb2ae4a9cb3"
+    },
+    {
+      "original_sha256": "17d40744e3988e48f0adc85da6bced4c7e32c9b60248bae1a86c0e7f5198d755",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/order-food/dairy.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/order-food/dairy.png",
+      "release_sha256": "17d40744e3988e48f0adc85da6bced4c7e32c9b60248bae1a86c0e7f5198d755"
+    },
+    {
+      "original_sha256": "c7d06d3cf1a290d0cdeaf0c4a1ce097547f17b28e9b240a5f6e81920ee46269a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/order-food/gluten-free.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/order-food/gluten-free.png",
+      "release_sha256": "c7d06d3cf1a290d0cdeaf0c4a1ce097547f17b28e9b240a5f6e81920ee46269a"
+    },
+    {
+      "original_sha256": "7b850a80cd44a91ffd1996ce3387b60d421e9f472ce40120723bdcb4b7515ea6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/order-food/meat.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/order-food/meat.png",
+      "release_sha256": "7b850a80cd44a91ffd1996ce3387b60d421e9f472ce40120723bdcb4b7515ea6"
+    },
+    {
+      "original_sha256": "bca724e5bd40e781e1ef216c2f2968914ac33bb68aa4b1a854e565577521e324",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/order-food/peanuts.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/order-food/peanuts.png",
+      "release_sha256": "bca724e5bd40e781e1ef216c2f2968914ac33bb68aa4b1a854e565577521e324"
+    },
+    {
+      "original_sha256": "6939b7172f01b44c663cca852d6095c6f062fc26cd587681da883b08c544c975",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/order-food/vegan.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/order-food/vegan.png",
+      "release_sha256": "6939b7172f01b44c663cca852d6095c6f062fc26cd587681da883b08c544c975"
+    },
+    {
+      "original_sha256": "201107d483fcdcfc15729d89ad2a79396b0bc3f8839a6b3b2e95e7af3f6db0fb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/search-engine/jquery.twbsPagination.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/search-engine/jquery.twbsPagination.min.js",
+      "release_sha256": "201107d483fcdcfc15729d89ad2a79396b0bc3f8839a6b3b2e95e7af3f6db0fb"
+    },
+    {
+      "original_sha256": "9004c4a73690125bef7bf5e776f7b83fe1ea0483e84a3e7d3ea420f48d81a8c8",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/social-media/like-hover.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/social-media/like-hover.png",
+      "release_sha256": "9004c4a73690125bef7bf5e776f7b83fe1ea0483e84a3e7d3ea420f48d81a8c8"
+    },
+    {
+      "original_sha256": "081ca9be70ab63ed5dab9d85ba237618347ec14862de1263dd5bda4e405be6e1",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/social-media/like.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/social-media/like.png",
+      "release_sha256": "081ca9be70ab63ed5dab9d85ba237618347ec14862de1263dd5bda4e405be6e1"
+    },
+    {
+      "original_sha256": "de705992298ad7e37f23da48e6f54f199f4c96222d88fab7afbf696cc81504ff",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/social-media/more-hover.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/social-media/more-hover.png",
+      "release_sha256": "de705992298ad7e37f23da48e6f54f199f4c96222d88fab7afbf696cc81504ff"
+    },
+    {
+      "original_sha256": "042ccf7b9d9fd3ee4947dd8b5b00016b21e331df78292680c57af2893ffe8c04",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/social-media/more.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/social-media/more.png",
+      "release_sha256": "042ccf7b9d9fd3ee4947dd8b5b00016b21e331df78292680c57af2893ffe8c04"
+    },
+    {
+      "original_sha256": "306dd3f637969aa1484ee54cac8d25f4c1a3077a22981d085d3a3722a6680817",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/social-media/reply-hover.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/social-media/reply-hover.png",
+      "release_sha256": "306dd3f637969aa1484ee54cac8d25f4c1a3077a22981d085d3a3722a6680817"
+    },
+    {
+      "original_sha256": "638475aea2f7892e2f17268c9f0d5d726f8f447d616cbd3722945b80e528a276",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/social-media/reply.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/social-media/reply.png",
+      "release_sha256": "638475aea2f7892e2f17268c9f0d5d726f8f447d616cbd3722945b80e528a276"
+    },
+    {
+      "original_sha256": "680e7260366605c4c1a5c40ee974d6d7eda0a1f9a003a5755265ac085757d8db",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/social-media/retweet-hover.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/social-media/retweet-hover.png",
+      "release_sha256": "680e7260366605c4c1a5c40ee974d6d7eda0a1f9a003a5755265ac085757d8db"
+    },
+    {
+      "original_sha256": "221131c2bf5f301b4050e403573504e7c8b484cf5a14f9e81ff7d52c4b80df1d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/social-media/retweet.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/social-media/retweet.png",
+      "release_sha256": "221131c2bf5f301b4050e403573504e7c8b484cf5a14f9e81ff7d52c4b80df1d"
+    },
+    {
+      "original_sha256": "8520b8ff076a130679f5cd2d57c2d76d3af83fc45e49118d7fcb5714ae7867f3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/social-media/share-hover.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/social-media/share-hover.png",
+      "release_sha256": "8520b8ff076a130679f5cd2d57c2d76d3af83fc45e49118d7fcb5714ae7867f3"
+    },
+    {
+      "original_sha256": "596fcc3e8289818de8c67643e55d6cdcee41cd6c6054c526d1b4140fe0b1839c",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/social-media/share.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/social-media/share.png",
+      "release_sha256": "596fcc3e8289818de8c67643e55d6cdcee41cd6c6054c526d1b4140fe0b1839c"
+    },
+    {
+      "original_sha256": "86c95c548361e9963f42564fb712f5d76d562b2cca1299e22f885b937da9d90d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/text-editor/quill.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/text-editor/quill.min.js",
+      "release_sha256": "86c95c548361e9963f42564fb712f5d76d562b2cca1299e22f885b937da9d90d"
+    },
+    {
+      "original_sha256": "f30ae6c12c7dbf1bbcad25904abfef7dc56340f482ed4ba71cd5d05bffefcbbb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/text-editor/quill.snow.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/text-editor/quill.snow.css",
+      "release_sha256": "f30ae6c12c7dbf1bbcad25904abfef7dc56340f482ed4ba71cd5d05bffefcbbb"
+    },
+    {
+      "original_sha256": "69cf28b082bcf4eeff65f9ceb4bc8600b6e2a7c6f8acdaceb30435b98137ec87",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/tic-tac-toe/o.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/tic-tac-toe/o.png",
+      "release_sha256": "69cf28b082bcf4eeff65f9ceb4bc8600b6e2a7c6f8acdaceb30435b98137ec87"
+    },
+    {
+      "original_sha256": "379da923f1a933c5b9b7766791f5a30151c978afdffb59670ef5fbc5944195e8",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/special/tic-tac-toe/x.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/special/tic-tac-toe/x.png",
+      "release_sha256": "379da923f1a933c5b9b7766791f5a30151c978afdffb59670ef5fbc5944195e8"
+    },
+    {
+      "original_sha256": "65301ee11f483df7e9114f3fac2e2938e8b56933fecbed36bce310e2d8d90368",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/common/ui_utils.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/common/ui_utils.js",
+      "release_sha256": "65301ee11f483df7e9114f3fac2e2938e8b56933fecbed36bce310e2d8d90368"
+    },
+    {
+      "original_sha256": "795f8e686125b71e89a21ffe9e03406c6498f1e135175ba63321f3051a720042",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/core.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/core.css",
+      "release_sha256": "795f8e686125b71e89a21ffe9e03406c6498f1e135175ba63321f3051a720042"
+    },
+    {
+      "original_sha256": "db8f489ab947a3194b99e718bce5e59ea9aaf0a3c35410d8c9c79e56e6123d14",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/core.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/core.js",
+      "release_sha256": "db8f489ab947a3194b99e718bce5e59ea9aaf0a3c35410d8c9c79e56e6123d14"
+    },
+    {
+      "original_sha256": "8ca4da6691fb142cd76283014e887e7c3e61e3b63eff9ebb08eeb5c51d56aafb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/d3.v3.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/d3.v3.min.js",
+      "release_sha256": "8ca4da6691fb142cd76283014e887e7c3e61e3b63eff9ebb08eeb5c51d56aafb"
+    },
+    {
+      "original_sha256": "e502d1e29bf595d2473b7cc9abaa300a3898240fdfff0b8029d93e1f5a0da2cb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/d3.v4.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/d3.v4.min.js",
+      "release_sha256": "e502d1e29bf595d2473b7cc9abaa300a3898240fdfff0b8029d93e1f5a0da2cb"
+    },
+    {
+      "original_sha256": "42ad1a94c796b11cf1556ae57a9cf705b74135bdc50807908da6ba0aa8e03610",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui-hacks.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui-hacks.js",
+      "release_sha256": "42ad1a94c796b11cf1556ae57a9cf705b74135bdc50807908da6ba0aa8e03610"
+    },
+    {
+      "original_sha256": "430f36f9b5f21aae8cc9dca6a81c4d3d84da5175eaedcf2fdc2c226302cb3575",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/external/jquery/jquery.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/external/jquery/jquery.js",
+      "release_sha256": "430f36f9b5f21aae8cc9dca6a81c4d3d84da5175eaedcf2fdc2c226302cb3575"
+    },
+    {
+      "original_sha256": "eaf7c7ee2747275dda6c53e731a10db1a7b15f4fbb46e1b69d6bb2056bc9fd81",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/images/ui-icons_444444_256x240.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/images/ui-icons_444444_256x240.png",
+      "release_sha256": "eaf7c7ee2747275dda6c53e731a10db1a7b15f4fbb46e1b69d6bb2056bc9fd81"
+    },
+    {
+      "original_sha256": "5d04051dfd9d2d740355404f98a683d1ec0feb2fca7d76e533c1a6e5ce92dd2e",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/images/ui-icons_555555_256x240.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/images/ui-icons_555555_256x240.png",
+      "release_sha256": "5d04051dfd9d2d740355404f98a683d1ec0feb2fca7d76e533c1a6e5ce92dd2e"
+    },
+    {
+      "original_sha256": "9dbe4a0d03feed6f65eb2560a0a8b4ba4264545ee8fd31c1763a3b219d0328d6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/images/ui-icons_777620_256x240.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/images/ui-icons_777620_256x240.png",
+      "release_sha256": "9dbe4a0d03feed6f65eb2560a0a8b4ba4264545ee8fd31c1763a3b219d0328d6"
+    },
+    {
+      "original_sha256": "e75b27211e16fcf94715168001bb7055ca376d46f928110ba3d0825232452e5a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/images/ui-icons_777777_256x240.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/images/ui-icons_777777_256x240.png",
+      "release_sha256": "e75b27211e16fcf94715168001bb7055ca376d46f928110ba3d0825232452e5a"
+    },
+    {
+      "original_sha256": "02891575d4358e9edde3e42d94057f8e9f82a9d64376f71ee86cef149d30537e",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/images/ui-icons_cc0000_256x240.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/images/ui-icons_cc0000_256x240.png",
+      "release_sha256": "02891575d4358e9edde3e42d94057f8e9f82a9d64376f71ee86cef149d30537e"
+    },
+    {
+      "original_sha256": "b6b06deef2b924cc3835d63f4883d47882734a33e71b212d917a68cede3b8e9d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/images/ui-icons_ffffff_256x240.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/images/ui-icons_ffffff_256x240.png",
+      "release_sha256": "b6b06deef2b924cc3835d63f4883d47882734a33e71b212d917a68cede3b8e9d"
+    },
+    {
+      "original_sha256": "ac1c8f94750b39b12327a5d0c56fdf946dabfb6d91e5d2a202879ff9a5d67e29",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/jquery-ui.min.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/jquery-ui.min.css",
+      "release_sha256": "ac1c8f94750b39b12327a5d0c56fdf946dabfb6d91e5d2a202879ff9a5d67e29"
+    },
+    {
+      "original_sha256": "28ce75d953678c4942df47a11707a15e3c756021cf89090e3e6aa7ad6b6971c3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/jquery-ui.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/jquery-ui.min.js",
+      "release_sha256": "28ce75d953678c4942df47a11707a15e3c756021cf89090e3e6aa7ad6b6971c3"
+    },
+    {
+      "original_sha256": "af16a2b37eda9ca527a4be50cd262d7be26722c9a41a62c6f9984a4a4664c153",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/jquery-ui.structure.min.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/jquery-ui.structure.min.css",
+      "release_sha256": "af16a2b37eda9ca527a4be50cd262d7be26722c9a41a62c6f9984a4a4664c153"
+    },
+    {
+      "original_sha256": "023ca8c9a46d9c6553cb0287fc8b31c6ee4f5c8d2ce02704d01ccf017f373e97",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jquery-ui/jquery-ui.theme.min.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jquery-ui/jquery-ui.theme.min.css",
+      "release_sha256": "023ca8c9a46d9c6553cb0287fc8b31c6ee4f5c8d2ce02704d01ccf017f373e97"
+    },
+    {
+      "original_sha256": "08959f50278fde32dd50c54d52597ac90c77ee087d00a9974d1c6f45fee3ceba",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/jscolor.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/jscolor.min.js",
+      "release_sha256": "08959f50278fde32dd50c54d52597ac90c77ee087d00a9974d1c6f45fee3ceba"
+    },
+    {
+      "original_sha256": "525b2c460ab985233db9888a3f12d29ab108bc0c5f6a8d0c1d8ebea61e84c585",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/core/record.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/core/record.js",
+      "release_sha256": "525b2c460ab985233db9888a3f12d29ab108bc0c5f6a8d0c1d8ebea61e84c585"
+    },
+    {
+      "original_sha256": "eef8a127c812aa452771feb9e6ff4ab92130794b0e47f75d2ee9ab732b39c66a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/aacom.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/aacom.js",
+      "release_sha256": "eef8a127c812aa452771feb9e6ff4ab92130794b0e47f75d2ee9ab732b39c66a"
+    },
+    {
+      "original_sha256": "dc59b2b1416a418a9250c4c0ba0f98c54c339f737d7564383ad7c80309a8a9c7",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/aacomDevice.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/aacomDevice.js",
+      "release_sha256": "dc59b2b1416a418a9250c4c0ba0f98c54c339f737d7564383ad7c80309a8a9c7"
+    },
+    {
+      "original_sha256": "b94405982a7dc5ad8dff507f196ea11c1e0fb01cf5ef9a01acc3052c325d67df",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/airportcode.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/airportcode.js",
+      "release_sha256": "b94405982a7dc5ad8dff507f196ea11c1e0fb01cf5ef9a01acc3052c325d67df"
+    },
+    {
+      "original_sha256": "927227f31fd30806db09a55c920fdb782c74552b19e244c2313f15c6c66ece54",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/cookieconsent.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/cookieconsent.js",
+      "release_sha256": "927227f31fd30806db09a55c920fdb782c74552b19e244c2313f15c6c66ece54"
+    },
+    {
+      "original_sha256": "f1866d54ca2d37359bf23c2f7ac5548cfdc51a1717f74337179796faf5e731a4",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/jquery/aacom/plugins/aaAirportAutoComplete.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/jquery/aacom/plugins/aaAirportAutoComplete.js",
+      "release_sha256": "f1866d54ca2d37359bf23c2f7ac5548cfdc51a1717f74337179796faf5e731a4"
+    },
+    {
+      "original_sha256": "7afb6b5e4f47250f0969bc4324cb6c767c0b8a1dc3b235cbc26667f5ba73e7a4",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/jquery/aacom/plugins/aaCache.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/jquery/aacom/plugins/aaCache.js",
+      "release_sha256": "7afb6b5e4f47250f0969bc4324cb6c767c0b8a1dc3b235cbc26667f5ba73e7a4"
+    },
+    {
+      "original_sha256": "669988ccaf2c9a16fea10ca95ef4fb000e00ebe2f5bcb5a9af1872c3834830cf",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/jquery/aacom/plugins/aaCookie.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/jquery/aacom/plugins/aaCookie.js",
+      "release_sha256": "669988ccaf2c9a16fea10ca95ef4fb000e00ebe2f5bcb5a9af1872c3834830cf"
+    },
+    {
+      "original_sha256": "349723c089c6a21a2dc29066c028b888c1580e928f5e4a5b00ea8588f1effc5e",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/jquery/aacom/plugins/aaCountryLanSelect.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/jquery/aacom/plugins/aaCountryLanSelect.js",
+      "release_sha256": "349723c089c6a21a2dc29066c028b888c1580e928f5e4a5b00ea8588f1effc5e"
+    },
+    {
+      "original_sha256": "a00c905a79ab7b6c6932671bbf22f67760273c97e0faf60c3c77524dadf29dbb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/jquery/aacom/plugins/aaDropdownPanel.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/jquery/aacom/plugins/aaDropdownPanel.js",
+      "release_sha256": "a00c905a79ab7b6c6932671bbf22f67760273c97e0faf60c3c77524dadf29dbb"
+    },
+    {
+      "original_sha256": "85db3d364d87d6bc5db60e9ea98fb93383507ab7ee207cc78fc6d93628dca905",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/jquery/aacom/plugins/aaFooterAds.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/jquery/aacom/plugins/aaFooterAds.js",
+      "release_sha256": "85db3d364d87d6bc5db60e9ea98fb93383507ab7ee207cc78fc6d93628dca905"
+    },
+    {
+      "original_sha256": "801c08dc942815264ea29c95045c8e9e7f1ce7b81de96b323df6fede12cbd2bb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/jquery/aacom/plugins/aaTextBoxMessage.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/jquery/aacom/plugins/aaTextBoxMessage.js",
+      "release_sha256": "801c08dc942815264ea29c95045c8e9e7f1ce7b81de96b323df6fede12cbd2bb"
+    },
+    {
+      "original_sha256": "2e4cf9adc897aeebcf07ea5ebf36bc578cadabb632582cd480bd0038b5ad3a41",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/jquery/aacom/utilities/aaUtilities-2.1.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/jquery/aacom/utilities/aaUtilities-2.1.js",
+      "release_sha256": "2e4cf9adc897aeebcf07ea5ebf36bc578cadabb632582cd480bd0038b5ad3a41"
+    },
+    {
+      "original_sha256": "84488e8e5e75deca9c2fcd3d2006ba126120d02b9ced7a3569e677f54e38657f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/jquery/aacom/utilities/aaUtils.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/jquery/aacom/utilities/aaUtils.js",
+      "release_sha256": "84488e8e5e75deca9c2fcd3d2006ba126120d02b9ced7a3569e677f54e38657f"
+    },
+    {
+      "original_sha256": "739a2a13219a32bc205a376de43a7c992762b6907f98695b84771ed6c65e72a5",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/apps/common/js/wa.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/apps/common/js/wa.js",
+      "release_sha256": "739a2a13219a32bc205a376de43a7c992762b6907f98695b84771ed6c65e72a5"
+    },
+    {
+      "original_sha256": "bb779b43961a36ee35fcaf1fb891f14f326b52336f6a20861b75755570dc4e13",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/common/css/v3/core.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/common/css/v3/core.css",
+      "release_sha256": "bb779b43961a36ee35fcaf1fb891f14f326b52336f6a20861b75755570dc4e13"
+    },
+    {
+      "original_sha256": "0c89b6874b891648ebed47ed76e1eaf7960ab49f6ca154e1dbd18e3562aa83a4",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/common/css/v3/jquery-ui-1.10-aa.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/common/css/v3/jquery-ui-1.10-aa.css",
+      "release_sha256": "0c89b6874b891648ebed47ed76e1eaf7960ab49f6ca154e1dbd18e3562aa83a4"
+    },
+    {
+      "original_sha256": "787a230cc5355052906588cf149bf0b2e4b355c9281ebb91c73be16741d7a38d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/common/css/v3/reservation/findFlights/mobile/findFlights.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/common/css/v3/reservation/findFlights/mobile/findFlights.css",
+      "release_sha256": "787a230cc5355052906588cf149bf0b2e4b355c9281ebb91c73be16741d7a38d"
+    },
+    {
+      "original_sha256": "ee465ac1f603e9983fb8074fbfd5e70a8430e87743882c43ebc2c67e68939c03",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/common/css/v3/responsive.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/common/css/v3/responsive.css",
+      "release_sha256": "ee465ac1f603e9983fb8074fbfd5e70a8430e87743882c43ebc2c67e68939c03"
+    },
+    {
+      "original_sha256": "e3bf30bb5d061aac75a58b1d0855713c96b2868efca48095b00dc39f36171977",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/fonts/american-v2/americansans-bold.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/fonts/american-v2/americansans-bold.woff",
+      "release_sha256": "e3bf30bb5d061aac75a58b1d0855713c96b2868efca48095b00dc39f36171977"
+    },
+    {
+      "original_sha256": "d612504359ac5ef9aa8deab4f6cdf2b2becb8f0ee675a7cae26827d864676565",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/fonts/american-v2/americansans-light.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/fonts/american-v2/americansans-light.woff",
+      "release_sha256": "d612504359ac5ef9aa8deab4f6cdf2b2becb8f0ee675a7cae26827d864676565"
+    },
+    {
+      "original_sha256": "0f06c3ba5e69d7ebd16cf11a046272ea3fdf9fcaa667215c6e9ffb3896d442d8",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/fonts/american-v2/americansans-medium.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/fonts/american-v2/americansans-medium.woff",
+      "release_sha256": "0f06c3ba5e69d7ebd16cf11a046272ea3fdf9fcaa667215c6e9ffb3896d442d8"
+    },
+    {
+      "original_sha256": "1f971060c9bee15331552b3122b04a14adde67a0c61e4f17c4ba519f6f41f173",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/fonts/american-v2/americansans-regular.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/fonts/american-v2/americansans-regular.woff",
+      "release_sha256": "1f971060c9bee15331552b3122b04a14adde67a0c61e4f17c4ba519f6f41f173"
+    },
+    {
+      "original_sha256": "3ef93702a1abbd8f75dc9cbd17a5f011a656cccb6f366bf6fb6b455241af3179",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/fonts/icons/american-icons-v4-4.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/fonts/icons/american-icons-v4-4.woff",
+      "release_sha256": "3ef93702a1abbd8f75dc9cbd17a5f011a656cccb6f366bf6fb6b455241af3179"
+    },
+    {
+      "original_sha256": "aebc793d0064383ee6b1625bf3bb32532ec30a5c12bf9117066107d412119123",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/icons/loading.gif",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/icons/loading.gif",
+      "release_sha256": "aebc793d0064383ee6b1625bf3bb32532ec30a5c12bf9117066107d412119123"
+    },
+    {
+      "original_sha256": "b01d9150e1818fc9de269e519055bc755fef5b932e43fc4ea0b869014d820aa1",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/aa-flight-icon.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/aa-flight-icon.png",
+      "release_sha256": "b01d9150e1818fc9de269e519055bc755fef5b932e43fc4ea0b869014d820aa1"
+    },
+    {
+      "original_sha256": "e2ea6361444bb342a07c587e85cc02e7366c881e0a0ea7a3d9ec6e50fbf73a27",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/aa-icons-flags-sprite.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/aa-icons-flags-sprite.png",
+      "release_sha256": "e2ea6361444bb342a07c587e85cc02e7366c881e0a0ea7a3d9ec6e50fbf73a27"
+    },
+    {
+      "original_sha256": "861d28fc97223c7bb81a71c56f64c33204d958ef600f6d454bdd58907e3fb3b0",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/aa-logo.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/aa-logo.png",
+      "release_sha256": "861d28fc97223c7bb81a71c56f64c33204d958ef600f6d454bdd58907e3fb3b0"
+    },
+    {
+      "original_sha256": "a29c70876faa8a1cd4c912014c83ea233da2421e724d1873b6c9f75017b30099",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/down-arrow.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/down-arrow.png",
+      "release_sha256": "a29c70876faa8a1cd4c912014c83ea233da2421e724d1873b6c9f75017b30099"
+    },
+    {
+      "original_sha256": "82ca0fa1511cf399660e5947e4639f5c2ec4fabd8e6907a142837f8345591dca",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/favicon.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/favicon.png",
+      "release_sha256": "82ca0fa1511cf399660e5947e4639f5c2ec4fabd8e6907a142837f8345591dca"
+    },
+    {
+      "original_sha256": "4c788c428c2e656477335172571f8b36c6a0c80044b31af2b7c8056a7f1e13d5",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/oneworld.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/oneworld.png",
+      "release_sha256": "4c788c428c2e656477335172571f8b36c6a0c80044b31af2b7c8056a7f1e13d5"
+    },
+    {
+      "original_sha256": "6db4a2cbfab240fcce489dd189d24073f83fcf3af37321dcc8d28e1beb07c675",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/shadow-down.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/shadow-down.png",
+      "release_sha256": "6db4a2cbfab240fcce489dd189d24073f83fcf3af37321dcc8d28e1beb07c675"
+    },
+    {
+      "original_sha256": "5db37edda60c02fadf43cbdba19cc50147eecfe4e3fda528df5ba256d93670d8",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/shadow-vertical-150.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/shadow-vertical-150.png",
+      "release_sha256": "5db37edda60c02fadf43cbdba19cc50147eecfe4e3fda528df5ba256d93670d8"
+    },
+    {
+      "original_sha256": "29cb08ad4fd8da2acaa740fffc99e1b29e9b14849728753d90ad5da323230376",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/shadow12-down.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/shadow12-down.png",
+      "release_sha256": "29cb08ad4fd8da2acaa740fffc99e1b29e9b14849728753d90ad5da323230376"
+    },
+    {
+      "original_sha256": "0527271c146e6ad82828d1c63401e1c1ee1b347bd40b62d3456ed86babb6e392",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/shadow12-up.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/shadow12-up.png",
+      "release_sha256": "0527271c146e6ad82828d1c63401e1c1ee1b347bd40b62d3456ed86babb6e392"
+    },
+    {
+      "original_sha256": "3fac16bcff15720cad8c234bdb87dbfce36bed02b086e5bd6f262c3e03373792",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/chrome/rebrand/shadow3-down.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/chrome/rebrand/shadow3-down.png",
+      "release_sha256": "3fac16bcff15720cad8c234bdb87dbfce36bed02b086e5bd6f262c3e03373792"
+    },
+    {
+      "original_sha256": "86aecfa606b30ef018287296af8194b4207db04c85dcf5a1666d79efa7459bca",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/content/images/graphics/icons/aa-jqueryUIicons-sprite.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/content/images/graphics/icons/aa-jqueryUIicons-sprite.png",
+      "release_sha256": "86aecfa606b30ef018287296af8194b4207db04c85dcf5a1666d79efa7459bca"
+    },
+    {
+      "original_sha256": "dcbca6d73945b18cfc678e8655da618c1595145f2946b744c44875bd53514d56",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/dataset-AA.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/dataset-AA.js",
+      "release_sha256": "dcbca6d73945b18cfc678e8655da618c1595145f2946b744c44875bd53514d56"
+    },
+    {
+      "original_sha256": "70f181885d3d614ff0fcd40e286b5f36e68e2ac84a18a6aa255ae79830115562",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/index.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/index.html",
+      "release_sha256": "70f181885d3d614ff0fcd40e286b5f36e68e2ac84a18a6aa255ae79830115562"
+    },
+    {
+      "original_sha256": "49148c50749952834578cf99938f73afbc7002af061f2c303646cf8d155d735e",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/common/aa-utility-menu.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/common/aa-utility-menu.js",
+      "release_sha256": "49148c50749952834578cf99938f73afbc7002af061f2c303646cf8d155d735e"
+    },
+    {
+      "original_sha256": "7c7d6803ea9b2d60250d0da49ca4b7a6bc3cfd0a41ecc5266d3ba8bcea3e89ac",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/common/aacom-ui-1.0.0.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/common/aacom-ui-1.0.0.js",
+      "release_sha256": "7c7d6803ea9b2d60250d0da49ca4b7a6bc3cfd0a41ecc5266d3ba8bcea3e89ac"
+    },
+    {
+      "original_sha256": "1e4175bd28702d8d816e2f2ae59d69936a3391128ff1ff8c3c4dfe1d1ebae929",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/common/core-2.0.0.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/common/core-2.0.0.js",
+      "release_sha256": "1e4175bd28702d8d816e2f2ae59d69936a3391128ff1ff8c3c4dfe1d1ebae929"
+    },
+    {
+      "original_sha256": "69fdfe32739636be2f688dfe89869fc9a5dfed2295abda5f4307a869f6885c9b",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/modules/airportLookup.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/modules/airportLookup.js",
+      "release_sha256": "69fdfe32739636be2f688dfe89869fc9a5dfed2295abda5f4307a869f6885c9b"
+    },
+    {
+      "original_sha256": "5a3e11ba60a1539b8399942008ec73b1689981465162f3320e40516d89556bb6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/modules/ajax.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/modules/ajax.js",
+      "release_sha256": "5a3e11ba60a1539b8399942008ec73b1689981465162f3320e40516d89556bb6"
+    },
+    {
+      "original_sha256": "96ac770cbe29977b42a2e2dc1373c7d74c6cbdeb6e51fe2c88e2ccb1910718f3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/modules/browserdetect.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/modules/browserdetect.js",
+      "release_sha256": "96ac770cbe29977b42a2e2dc1373c7d74c6cbdeb6e51fe2c88e2ccb1910718f3"
+    },
+    {
+      "original_sha256": "551a9ff141b670b5a98ebde874e1bad737144154a177a5544eafb4a75fd6e01a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/modules/commonsetup.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/modules/commonsetup.js",
+      "release_sha256": "551a9ff141b670b5a98ebde874e1bad737144154a177a5544eafb4a75fd6e01a"
+    },
+    {
+      "original_sha256": "9d012437a0f8ffe7f866747774e3563238e1a3e69b7889832131e091ecc4005f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/modules/mobileDatePicker.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/modules/mobileDatePicker.js",
+      "release_sha256": "9d012437a0f8ffe7f866747774e3563238e1a3e69b7889832131e091ecc4005f"
+    },
+    {
+      "original_sha256": "28814bbc5251e84880a6bfa658f8fea1b4e01dc850422ed9c9c46c39453d302f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/modules/utilities.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/modules/utilities.js",
+      "release_sha256": "28814bbc5251e84880a6bfa658f8fea1b4e01dc850422ed9c9c46c39453d302f"
+    },
+    {
+      "original_sha256": "fbe654f6940c00c4efecf4d0b59763998e0ccd6f8af3434bb1b0699a51957a37",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/modules/widgets.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/modules/widgets.js",
+      "release_sha256": "fbe654f6940c00c4efecf4d0b59763998e0ccd6f8af3434bb1b0699a51957a37"
+    },
+    {
+      "original_sha256": "de95b204ad0f1fcf14050774f6e109841131456fb782e3a5273b4c616d4c3279",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/plugins/noBounce.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/plugins/noBounce.js",
+      "release_sha256": "de95b204ad0f1fcf14050774f6e109841131456fb782e3a5273b4c616d4c3279"
+    },
+    {
+      "original_sha256": "55f151a00a3e1dede2ea933905ab231b913f7594b1d5847212b14fbf59ec66ac",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/aa/shopping/mobileSearchFlights.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/aa/shopping/mobileSearchFlights.js",
+      "release_sha256": "55f151a00a3e1dede2ea933905ab231b913f7594b1d5847212b14fbf59ec66ac"
+    },
+    {
+      "original_sha256": "540bc6dec1dd4b92ea4d3fb903f69eabf6d919afd48f4e312b163c28cff0f441",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/libs/jquery/jquery-1.11.1.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/libs/jquery/jquery-1.11.1.min.js",
+      "release_sha256": "540bc6dec1dd4b92ea4d3fb903f69eabf6d919afd48f4e312b163c28cff0f441"
+    },
+    {
+      "original_sha256": "1e67d8dbcca1f6fd94e077c85c2fb40fa1c2756c99238daa8da882144260a68d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/libs/jquery/jquery-migrate-1.2.1.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/libs/jquery/jquery-migrate-1.2.1.min.js",
+      "release_sha256": "1e67d8dbcca1f6fd94e077c85c2fb40fa1c2756c99238daa8da882144260a68d"
+    },
+    {
+      "original_sha256": "a5e6348a3ef7b38130f51d3be63c29f229dced44f3c9962de62bd83a425d1b9d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/libs/jquery/ui/1.10/i18n/jquery.ui.datepicker-en-aa.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/libs/jquery/ui/1.10/i18n/jquery.ui.datepicker-en-aa.js",
+      "release_sha256": "a5e6348a3ef7b38130f51d3be63c29f229dced44f3c9962de62bd83a425d1b9d"
+    },
+    {
+      "original_sha256": "8072615124c5bc2634fdecc09485c8b645c78ea27c212c3d61b80c26112bdcb8",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/libs/jquery/ui/1.10/jquery-ui.min.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/libs/jquery/ui/1.10/jquery-ui.min.js",
+      "release_sha256": "8072615124c5bc2634fdecc09485c8b645c78ea27c212c3d61b80c26112bdcb8"
+    },
+    {
+      "original_sha256": "7d655a892793bc231aeb3bb21857e002bba9fc8f0de5d84738bf687cdffade9d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/js/libs/modernizr-2.8.1.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/js/libs/modernizr-2.8.1.js",
+      "release_sha256": "7d655a892793bc231aeb3bb21857e002bba9fc8f0de5d84738bf687cdffade9d"
+    },
+    {
+      "original_sha256": "ebc2ae3738ba089fa8cd601b8174e031e72eb1282129d641eac654222af693ec",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/original.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/original.html",
+      "release_sha256": "ebc2ae3738ba089fa8cd601b8174e031e72eb1282129d641eac654222af693ec"
+    },
+    {
+      "original_sha256": "3d28b02a96eab8b155f57c3e4ba955b7408dcac012ef31635245a780eb5ecb79",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/surrogate/airportLookup.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/surrogate/airportLookup.js",
+      "release_sha256": "3d28b02a96eab8b155f57c3e4ba955b7408dcac012ef31635245a780eb5ecb79"
+    },
+    {
+      "original_sha256": "06b33cfc23eea7caf76214a9d00051df1c68e45cead8894a65d2d99dc77ff01a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/surrogate/airports.json",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/surrogate/airports.json",
+      "release_sha256": "06b33cfc23eea7caf76214a9d00051df1c68e45cead8894a65d2d99dc77ff01a"
+    },
+    {
+      "original_sha256": "c883d5c54b60c713dad2ca1611714b1058523f7d0edab2a5867c027942b50503",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/AA/wrapper.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/AA/wrapper.html",
+      "release_sha256": "c883d5c54b60c713dad2ca1611714b1058523f7d0edab2a5867c027942b50503"
+    },
+    {
+      "original_sha256": "8a66329eb7aa37e3a5e47383c2143eb32b0c35cace2c037b9d355b54079a6462",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/aura.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/aura.png",
+      "release_sha256": "8a66329eb7aa37e3a5e47383c2143eb32b0c35cace2c037b9d355b54079a6462"
+    },
+    {
+      "original_sha256": "22147d62997aab32cdd72b0eb063b69bb66c276db202b57ecae388d3b1d39345",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/cal3.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/cal3.png",
+      "release_sha256": "22147d62997aab32cdd72b0eb063b69bb66c276db202b57ecae388d3b1d39345"
+    },
+    {
+      "original_sha256": "74036fa5c1f501a82f3c55d3b4d16f50081ea121eb9b716601f74eb90b15fc2d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/chkboxes3.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/chkboxes3.png",
+      "release_sha256": "74036fa5c1f501a82f3c55d3b4d16f50081ea121eb9b716601f74eb90b15fc2d"
+    },
+    {
+      "original_sha256": "14a33962807efa232bd5fa0908d4f6827107f9a76d79da01d0924dbda20051d3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/clear_text2.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/clear_text2.png",
+      "release_sha256": "14a33962807efa232bd5fa0908d4f6827107f9a76d79da01d0924dbda20051d3"
+    },
+    {
+      "original_sha256": "964c535db601dffefbb9925dc524934217d9a9db68812d161113ec7ab39f27ab",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/collapse.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/collapse.png",
+      "release_sha256": "964c535db601dffefbb9925dc524934217d9a9db68812d161113ec7ab39f27ab"
+    },
+    {
+      "original_sha256": "62f0a32fe2d261f7570cae0653847ece5aa9652cf8b314b48ee98f039bce10d6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/expand.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/expand.png",
+      "release_sha256": "62f0a32fe2d261f7570cae0653847ece5aa9652cf8b314b48ee98f039bce10d6"
+    },
+    {
+      "original_sha256": "4fb5e5e2c66f1d17873c2804e734f6d7b1266ba961a69c1a919327ab700050a0",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/flight_arrow.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/flight_arrow.png",
+      "release_sha256": "4fb5e5e2c66f1d17873c2804e734f6d7b1266ba961a69c1a919327ab700050a0"
+    },
+    {
+      "original_sha256": "544e1bc271dd9774a27eb868e20698f89fca37f3a74d7d24ee7aa6edf9a488cb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/geo.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/geo.png",
+      "release_sha256": "544e1bc271dd9774a27eb868e20698f89fca37f3a74d7d24ee7aa6edf9a488cb"
+    },
+    {
+      "original_sha256": "6439208af3e23d340ba7f422dfe0c9acf33f3acbca70790fbb9d0a76d651e8c6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/home.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/home.png",
+      "release_sha256": "6439208af3e23d340ba7f422dfe0c9acf33f3acbca70790fbb9d0a76d651e8c6"
+    },
+    {
+      "original_sha256": "faa40349a7ecd0f258782c411eb7f2950d715b3b64a55e5a916215ce65adbc40",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/info2.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/info2.png",
+      "release_sha256": "faa40349a7ecd0f258782c411eb7f2950d715b3b64a55e5a916215ce65adbc40"
+    },
+    {
+      "original_sha256": "b2fddcedfac35a6b67d11ec4bef7f795e9cbafac6fc4d33100190cab2a536aad",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/leftright.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/leftright.png",
+      "release_sha256": "b2fddcedfac35a6b67d11ec4bef7f795e9cbafac6fc4d33100190cab2a536aad"
+    },
+    {
+      "original_sha256": "87ca370f60fb88b02738cd43cd4349a297df41245beaa8fc047f9443ce58f988",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/logo2.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/logo2.png",
+      "release_sha256": "87ca370f60fb88b02738cd43cd4349a297df41245beaa8fc047f9443ce58f988"
+    },
+    {
+      "original_sha256": "c0289d8684acc31fd6a7af41b9382cbf2edaf554860655e673a5a484b7e0c3fb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/logos/AA.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/logos/AA.png",
+      "release_sha256": "c0289d8684acc31fd6a7af41b9382cbf2edaf554860655e673a5a484b7e0c3fb"
+    },
+    {
+      "original_sha256": "acf8b01ff49709bc83412840f3d9ac8e6bc43475189d8dfd812c4fa4dee288e9",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/logos/AS.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/logos/AS.png",
+      "release_sha256": "acf8b01ff49709bc83412840f3d9ac8e6bc43475189d8dfd812c4fa4dee288e9"
+    },
+    {
+      "original_sha256": "2564fbfe9a80be285d76dd376f03aeaedbbb3bfd94f787b6c924dd4b65d99194",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/logos/DL.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/logos/DL.png",
+      "release_sha256": "2564fbfe9a80be285d76dd376f03aeaedbbb3bfd94f787b6c924dd4b65d99194"
+    },
+    {
+      "original_sha256": "cf6b97a5844e6599064863697ede8cd9a9e6620ec01d100b0dfea349177f758d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/images/logos/VX.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/images/logos/VX.png",
+      "release_sha256": "cf6b97a5844e6599064863697ede8cd9a9e6620ec01d100b0dfea349177f758d"
+    },
+    {
+      "original_sha256": "1ba9488cb8d1e525a1ff68ec81fd08755cb0bcdae58411376bf77b1aa0e98dfd",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/index.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/index.html",
+      "release_sha256": "1ba9488cb8d1e525a1ff68ec81fd08755cb0bcdae58411376bf77b1aa0e98dfd"
+    },
+    {
+      "original_sha256": "1b0362097fdd40ce98b244ef5c8cdb2f66f0633f588d567dee7e998781870858",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/mobileweb-v3-28-6227-21813.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/mobileweb-v3-28-6227-21813.css",
+      "release_sha256": "1b0362097fdd40ce98b244ef5c8cdb2f66f0633f588d567dee7e998781870858"
+    },
+    {
+      "original_sha256": "ded6f38718121934ccd57bb582fadb2000b488a4e8aba5f88fd531edf9615c6d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/scripts/datepickr.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/scripts/datepickr.js",
+      "release_sha256": "ded6f38718121934ccd57bb582fadb2000b488a4e8aba5f88fd531edf9615c6d"
+    },
+    {
+      "original_sha256": "f1158ed83f7eb3d133d761b742f3506a5e842a648083da7ef9b9e2fa8d5fecc5",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/scripts/main.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/scripts/main.js",
+      "release_sha256": "f1158ed83f7eb3d133d761b742f3506a5e842a648083da7ef9b9e2fa8d5fecc5"
+    },
+    {
+      "original_sha256": "2b7c00a43d2485613d7caf5c9bbd6810049fdd6c671ed9a386314236422d6bff",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/scripts/shopbook.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/scripts/shopbook.js",
+      "release_sha256": "2b7c00a43d2485613d7caf5c9bbd6810049fdd6c671ed9a386314236422d6bff"
+    },
+    {
+      "original_sha256": "ca9b0e2242ba05ca4d4229d3080e3afbcf26b12efee89267b0cc6662d4d0ee81",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/stylesheets/circular/ASCircularWeb-Bold.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/stylesheets/circular/ASCircularWeb-Bold.woff",
+      "release_sha256": "ca9b0e2242ba05ca4d4229d3080e3afbcf26b12efee89267b0cc6662d4d0ee81"
+    },
+    {
+      "original_sha256": "c15a94ea5b50321ae326b63b0e797b32705acd3ef1cb555a152427c301513765",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/stylesheets/circular/ASCircularWeb-Book.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/stylesheets/circular/ASCircularWeb-Book.woff",
+      "release_sha256": "c15a94ea5b50321ae326b63b0e797b32705acd3ef1cb555a152427c301513765"
+    },
+    {
+      "original_sha256": "74b659cb2cb94ecd4b92bded7d00698f01d79096f5039e695af2033922ad5cf1",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/surrogate/airportLookup.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/surrogate/airportLookup.js",
+      "release_sha256": "74b659cb2cb94ecd4b92bded7d00698f01d79096f5039e695af2033922ad5cf1"
+    },
+    {
+      "original_sha256": "7d5bb6014c86b983aa25d60fc3a8a375b3a01151d8174ff5353b6e811a35c5a4",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/surrogate/airports.json",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/surrogate/airports.json",
+      "release_sha256": "7d5bb6014c86b983aa25d60fc3a8a375b3a01151d8174ff5353b6e811a35c5a4"
+    },
+    {
+      "original_sha256": "62a78768438a4e0744e9cf105cdcf3fad117a450096c878d50b5c3d72ef3bc71",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto-medium/wrapper.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto-medium/wrapper.html",
+      "release_sha256": "62a78768438a4e0744e9cf105cdcf3fad117a450096c878d50b5c3d72ef3bc71"
+    },
+    {
+      "original_sha256": "8a66329eb7aa37e3a5e47383c2143eb32b0c35cace2c037b9d355b54079a6462",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/aura.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/aura.png",
+      "release_sha256": "8a66329eb7aa37e3a5e47383c2143eb32b0c35cace2c037b9d355b54079a6462"
+    },
+    {
+      "original_sha256": "22147d62997aab32cdd72b0eb063b69bb66c276db202b57ecae388d3b1d39345",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/cal3.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/cal3.png",
+      "release_sha256": "22147d62997aab32cdd72b0eb063b69bb66c276db202b57ecae388d3b1d39345"
+    },
+    {
+      "original_sha256": "74036fa5c1f501a82f3c55d3b4d16f50081ea121eb9b716601f74eb90b15fc2d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/chkboxes3.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/chkboxes3.png",
+      "release_sha256": "74036fa5c1f501a82f3c55d3b4d16f50081ea121eb9b716601f74eb90b15fc2d"
+    },
+    {
+      "original_sha256": "14a33962807efa232bd5fa0908d4f6827107f9a76d79da01d0924dbda20051d3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/clear_text2.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/clear_text2.png",
+      "release_sha256": "14a33962807efa232bd5fa0908d4f6827107f9a76d79da01d0924dbda20051d3"
+    },
+    {
+      "original_sha256": "964c535db601dffefbb9925dc524934217d9a9db68812d161113ec7ab39f27ab",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/collapse.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/collapse.png",
+      "release_sha256": "964c535db601dffefbb9925dc524934217d9a9db68812d161113ec7ab39f27ab"
+    },
+    {
+      "original_sha256": "62f0a32fe2d261f7570cae0653847ece5aa9652cf8b314b48ee98f039bce10d6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/expand.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/expand.png",
+      "release_sha256": "62f0a32fe2d261f7570cae0653847ece5aa9652cf8b314b48ee98f039bce10d6"
+    },
+    {
+      "original_sha256": "4fb5e5e2c66f1d17873c2804e734f6d7b1266ba961a69c1a919327ab700050a0",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/flight_arrow.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/flight_arrow.png",
+      "release_sha256": "4fb5e5e2c66f1d17873c2804e734f6d7b1266ba961a69c1a919327ab700050a0"
+    },
+    {
+      "original_sha256": "544e1bc271dd9774a27eb868e20698f89fca37f3a74d7d24ee7aa6edf9a488cb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/geo.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/geo.png",
+      "release_sha256": "544e1bc271dd9774a27eb868e20698f89fca37f3a74d7d24ee7aa6edf9a488cb"
+    },
+    {
+      "original_sha256": "6439208af3e23d340ba7f422dfe0c9acf33f3acbca70790fbb9d0a76d651e8c6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/home.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/home.png",
+      "release_sha256": "6439208af3e23d340ba7f422dfe0c9acf33f3acbca70790fbb9d0a76d651e8c6"
+    },
+    {
+      "original_sha256": "faa40349a7ecd0f258782c411eb7f2950d715b3b64a55e5a916215ce65adbc40",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/info2.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/info2.png",
+      "release_sha256": "faa40349a7ecd0f258782c411eb7f2950d715b3b64a55e5a916215ce65adbc40"
+    },
+    {
+      "original_sha256": "b2fddcedfac35a6b67d11ec4bef7f795e9cbafac6fc4d33100190cab2a536aad",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/leftright.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/leftright.png",
+      "release_sha256": "b2fddcedfac35a6b67d11ec4bef7f795e9cbafac6fc4d33100190cab2a536aad"
+    },
+    {
+      "original_sha256": "87ca370f60fb88b02738cd43cd4349a297df41245beaa8fc047f9443ce58f988",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/logo2.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/logo2.png",
+      "release_sha256": "87ca370f60fb88b02738cd43cd4349a297df41245beaa8fc047f9443ce58f988"
+    },
+    {
+      "original_sha256": "c0289d8684acc31fd6a7af41b9382cbf2edaf554860655e673a5a484b7e0c3fb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/logos/AA.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/logos/AA.png",
+      "release_sha256": "c0289d8684acc31fd6a7af41b9382cbf2edaf554860655e673a5a484b7e0c3fb"
+    },
+    {
+      "original_sha256": "acf8b01ff49709bc83412840f3d9ac8e6bc43475189d8dfd812c4fa4dee288e9",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/logos/AS.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/logos/AS.png",
+      "release_sha256": "acf8b01ff49709bc83412840f3d9ac8e6bc43475189d8dfd812c4fa4dee288e9"
+    },
+    {
+      "original_sha256": "2564fbfe9a80be285d76dd376f03aeaedbbb3bfd94f787b6c924dd4b65d99194",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/logos/DL.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/logos/DL.png",
+      "release_sha256": "2564fbfe9a80be285d76dd376f03aeaedbbb3bfd94f787b6c924dd4b65d99194"
+    },
+    {
+      "original_sha256": "cf6b97a5844e6599064863697ede8cd9a9e6620ec01d100b0dfea349177f758d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/images/logos/VX.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/images/logos/VX.png",
+      "release_sha256": "cf6b97a5844e6599064863697ede8cd9a9e6620ec01d100b0dfea349177f758d"
+    },
+    {
+      "original_sha256": "1ba9488cb8d1e525a1ff68ec81fd08755cb0bcdae58411376bf77b1aa0e98dfd",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/index.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/index.html",
+      "release_sha256": "1ba9488cb8d1e525a1ff68ec81fd08755cb0bcdae58411376bf77b1aa0e98dfd"
+    },
+    {
+      "original_sha256": "1b0362097fdd40ce98b244ef5c8cdb2f66f0633f588d567dee7e998781870858",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/mobileweb-v3-28-6227-21813.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/mobileweb-v3-28-6227-21813.css",
+      "release_sha256": "1b0362097fdd40ce98b244ef5c8cdb2f66f0633f588d567dee7e998781870858"
+    },
+    {
+      "original_sha256": "ded6f38718121934ccd57bb582fadb2000b488a4e8aba5f88fd531edf9615c6d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/scripts/datepickr.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/scripts/datepickr.js",
+      "release_sha256": "ded6f38718121934ccd57bb582fadb2000b488a4e8aba5f88fd531edf9615c6d"
+    },
+    {
+      "original_sha256": "f1158ed83f7eb3d133d761b742f3506a5e842a648083da7ef9b9e2fa8d5fecc5",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/scripts/main.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/scripts/main.js",
+      "release_sha256": "f1158ed83f7eb3d133d761b742f3506a5e842a648083da7ef9b9e2fa8d5fecc5"
+    },
+    {
+      "original_sha256": "2b7c00a43d2485613d7caf5c9bbd6810049fdd6c671ed9a386314236422d6bff",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/scripts/shopbook.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/scripts/shopbook.js",
+      "release_sha256": "2b7c00a43d2485613d7caf5c9bbd6810049fdd6c671ed9a386314236422d6bff"
+    },
+    {
+      "original_sha256": "ca9b0e2242ba05ca4d4229d3080e3afbcf26b12efee89267b0cc6662d4d0ee81",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/stylesheets/circular/ASCircularWeb-Bold.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/stylesheets/circular/ASCircularWeb-Bold.woff",
+      "release_sha256": "ca9b0e2242ba05ca4d4229d3080e3afbcf26b12efee89267b0cc6662d4d0ee81"
+    },
+    {
+      "original_sha256": "c15a94ea5b50321ae326b63b0e797b32705acd3ef1cb555a152427c301513765",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/stylesheets/circular/ASCircularWeb-Book.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/stylesheets/circular/ASCircularWeb-Book.woff",
+      "release_sha256": "c15a94ea5b50321ae326b63b0e797b32705acd3ef1cb555a152427c301513765"
+    },
+    {
+      "original_sha256": "74b659cb2cb94ecd4b92bded7d00698f01d79096f5039e695af2033922ad5cf1",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/surrogate/airportLookup.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/surrogate/airportLookup.js",
+      "release_sha256": "74b659cb2cb94ecd4b92bded7d00698f01d79096f5039e695af2033922ad5cf1"
+    },
+    {
+      "original_sha256": "7d5bb6014c86b983aa25d60fc3a8a375b3a01151d8174ff5353b6e811a35c5a4",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/surrogate/airports.json",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/surrogate/airports.json",
+      "release_sha256": "7d5bb6014c86b983aa25d60fc3a8a375b3a01151d8174ff5353b6e811a35c5a4"
+    },
+    {
+      "original_sha256": "8f3a29783c473e8316ecdd83520a67bee9784a52844a6b3a0358bd417887fd7c",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska-auto/wrapper.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska-auto/wrapper.html",
+      "release_sha256": "8f3a29783c473e8316ecdd83520a67bee9784a52844a6b3a0358bd417887fd7c"
+    },
+    {
+      "original_sha256": "135676e93aa95de8bf068a2c3a02c667e07531279d805e66f0393909f61b3e1d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/dataset-Alaska.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/dataset-Alaska.js",
+      "release_sha256": "135676e93aa95de8bf068a2c3a02c667e07531279d805e66f0393909f61b3e1d"
+    },
+    {
+      "original_sha256": "8a66329eb7aa37e3a5e47383c2143eb32b0c35cace2c037b9d355b54079a6462",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/aura.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/aura.png",
+      "release_sha256": "8a66329eb7aa37e3a5e47383c2143eb32b0c35cace2c037b9d355b54079a6462"
+    },
+    {
+      "original_sha256": "22147d62997aab32cdd72b0eb063b69bb66c276db202b57ecae388d3b1d39345",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/cal3.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/cal3.png",
+      "release_sha256": "22147d62997aab32cdd72b0eb063b69bb66c276db202b57ecae388d3b1d39345"
+    },
+    {
+      "original_sha256": "74036fa5c1f501a82f3c55d3b4d16f50081ea121eb9b716601f74eb90b15fc2d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/chkboxes3.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/chkboxes3.png",
+      "release_sha256": "74036fa5c1f501a82f3c55d3b4d16f50081ea121eb9b716601f74eb90b15fc2d"
+    },
+    {
+      "original_sha256": "14a33962807efa232bd5fa0908d4f6827107f9a76d79da01d0924dbda20051d3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/clear_text2.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/clear_text2.png",
+      "release_sha256": "14a33962807efa232bd5fa0908d4f6827107f9a76d79da01d0924dbda20051d3"
+    },
+    {
+      "original_sha256": "964c535db601dffefbb9925dc524934217d9a9db68812d161113ec7ab39f27ab",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/collapse.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/collapse.png",
+      "release_sha256": "964c535db601dffefbb9925dc524934217d9a9db68812d161113ec7ab39f27ab"
+    },
+    {
+      "original_sha256": "62f0a32fe2d261f7570cae0653847ece5aa9652cf8b314b48ee98f039bce10d6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/expand.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/expand.png",
+      "release_sha256": "62f0a32fe2d261f7570cae0653847ece5aa9652cf8b314b48ee98f039bce10d6"
+    },
+    {
+      "original_sha256": "4fb5e5e2c66f1d17873c2804e734f6d7b1266ba961a69c1a919327ab700050a0",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/flight_arrow.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/flight_arrow.png",
+      "release_sha256": "4fb5e5e2c66f1d17873c2804e734f6d7b1266ba961a69c1a919327ab700050a0"
+    },
+    {
+      "original_sha256": "544e1bc271dd9774a27eb868e20698f89fca37f3a74d7d24ee7aa6edf9a488cb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/geo.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/geo.png",
+      "release_sha256": "544e1bc271dd9774a27eb868e20698f89fca37f3a74d7d24ee7aa6edf9a488cb"
+    },
+    {
+      "original_sha256": "6439208af3e23d340ba7f422dfe0c9acf33f3acbca70790fbb9d0a76d651e8c6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/home.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/home.png",
+      "release_sha256": "6439208af3e23d340ba7f422dfe0c9acf33f3acbca70790fbb9d0a76d651e8c6"
+    },
+    {
+      "original_sha256": "faa40349a7ecd0f258782c411eb7f2950d715b3b64a55e5a916215ce65adbc40",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/info2.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/info2.png",
+      "release_sha256": "faa40349a7ecd0f258782c411eb7f2950d715b3b64a55e5a916215ce65adbc40"
+    },
+    {
+      "original_sha256": "b2fddcedfac35a6b67d11ec4bef7f795e9cbafac6fc4d33100190cab2a536aad",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/leftright.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/leftright.png",
+      "release_sha256": "b2fddcedfac35a6b67d11ec4bef7f795e9cbafac6fc4d33100190cab2a536aad"
+    },
+    {
+      "original_sha256": "87ca370f60fb88b02738cd43cd4349a297df41245beaa8fc047f9443ce58f988",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/logo2.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/logo2.png",
+      "release_sha256": "87ca370f60fb88b02738cd43cd4349a297df41245beaa8fc047f9443ce58f988"
+    },
+    {
+      "original_sha256": "c0289d8684acc31fd6a7af41b9382cbf2edaf554860655e673a5a484b7e0c3fb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/logos/AA.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/logos/AA.png",
+      "release_sha256": "c0289d8684acc31fd6a7af41b9382cbf2edaf554860655e673a5a484b7e0c3fb"
+    },
+    {
+      "original_sha256": "acf8b01ff49709bc83412840f3d9ac8e6bc43475189d8dfd812c4fa4dee288e9",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/logos/AS.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/logos/AS.png",
+      "release_sha256": "acf8b01ff49709bc83412840f3d9ac8e6bc43475189d8dfd812c4fa4dee288e9"
+    },
+    {
+      "original_sha256": "2564fbfe9a80be285d76dd376f03aeaedbbb3bfd94f787b6c924dd4b65d99194",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/logos/DL.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/logos/DL.png",
+      "release_sha256": "2564fbfe9a80be285d76dd376f03aeaedbbb3bfd94f787b6c924dd4b65d99194"
+    },
+    {
+      "original_sha256": "cf6b97a5844e6599064863697ede8cd9a9e6620ec01d100b0dfea349177f758d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/images/logos/VX.png",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/images/logos/VX.png",
+      "release_sha256": "cf6b97a5844e6599064863697ede8cd9a9e6620ec01d100b0dfea349177f758d"
+    },
+    {
+      "original_sha256": "1ba9488cb8d1e525a1ff68ec81fd08755cb0bcdae58411376bf77b1aa0e98dfd",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/index.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/index.html",
+      "release_sha256": "1ba9488cb8d1e525a1ff68ec81fd08755cb0bcdae58411376bf77b1aa0e98dfd"
+    },
+    {
+      "original_sha256": "1b0362097fdd40ce98b244ef5c8cdb2f66f0633f588d567dee7e998781870858",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/mobileweb-v3-28-6227-21813.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/mobileweb-v3-28-6227-21813.css",
+      "release_sha256": "1b0362097fdd40ce98b244ef5c8cdb2f66f0633f588d567dee7e998781870858"
+    },
+    {
+      "original_sha256": "7606baf6da90da10c0edf1e7d9c51f867ec55c27f343eebaed37c4dfbc40d176",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/original.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/original.html",
+      "release_sha256": "7606baf6da90da10c0edf1e7d9c51f867ec55c27f343eebaed37c4dfbc40d176"
+    },
+    {
+      "original_sha256": "ded6f38718121934ccd57bb582fadb2000b488a4e8aba5f88fd531edf9615c6d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/scripts/datepickr.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/scripts/datepickr.js",
+      "release_sha256": "ded6f38718121934ccd57bb582fadb2000b488a4e8aba5f88fd531edf9615c6d"
+    },
+    {
+      "original_sha256": "f1158ed83f7eb3d133d761b742f3506a5e842a648083da7ef9b9e2fa8d5fecc5",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/scripts/main.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/scripts/main.js",
+      "release_sha256": "f1158ed83f7eb3d133d761b742f3506a5e842a648083da7ef9b9e2fa8d5fecc5"
+    },
+    {
+      "original_sha256": "2b7c00a43d2485613d7caf5c9bbd6810049fdd6c671ed9a386314236422d6bff",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/scripts/shopbook.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/scripts/shopbook.js",
+      "release_sha256": "2b7c00a43d2485613d7caf5c9bbd6810049fdd6c671ed9a386314236422d6bff"
+    },
+    {
+      "original_sha256": "ca9b0e2242ba05ca4d4229d3080e3afbcf26b12efee89267b0cc6662d4d0ee81",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/stylesheets/circular/ASCircularWeb-Bold.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/stylesheets/circular/ASCircularWeb-Bold.woff",
+      "release_sha256": "ca9b0e2242ba05ca4d4229d3080e3afbcf26b12efee89267b0cc6662d4d0ee81"
+    },
+    {
+      "original_sha256": "c15a94ea5b50321ae326b63b0e797b32705acd3ef1cb555a152427c301513765",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/stylesheets/circular/ASCircularWeb-Book.woff",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/stylesheets/circular/ASCircularWeb-Book.woff",
+      "release_sha256": "c15a94ea5b50321ae326b63b0e797b32705acd3ef1cb555a152427c301513765"
+    },
+    {
+      "original_sha256": "74b659cb2cb94ecd4b92bded7d00698f01d79096f5039e695af2033922ad5cf1",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/surrogate/airportLookup.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/surrogate/airportLookup.js",
+      "release_sha256": "74b659cb2cb94ecd4b92bded7d00698f01d79096f5039e695af2033922ad5cf1"
+    },
+    {
+      "original_sha256": "7d5bb6014c86b983aa25d60fc3a8a375b3a01151d8174ff5353b6e811a35c5a4",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/surrogate/airports.json",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/surrogate/airports.json",
+      "release_sha256": "7d5bb6014c86b983aa25d60fc3a8a375b3a01151d8174ff5353b6e811a35c5a4"
+    },
+    {
+      "original_sha256": "60f732d9bbd4a1faf3b580c6da37fd41704124a35c6e5bedcf0705c49ec00211",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/Alaska/wrapper.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/Alaska/wrapper.html",
+      "release_sha256": "60f732d9bbd4a1faf3b580c6da37fd41704124a35c6e5bedcf0705c49ec00211"
+    },
+    {
+      "original_sha256": "cbda4c1a3dd6dfe9fd22ad038d9d71dfeb7a27653e5907824f95b9246320e090",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/flight-common/inject.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/flight-common/inject.js",
+      "release_sha256": "cbda4c1a3dd6dfe9fd22ad038d9d71dfeb7a27653e5907824f95b9246320e090"
+    },
+    {
+      "original_sha256": "57b810fbd264bbfdd6a21d0d18417e744ddf861a966ca7a8fd2252431bc4ac61",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/flight-common/wrapper.css",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/flight-common/wrapper.css",
+      "release_sha256": "57b810fbd264bbfdd6a21d0d18417e744ddf861a966ca7a8fd2252431bc4ac61"
+    },
+    {
+      "original_sha256": "ab64bbb8fbe71123dfee6f5c3b804b5693d12381b0050453000db358febbd360",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/flight/flight-common/wrapper.js",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/flight/flight-common/wrapper.js",
+      "release_sha256": "ab64bbb8fbe71123dfee6f5c3b804b5693d12381b0050453000db358febbd360"
+    },
+    {
+      "original_sha256": "685383d765b820c59c3b92c4b195d97e3822ea5f5a8219dc1ceb1c2dc6e0443f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/ascending-numbers.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/ascending-numbers.html",
+      "release_sha256": "685383d765b820c59c3b92c4b195d97e3822ea5f5a8219dc1ceb1c2dc6e0443f"
+    },
+    {
+      "original_sha256": "cf7f3a19d0fdb8d90f6b9bdfb7fb5140864afc0c97cd6ede194c4a41d2cdd94f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/bisect-angle.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/bisect-angle.html",
+      "release_sha256": "cf7f3a19d0fdb8d90f6b9bdfb7fb5140864afc0c97cd6ede194c4a41d2cdd94f"
+    },
+    {
+      "original_sha256": "2385f31793c9ae4bb63b44ad376b39da49187fe152161bee3a8b5a2701c2ec54",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/book-flight-nodelay.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/book-flight-nodelay.html",
+      "release_sha256": "2385f31793c9ae4bb63b44ad376b39da49187fe152161bee3a8b5a2701c2ec54"
+    },
+    {
+      "original_sha256": "4f1111aa722cb39e064d4628efde66bda872cf0aace1dd7156f0622de3e1a5d6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/book-flight.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/book-flight.html",
+      "release_sha256": "4f1111aa722cb39e064d4628efde66bda872cf0aace1dd7156f0622de3e1a5d6"
+    },
+    {
+      "original_sha256": "d9f4d4fa3e5f39e93c74c8be4265d2bfbd47d9e4e9db495ab11b77a2f80c0362",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/button-delay.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/button-delay.html",
+      "release_sha256": "d9f4d4fa3e5f39e93c74c8be4265d2bfbd47d9e4e9db495ab11b77a2f80c0362"
+    },
+    {
+      "original_sha256": "fbb1bfcc569c6b9c1ce7b2fdbf46f7e4a3abddbc14b7cee1134cf6cfd6601bf3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/buy-ticket.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/buy-ticket.html",
+      "release_sha256": "fbb1bfcc569c6b9c1ce7b2fdbf46f7e4a3abddbc14b7cee1134cf6cfd6601bf3"
+    },
+    {
+      "original_sha256": "79370c9313bf04122b9e020dcb188392dfd228760cb94c99fc8f6dfffd5c6f25",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/chase-circle.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/chase-circle.html",
+      "release_sha256": "79370c9313bf04122b9e020dcb188392dfd228760cb94c99fc8f6dfffd5c6f25"
+    },
+    {
+      "original_sha256": "99a65a9b8ec71d5b2c08a9f871e4075fe6f5bee09beebcdbc2ec45b732a49bca",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/choose-date-easy.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/choose-date-easy.html",
+      "release_sha256": "99a65a9b8ec71d5b2c08a9f871e4075fe6f5bee09beebcdbc2ec45b732a49bca"
+    },
+    {
+      "original_sha256": "3fff3638d39d0daa0597a0fb5fa6b26fa95aaad32c93083964e35a8a2dd29fbc",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/choose-date-medium.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/choose-date-medium.html",
+      "release_sha256": "3fff3638d39d0daa0597a0fb5fa6b26fa95aaad32c93083964e35a8a2dd29fbc"
+    },
+    {
+      "original_sha256": "2b95bcc31ac69ba3cb5e8712b079146317f28806552f4649b8fa07af29b27e0f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/choose-date-nodelay.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/choose-date-nodelay.html",
+      "release_sha256": "2b95bcc31ac69ba3cb5e8712b079146317f28806552f4649b8fa07af29b27e0f"
+    },
+    {
+      "original_sha256": "06688c63a7ee3c1308ffd5f8382614ac42c85b2e31c012ec167b2b089ebf028e",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/choose-date.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/choose-date.html",
+      "release_sha256": "06688c63a7ee3c1308ffd5f8382614ac42c85b2e31c012ec167b2b089ebf028e"
+    },
+    {
+      "original_sha256": "ecf216009d4a0dda4d8beab574d03c2919ee6d44f7b9c6e850e26f3d8abe9586",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/choose-list.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/choose-list.html",
+      "release_sha256": "ecf216009d4a0dda4d8beab574d03c2919ee6d44f7b9c6e850e26f3d8abe9586"
+    },
+    {
+      "original_sha256": "2582b004c5f65cc491f1eafd9e0af91482373aba0205790015c773e1c2426743",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/circle-center.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/circle-center.html",
+      "release_sha256": "2582b004c5f65cc491f1eafd9e0af91482373aba0205790015c773e1c2426743"
+    },
+    {
+      "original_sha256": "6e47da84af1abd96b52866b3547725f9256d89ae5a349230858a59fb70cb2d06",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-button-sequence.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-button-sequence.html",
+      "release_sha256": "6e47da84af1abd96b52866b3547725f9256d89ae5a349230858a59fb70cb2d06"
+    },
+    {
+      "original_sha256": "54568526a8cfb37c2fc90fc09e41d4186065f955d4ee68ec58bbe39b005ac5b3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-button.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-button.html",
+      "release_sha256": "54568526a8cfb37c2fc90fc09e41d4186065f955d4ee68ec58bbe39b005ac5b3"
+    },
+    {
+      "original_sha256": "f7a500a6466bfe8650f8090187c9f798857fc9d61cbd3be08c52931cfe756cba",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-checkboxes-large.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-checkboxes-large.html",
+      "release_sha256": "f7a500a6466bfe8650f8090187c9f798857fc9d61cbd3be08c52931cfe756cba"
+    },
+    {
+      "original_sha256": "2cf9530da48c9f87dd84318db17a1a617856e20312237f4964d78eef37a81b60",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-checkboxes-soft.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-checkboxes-soft.html",
+      "release_sha256": "2cf9530da48c9f87dd84318db17a1a617856e20312237f4964d78eef37a81b60"
+    },
+    {
+      "original_sha256": "1cd4ca8fc36f8080176c183f2a10910034708fcc9d7a56ce88615eaefb0db753",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-checkboxes-transfer.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-checkboxes-transfer.html",
+      "release_sha256": "1cd4ca8fc36f8080176c183f2a10910034708fcc9d7a56ce88615eaefb0db753"
+    },
+    {
+      "original_sha256": "b799bd1749dd603029e7479c56efceb38a425af47c04267fe46f6d7a64ac1895",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-checkboxes.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-checkboxes.html",
+      "release_sha256": "b799bd1749dd603029e7479c56efceb38a425af47c04267fe46f6d7a64ac1895"
+    },
+    {
+      "original_sha256": "ca2bc054b140e3570f88d74d0e212cd7bb7543d59727011566f03b1829a937ad",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-collapsible-2-nodelay.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-collapsible-2-nodelay.html",
+      "release_sha256": "ca2bc054b140e3570f88d74d0e212cd7bb7543d59727011566f03b1829a937ad"
+    },
+    {
+      "original_sha256": "b3a82fda117ad8f72e534206bb4d87a9df8520e264de6ebb9e557b2aa64fcec7",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-collapsible-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-collapsible-2.html",
+      "release_sha256": "b3a82fda117ad8f72e534206bb4d87a9df8520e264de6ebb9e557b2aa64fcec7"
+    },
+    {
+      "original_sha256": "f871063cf339527f28df47fc328488481ca4627f426c6580084a30732e4d3efc",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-collapsible-nodelay.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-collapsible-nodelay.html",
+      "release_sha256": "f871063cf339527f28df47fc328488481ca4627f426c6580084a30732e4d3efc"
+    },
+    {
+      "original_sha256": "4acc2665fec3c3af1d9b9c55e56b3c4a015e3be6622973be75e70fe246b87afd",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-collapsible.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-collapsible.html",
+      "release_sha256": "4acc2665fec3c3af1d9b9c55e56b3c4a015e3be6622973be75e70fe246b87afd"
+    },
+    {
+      "original_sha256": "1a272583b674874291320183f9a62137d26caae489cfcb88edd9d7286ab0f066",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-color.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-color.html",
+      "release_sha256": "1a272583b674874291320183f9a62137d26caae489cfcb88edd9d7286ab0f066"
+    },
+    {
+      "original_sha256": "dc469c5e7085af357f3ebea68b9b5338556c9bd98890bff43ce9086484c176c1",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-dialog-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-dialog-2.html",
+      "release_sha256": "dc469c5e7085af357f3ebea68b9b5338556c9bd98890bff43ce9086484c176c1"
+    },
+    {
+      "original_sha256": "a6ba34b2e359f898f56cf69fb8c7b0c7c5ae94f7eaa0dfd36d9adb94121720f3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-dialog.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-dialog.html",
+      "release_sha256": "a6ba34b2e359f898f56cf69fb8c7b0c7c5ae94f7eaa0dfd36d9adb94121720f3"
+    },
+    {
+      "original_sha256": "dc73e507c54a4be03b0c3b64fc6c02ea58ec845b17b000532f2f4782e7c7d729",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-link.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-link.html",
+      "release_sha256": "dc73e507c54a4be03b0c3b64fc6c02ea58ec845b17b000532f2f4782e7c7d729"
+    },
+    {
+      "original_sha256": "c6002c55f68d649395e05a94187de23d73ec62eeec981cc3a1b6cf851735f845",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-menu-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-menu-2.html",
+      "release_sha256": "c6002c55f68d649395e05a94187de23d73ec62eeec981cc3a1b6cf851735f845"
+    },
+    {
+      "original_sha256": "43ff374bed038fb35691805694f0f09f50bdc9b954b2c3fd7135f5f91224fd2b",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-menu.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-menu.html",
+      "release_sha256": "43ff374bed038fb35691805694f0f09f50bdc9b954b2c3fd7135f5f91224fd2b"
+    },
+    {
+      "original_sha256": "b918237b51a1b364d990714deffbec9942dc8c1fac0920dce06adb2c07c5da6e",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-option.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-option.html",
+      "release_sha256": "b918237b51a1b364d990714deffbec9942dc8c1fac0920dce06adb2c07c5da6e"
+    },
+    {
+      "original_sha256": "e275a3c2a548d8a1edc6248c4cd28ec27e6329c1024ba9f26c59e527c03080f9",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-pie-nodelay.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-pie-nodelay.html",
+      "release_sha256": "e275a3c2a548d8a1edc6248c4cd28ec27e6329c1024ba9f26c59e527c03080f9"
+    },
+    {
+      "original_sha256": "4bed38697d9256da42cf166e3d584083a3f1d206d0504e6f62ea03ce3bbd0fcf",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-pie.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-pie.html",
+      "release_sha256": "4bed38697d9256da42cf166e3d584083a3f1d206d0504e6f62ea03ce3bbd0fcf"
+    },
+    {
+      "original_sha256": "f935c0aff5bd95887a690510eadeea18cf8857d8708475bfbf17f57d8bec9baf",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-scroll-list.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-scroll-list.html",
+      "release_sha256": "f935c0aff5bd95887a690510eadeea18cf8857d8708475bfbf17f57d8bec9baf"
+    },
+    {
+      "original_sha256": "3ac288fafe383ac0bd418ba5dc41fb0c20885c6dd62246a9b3017941212657bf",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-shades.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-shades.html",
+      "release_sha256": "3ac288fafe383ac0bd418ba5dc41fb0c20885c6dd62246a9b3017941212657bf"
+    },
+    {
+      "original_sha256": "4ccabc5803e4d06600e9d24a32027d18785c5c81881b47af9b8981e7cdf4f058",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-shape.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-shape.html",
+      "release_sha256": "4ccabc5803e4d06600e9d24a32027d18785c5c81881b47af9b8981e7cdf4f058"
+    },
+    {
+      "original_sha256": "080806551b413870f1f2c17295b5bf5b0dda84b2d0ca67bba8a9d8bbd147e20a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-tab-2-easy.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-tab-2-easy.html",
+      "release_sha256": "080806551b413870f1f2c17295b5bf5b0dda84b2d0ca67bba8a9d8bbd147e20a"
+    },
+    {
+      "original_sha256": "d24fccfc4f856b9cc57d1ae216645d70f0df0bb18d2f4495cbc85d33e40766ba",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-tab-2-hard.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-tab-2-hard.html",
+      "release_sha256": "d24fccfc4f856b9cc57d1ae216645d70f0df0bb18d2f4495cbc85d33e40766ba"
+    },
+    {
+      "original_sha256": "da48717ecd9ba9bb89973378169625381df3a6eaaa0661300a88d8fcc396572a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-tab-2-medium.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-tab-2-medium.html",
+      "release_sha256": "da48717ecd9ba9bb89973378169625381df3a6eaaa0661300a88d8fcc396572a"
+    },
+    {
+      "original_sha256": "ef8e2e6c354889fb5269f4d25517331c696b15bc798a42d11f7678301d4f4399",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-tab-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-tab-2.html",
+      "release_sha256": "ef8e2e6c354889fb5269f4d25517331c696b15bc798a42d11f7678301d4f4399"
+    },
+    {
+      "original_sha256": "d47a0e3ebb7804d4a3f3712424493dd3b61782f2e5e244e0569cc2b00409e5b3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-tab.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-tab.html",
+      "release_sha256": "d47a0e3ebb7804d4a3f3712424493dd3b61782f2e5e244e0569cc2b00409e5b3"
+    },
+    {
+      "original_sha256": "8f48bfe4d45a5ec736e38651bd501438d3252f639cd0fdd6547eafa141708d47",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-test-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-test-2.html",
+      "release_sha256": "8f48bfe4d45a5ec736e38651bd501438d3252f639cd0fdd6547eafa141708d47"
+    },
+    {
+      "original_sha256": "d898157feacd5c08497f7a0c4c7b1dc8e0360b7efea62122d6076ad623f302d2",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-test-transfer.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-test-transfer.html",
+      "release_sha256": "d898157feacd5c08497f7a0c4c7b1dc8e0360b7efea62122d6076ad623f302d2"
+    },
+    {
+      "original_sha256": "daa326de996985f6dc7d0a9d4d071d69685e809f05576d328f0764f1c66a8aa4",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-test.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-test.html",
+      "release_sha256": "daa326de996985f6dc7d0a9d4d071d69685e809f05576d328f0764f1c66a8aa4"
+    },
+    {
+      "original_sha256": "8113cc805d4465581ced1d3acc3d6315e3ea0249b3c6b9d7674b8d1b692a4a44",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/click-widget.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/click-widget.html",
+      "release_sha256": "8113cc805d4465581ced1d3acc3d6315e3ea0249b3c6b9d7674b8d1b692a4a44"
+    },
+    {
+      "original_sha256": "e33b4236820bfc6b165efd523a8102c848bb399a65cb90e97cdb8c6834c555cc",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/copy-paste-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/copy-paste-2.html",
+      "release_sha256": "e33b4236820bfc6b165efd523a8102c848bb399a65cb90e97cdb8c6834c555cc"
+    },
+    {
+      "original_sha256": "2a9596734936dfa3bd55dba3abab9a379f876c4c6ca54ae6805e7e181b658c12",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/copy-paste.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/copy-paste.html",
+      "release_sha256": "2a9596734936dfa3bd55dba3abab9a379f876c4c6ca54ae6805e7e181b658c12"
+    },
+    {
+      "original_sha256": "49781534a3f1cdb34090c607987add8053f556934362cd3855da37cc8c3f0bf2",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/count-shape.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/count-shape.html",
+      "release_sha256": "49781534a3f1cdb34090c607987add8053f556934362cd3855da37cc8c3f0bf2"
+    },
+    {
+      "original_sha256": "507646195382fb14bbdc7c18137bc6d16af4b58ee479cbdb5c0aaf371015503e",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/count-sides.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/count-sides.html",
+      "release_sha256": "507646195382fb14bbdc7c18137bc6d16af4b58ee479cbdb5c0aaf371015503e"
+    },
+    {
+      "original_sha256": "312a0f44ede576652c9db6e6e7d9b4f4d1d836a429faaf963abf6ac35cc865cb",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/daily-calendar.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/daily-calendar.html",
+      "release_sha256": "312a0f44ede576652c9db6e6e7d9b4f4d1d836a429faaf963abf6ac35cc865cb"
+    },
+    {
+      "original_sha256": "f53a8ee7981b1510fae060428bddedc140de915906f2b8830b64eeaa010a200b",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/drag-box.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/drag-box.html",
+      "release_sha256": "f53a8ee7981b1510fae060428bddedc140de915906f2b8830b64eeaa010a200b"
+    },
+    {
+      "original_sha256": "d850df933ee6acbb1b64fa7c1dc75470822e9a1e784882f6e1fddd0e68f5f5ef",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/drag-circle.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/drag-circle.html",
+      "release_sha256": "d850df933ee6acbb1b64fa7c1dc75470822e9a1e784882f6e1fddd0e68f5f5ef"
+    },
+    {
+      "original_sha256": "d47bf550826029079166e8701e2842aa6504fb37ec157af17613d7e24acdb0a6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/drag-cube.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/drag-cube.html",
+      "release_sha256": "d47bf550826029079166e8701e2842aa6504fb37ec157af17613d7e24acdb0a6"
+    },
+    {
+      "original_sha256": "062ebaad2a0a6954f1d77b8e04b64f16c8ec5deda3b704e83af0263ef8965894",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/drag-items-grid.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/drag-items-grid.html",
+      "release_sha256": "062ebaad2a0a6954f1d77b8e04b64f16c8ec5deda3b704e83af0263ef8965894"
+    },
+    {
+      "original_sha256": "8e8245c6ac63eb1bd96d4dce67e62c3d37acd6ddac7219ba4ebb11dc4eab5d95",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/drag-items.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/drag-items.html",
+      "release_sha256": "8e8245c6ac63eb1bd96d4dce67e62c3d37acd6ddac7219ba4ebb11dc4eab5d95"
+    },
+    {
+      "original_sha256": "8d0c105e74af92b99e51324a3cc3f441dd1d7f4e1d97e8d5e862b76438269f90",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/drag-shapes-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/drag-shapes-2.html",
+      "release_sha256": "8d0c105e74af92b99e51324a3cc3f441dd1d7f4e1d97e8d5e862b76438269f90"
+    },
+    {
+      "original_sha256": "9e31db775760e0df0ffc0a933a0566ae6c2bf3cb0acb365c4524cbb6492e3116",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/drag-shapes.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/drag-shapes.html",
+      "release_sha256": "9e31db775760e0df0ffc0a933a0566ae6c2bf3cb0acb365c4524cbb6492e3116"
+    },
+    {
+      "original_sha256": "c542495a5153b00d8f3a0f619be9e10e121f0a2350944e0e1d5fecc068b1f4b3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/drag-single-shape.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/drag-single-shape.html",
+      "release_sha256": "c542495a5153b00d8f3a0f619be9e10e121f0a2350944e0e1d5fecc068b1f4b3"
+    },
+    {
+      "original_sha256": "3dc76a6cd1bbc76c4ce54f2da50bdb5cada4b233aaa85381c755d5977d08f11d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/drag-sort-numbers.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/drag-sort-numbers.html",
+      "release_sha256": "3dc76a6cd1bbc76c4ce54f2da50bdb5cada4b233aaa85381c755d5977d08f11d"
+    },
+    {
+      "original_sha256": "2cafe6664ee744cc5e833ab1b3b84d520c4cd21d2850b1a2672a2bbcb1013893",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/draw-circle.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/draw-circle.html",
+      "release_sha256": "2cafe6664ee744cc5e833ab1b3b84d520c4cd21d2850b1a2672a2bbcb1013893"
+    },
+    {
+      "original_sha256": "be3dc88886be23e1848d65ffb646b26e02adeb2224760dee1136ee0c7e70f0c8",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/draw-line.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/draw-line.html",
+      "release_sha256": "be3dc88886be23e1848d65ffb646b26e02adeb2224760dee1136ee0c7e70f0c8"
+    },
+    {
+      "original_sha256": "1b025017f9660b370534487e0284d5eb3646a0c0a28b242c7a1b53bc7b468ee4",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/email-inbox-delete.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/email-inbox-delete.html",
+      "release_sha256": "1b025017f9660b370534487e0284d5eb3646a0c0a28b242c7a1b53bc7b468ee4"
+    },
+    {
+      "original_sha256": "8421aa0a0bf67cbff225276db7426caf61b54b316a033287f4864d53850f856f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/email-inbox-forward-nl-turk.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/email-inbox-forward-nl-turk.html",
+      "release_sha256": "8421aa0a0bf67cbff225276db7426caf61b54b316a033287f4864d53850f856f"
+    },
+    {
+      "original_sha256": "8cb335cb0ecd4f09d2a871c1a6854f96c21f14b69b70c66e2e674f3f56debe2a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/email-inbox-forward-nl.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/email-inbox-forward-nl.html",
+      "release_sha256": "8cb335cb0ecd4f09d2a871c1a6854f96c21f14b69b70c66e2e674f3f56debe2a"
+    },
+    {
+      "original_sha256": "6dc1a9ae04f523ac0ab58d111be6917fdd3d9bcad782eec998d9c08f2dcf1952",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/email-inbox-forward.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/email-inbox-forward.html",
+      "release_sha256": "6dc1a9ae04f523ac0ab58d111be6917fdd3d9bcad782eec998d9c08f2dcf1952"
+    },
+    {
+      "original_sha256": "a83cfb9dd26d2e050f4ebae79c1f74dbd9221bf6f17fb15c735b1bb3a336beff",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/email-inbox-important.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/email-inbox-important.html",
+      "release_sha256": "a83cfb9dd26d2e050f4ebae79c1f74dbd9221bf6f17fb15c735b1bb3a336beff"
+    },
+    {
+      "original_sha256": "7716b92d4aa5e6aef8eefd4601d0a5c9c4933173e366eda5cf0afb928680b463",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/email-inbox-nl-turk.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/email-inbox-nl-turk.html",
+      "release_sha256": "7716b92d4aa5e6aef8eefd4601d0a5c9c4933173e366eda5cf0afb928680b463"
+    },
+    {
+      "original_sha256": "b9618f2fc9e7123ba39937a24ce8fbe90efb68b3f0eed4dc39ab1effb2afd3bd",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/email-inbox-noscroll.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/email-inbox-noscroll.html",
+      "release_sha256": "b9618f2fc9e7123ba39937a24ce8fbe90efb68b3f0eed4dc39ab1effb2afd3bd"
+    },
+    {
+      "original_sha256": "7e10647e3301522ad35bbb92500089e58f45ad6a8db22f7b86887c25dbedbf4f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/email-inbox-reply.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/email-inbox-reply.html",
+      "release_sha256": "7e10647e3301522ad35bbb92500089e58f45ad6a8db22f7b86887c25dbedbf4f"
+    },
+    {
+      "original_sha256": "a0b1c657ba8c180157ef46127fea323057b8cbbe2db64fc44e62ace6f66d4c67",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/email-inbox-star-reply.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/email-inbox-star-reply.html",
+      "release_sha256": "a0b1c657ba8c180157ef46127fea323057b8cbbe2db64fc44e62ace6f66d4c67"
+    },
+    {
+      "original_sha256": "36f541a8e31a4f1203d3cb4eb49c1a0e5b2e490d9168189afab9641c0bc758f7",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/email-inbox.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/email-inbox.html",
+      "release_sha256": "36f541a8e31a4f1203d3cb4eb49c1a0e5b2e490d9168189afab9641c0bc758f7"
+    },
+    {
+      "original_sha256": "30d9ed7f57bb33df2331b23307d1a10adc44f605da188061046e18900091eea9",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/enter-date.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/enter-date.html",
+      "release_sha256": "30d9ed7f57bb33df2331b23307d1a10adc44f605da188061046e18900091eea9"
+    },
+    {
+      "original_sha256": "fb9dc861a5bacbeaf60da75736b83ba98f4681f06d1bb6fc09b05f4bd7092f6e",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/enter-password.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/enter-password.html",
+      "release_sha256": "fb9dc861a5bacbeaf60da75736b83ba98f4681f06d1bb6fc09b05f4bd7092f6e"
+    },
+    {
+      "original_sha256": "eb1ba64e22267689c82f10561e4a8e839c0ad134266f2f95efcc939f4e01e4fc",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/enter-text-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/enter-text-2.html",
+      "release_sha256": "eb1ba64e22267689c82f10561e4a8e839c0ad134266f2f95efcc939f4e01e4fc"
+    },
+    {
+      "original_sha256": "eed2d8aa9da773f4c20342a80ec9f3b022c11bdd2d48b74721b31ae80f2e013f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/enter-text-dynamic.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/enter-text-dynamic.html",
+      "release_sha256": "eed2d8aa9da773f4c20342a80ec9f3b022c11bdd2d48b74721b31ae80f2e013f"
+    },
+    {
+      "original_sha256": "cea0bd69c5070d069552879007c935fe6d715a05642127fa465b87f7e4bcaf05",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/enter-text.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/enter-text.html",
+      "release_sha256": "cea0bd69c5070d069552879007c935fe6d715a05642127fa465b87f7e4bcaf05"
+    },
+    {
+      "original_sha256": "4d4b7eb8fdd1f928d744015daaaf77fec2893225e1bfcb568c16e86e446f611b",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/enter-time.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/enter-time.html",
+      "release_sha256": "4d4b7eb8fdd1f928d744015daaaf77fec2893225e1bfcb568c16e86e446f611b"
+    },
+    {
+      "original_sha256": "087142af9245e4f9e641351e24da2e8e42ff7791a151354a434a9b573fc17686",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/find-greatest.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/find-greatest.html",
+      "release_sha256": "087142af9245e4f9e641351e24da2e8e42ff7791a151354a434a9b573fc17686"
+    },
+    {
+      "original_sha256": "893e546c15df25e42914acce31624cdf4b4655f635d2e0f266fd5c1b2a8b2cb3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/find-midpoint.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/find-midpoint.html",
+      "release_sha256": "893e546c15df25e42914acce31624cdf4b4655f635d2e0f266fd5c1b2a8b2cb3"
+    },
+    {
+      "original_sha256": "1e8b18d2efec5dc71f3da9e46f73bea83000f85664e818f707d562d8defccad7",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/find-word.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/find-word.html",
+      "release_sha256": "1e8b18d2efec5dc71f3da9e46f73bea83000f85664e818f707d562d8defccad7"
+    },
+    {
+      "original_sha256": "8e06d4608afbbad3e1ac2ca2b05e6dfcba1368cdbb1de7dfdf44ccaf1f6eab47",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/focus-text-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/focus-text-2.html",
+      "release_sha256": "8e06d4608afbbad3e1ac2ca2b05e6dfcba1368cdbb1de7dfdf44ccaf1f6eab47"
+    },
+    {
+      "original_sha256": "90aa824a79798f11297821997045254d72bcb661b814b139e730e0776efd517e",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/focus-text.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/focus-text.html",
+      "release_sha256": "90aa824a79798f11297821997045254d72bcb661b814b139e730e0776efd517e"
+    },
+    {
+      "original_sha256": "b2b062935c33930fc702eb7500c8f41eceb8e4d1fcdca7aefb9ad4a70c9d68ea",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/form-sequence-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/form-sequence-2.html",
+      "release_sha256": "b2b062935c33930fc702eb7500c8f41eceb8e4d1fcdca7aefb9ad4a70c9d68ea"
+    },
+    {
+      "original_sha256": "a608dd832610cd8ebef6ba361000c56bb2bb42ea01e0d1da7e64cd2f5eb44a40",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/form-sequence-3.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/form-sequence-3.html",
+      "release_sha256": "a608dd832610cd8ebef6ba361000c56bb2bb42ea01e0d1da7e64cd2f5eb44a40"
+    },
+    {
+      "original_sha256": "27b9ae3726812211a0c55a8f26ebc5599d05d654df91fdebcde41b8143cfb585",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/form-sequence.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/form-sequence.html",
+      "release_sha256": "27b9ae3726812211a0c55a8f26ebc5599d05d654df91fdebcde41b8143cfb585"
+    },
+    {
+      "original_sha256": "9e911715129bdfbc579bd20e4938d80667de8fc1a76d04181a85f032dcb7551f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/generate-number.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/generate-number.html",
+      "release_sha256": "9e911715129bdfbc579bd20e4938d80667de8fc1a76d04181a85f032dcb7551f"
+    },
+    {
+      "original_sha256": "a2233d74dbefa8667256989c8344b82cb4fc971baf1e7d965e0259f9d2e35020",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/grid-coordinate.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/grid-coordinate.html",
+      "release_sha256": "a2233d74dbefa8667256989c8344b82cb4fc971baf1e7d965e0259f9d2e35020"
+    },
+    {
+      "original_sha256": "feb3c36729b8971af52a2bb541521951b62f91cf67c326ac58131d13ab4b6f25",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/guess-number.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/guess-number.html",
+      "release_sha256": "feb3c36729b8971af52a2bb541521951b62f91cf67c326ac58131d13ab4b6f25"
+    },
+    {
+      "original_sha256": "a8c3ff19f24649f7b0eb42d36b4a69e12336510fbceb1761d3815160e2e8b1d8",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/highlight-text-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/highlight-text-2.html",
+      "release_sha256": "a8c3ff19f24649f7b0eb42d36b4a69e12336510fbceb1761d3815160e2e8b1d8"
+    },
+    {
+      "original_sha256": "b689f7e4f328856d4da0950d5ec7f8fb61e1bd35da11cf192d9608b2f6a0041a",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/highlight-text.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/highlight-text.html",
+      "release_sha256": "b689f7e4f328856d4da0950d5ec7f8fb61e1bd35da11cf192d9608b2f6a0041a"
+    },
+    {
+      "original_sha256": "80c3f1bce92c1a6e188409648e7557842ec3321a26610c6dc36ada10290c36bc",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/hot-cold.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/hot-cold.html",
+      "release_sha256": "80c3f1bce92c1a6e188409648e7557842ec3321a26610c6dc36ada10290c36bc"
+    },
+    {
+      "original_sha256": "dfafe269b75a799f226b5a7dcde5a46f64d7d4112d46a076f9643a0d6916f1ea",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/hover-shape.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/hover-shape.html",
+      "release_sha256": "dfafe269b75a799f226b5a7dcde5a46f64d7d4112d46a076f9643a0d6916f1ea"
+    },
+    {
+      "original_sha256": "70f38bf958a0c5a8628212d3c4d8ad0dedc29b94be0fb694e213e2fcaa47862f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/identify-shape.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/identify-shape.html",
+      "release_sha256": "70f38bf958a0c5a8628212d3c4d8ad0dedc29b94be0fb694e213e2fcaa47862f"
+    },
+    {
+      "original_sha256": "fee60f75e96b5bc7e697ad04418fe9e3ea3ef57e224250fbbd20d024323c4900",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/login-user-popup.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/login-user-popup.html",
+      "release_sha256": "fee60f75e96b5bc7e697ad04418fe9e3ea3ef57e224250fbbd20d024323c4900"
+    },
+    {
+      "original_sha256": "378df4b6bf6f9100319eff052fdcd25d718916f4812b28a4d5581370ff08b692",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/login-user.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/login-user.html",
+      "release_sha256": "378df4b6bf6f9100319eff052fdcd25d718916f4812b28a4d5581370ff08b692"
+    },
+    {
+      "original_sha256": "243e984550de93b7c733ff18a517f82d20302d9a822be7b443cdddf2010c85f6",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/moving-items.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/moving-items.html",
+      "release_sha256": "243e984550de93b7c733ff18a517f82d20302d9a822be7b443cdddf2010c85f6"
+    },
+    {
+      "original_sha256": "e3037895be59fc09cc9b24d9db59150e2f555911176a1ea588b645da5c612f67",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/multi-layouts.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/multi-layouts.html",
+      "release_sha256": "e3037895be59fc09cc9b24d9db59150e2f555911176a1ea588b645da5c612f67"
+    },
+    {
+      "original_sha256": "f139ef6ad9c53d1448a4e90d9b30f896a0864d4659512728048426688e19cf42",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/multi-orderings.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/multi-orderings.html",
+      "release_sha256": "f139ef6ad9c53d1448a4e90d9b30f896a0864d4659512728048426688e19cf42"
+    },
+    {
+      "original_sha256": "80a9d4869a08981396fd6f8cde7d313df86e4f29d206b606e0dd6e910a95ce0f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/navigate-tree.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/navigate-tree.html",
+      "release_sha256": "80a9d4869a08981396fd6f8cde7d313df86e4f29d206b606e0dd6e910a95ce0f"
+    },
+    {
+      "original_sha256": "141c283ffd63514deba3cd1bd288931c8afdd301af0e3699942ede82a978fc88",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/number-checkboxes.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/number-checkboxes.html",
+      "release_sha256": "141c283ffd63514deba3cd1bd288931c8afdd301af0e3699942ede82a978fc88"
+    },
+    {
+      "original_sha256": "5a7c911fd323e6c890077df7652963fedce008e95fa08c4e62b4987da18dcbd4",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/odd-or-even.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/odd-or-even.html",
+      "release_sha256": "5a7c911fd323e6c890077df7652963fedce008e95fa08c4e62b4987da18dcbd4"
+    },
+    {
+      "original_sha256": "7bb53c663b13fad34c154d31032baba300bd2d51337e77f2936ee9c845aa6703",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/order-food.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/order-food.html",
+      "release_sha256": "7bb53c663b13fad34c154d31032baba300bd2d51337e77f2936ee9c845aa6703"
+    },
+    {
+      "original_sha256": "2b77ae66bba7f0db4b69f6c668a752f42ef45b166e18ab6f2c149476535c5974",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/phone-book.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/phone-book.html",
+      "release_sha256": "2b77ae66bba7f0db4b69f6c668a752f42ef45b166e18ab6f2c149476535c5974"
+    },
+    {
+      "original_sha256": "a0fdd070c5fda16e644b7962d5c3fe9553bd6ac1421edc8fd9e2b74f237430f3",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/read-table-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/read-table-2.html",
+      "release_sha256": "a0fdd070c5fda16e644b7962d5c3fe9553bd6ac1421edc8fd9e2b74f237430f3"
+    },
+    {
+      "original_sha256": "f6367d296342c7302f2fe303f0111b1b10104cea6a201f2fe545462f2ee4dd84",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/read-table.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/read-table.html",
+      "release_sha256": "f6367d296342c7302f2fe303f0111b1b10104cea6a201f2fe545462f2ee4dd84"
+    },
+    {
+      "original_sha256": "6f57d27eb771f05332b2ff33b5355d2c1d0931d6a91506cacdc2ee33bf66ee17",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/resize-textarea.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/resize-textarea.html",
+      "release_sha256": "6f57d27eb771f05332b2ff33b5355d2c1d0931d6a91506cacdc2ee33bf66ee17"
+    },
+    {
+      "original_sha256": "19c8f30dad37352afaf0e857c89a8fa53331eafbfc912feab3acb4fa35b0b789",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/right-angle.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/right-angle.html",
+      "release_sha256": "19c8f30dad37352afaf0e857c89a8fa53331eafbfc912feab3acb4fa35b0b789"
+    },
+    {
+      "original_sha256": "d33eb413e9c9070ea84bd4ae1206dd2a13fedccdc4ee188c2f1d1e752ba55515",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/scroll-text-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/scroll-text-2.html",
+      "release_sha256": "d33eb413e9c9070ea84bd4ae1206dd2a13fedccdc4ee188c2f1d1e752ba55515"
+    },
+    {
+      "original_sha256": "1eb033b54a45951ad038b20fdc9486dd672e5160f110c51fac5f310b42ac4b32",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/scroll-text.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/scroll-text.html",
+      "release_sha256": "1eb033b54a45951ad038b20fdc9486dd672e5160f110c51fac5f310b42ac4b32"
+    },
+    {
+      "original_sha256": "6bc2c629001797b047d540ceac33d967445830cc2e0c4426c40364c726350020",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/search-engine.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/search-engine.html",
+      "release_sha256": "6bc2c629001797b047d540ceac33d967445830cc2e0c4426c40364c726350020"
+    },
+    {
+      "original_sha256": "8524ee1fafeb6f4a76dd3cf0304da0ae2748d17b912eddf675f9b2d599764958",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/sign-agreement.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/sign-agreement.html",
+      "release_sha256": "8524ee1fafeb6f4a76dd3cf0304da0ae2748d17b912eddf675f9b2d599764958"
+    },
+    {
+      "original_sha256": "5ca577420b5bd9f6ef066a932478a3c066ed05ff145f8cbdd94ef3bfefb6f4fa",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/simon-says.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/simon-says.html",
+      "release_sha256": "5ca577420b5bd9f6ef066a932478a3c066ed05ff145f8cbdd94ef3bfefb6f4fa"
+    },
+    {
+      "original_sha256": "5d0f0ab01c7a187da03531f54908d5ed5e51dedaf95fcd88ea37efab9878ee1b",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/simple-algebra.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/simple-algebra.html",
+      "release_sha256": "5d0f0ab01c7a187da03531f54908d5ed5e51dedaf95fcd88ea37efab9878ee1b"
+    },
+    {
+      "original_sha256": "aaec2577df9838ea8301820dfbecf257e87f7a9cdf88cfc9e5787200d8294561",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/simple-arithmetic.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/simple-arithmetic.html",
+      "release_sha256": "aaec2577df9838ea8301820dfbecf257e87f7a9cdf88cfc9e5787200d8294561"
+    },
+    {
+      "original_sha256": "5ba403cf66abd1a1d78122d134de9ce22b4d9ed22d071699291bf1f3195126fc",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/social-media-all.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/social-media-all.html",
+      "release_sha256": "5ba403cf66abd1a1d78122d134de9ce22b4d9ed22d071699291bf1f3195126fc"
+    },
+    {
+      "original_sha256": "da734f669863dc2684ca6cabe049a8ebb673d68970ac19cf7acc7769b9890234",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/social-media-some.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/social-media-some.html",
+      "release_sha256": "da734f669863dc2684ca6cabe049a8ebb673d68970ac19cf7acc7769b9890234"
+    },
+    {
+      "original_sha256": "b954f8e8fd1db62a404feb80e29808e1a6bcd55192ae652c2f520e4ec6705647",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/social-media.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/social-media.html",
+      "release_sha256": "b954f8e8fd1db62a404feb80e29808e1a6bcd55192ae652c2f520e4ec6705647"
+    },
+    {
+      "original_sha256": "c4ab52236a8bc890f14af19dfac8264334d9583b8eb3c12d77aec67570fc6ae2",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/stock-market.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/stock-market.html",
+      "release_sha256": "c4ab52236a8bc890f14af19dfac8264334d9583b8eb3c12d77aec67570fc6ae2"
+    },
+    {
+      "original_sha256": "693d6df21b79ce13bb8480deded301893862acb26f642e09181cbea77fe42d29",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/terminal.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/terminal.html",
+      "release_sha256": "693d6df21b79ce13bb8480deded301893862acb26f642e09181cbea77fe42d29"
+    },
+    {
+      "original_sha256": "d376e4a8e0eafae58937222fd97e1c608d5abacb9f8fe19ab5408dec26e85811",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/text-editor.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/text-editor.html",
+      "release_sha256": "d376e4a8e0eafae58937222fd97e1c608d5abacb9f8fe19ab5408dec26e85811"
+    },
+    {
+      "original_sha256": "1f13ffbf1aebdce6e99bee1e06e368c4c7382b712fe47ce8ab80febc7562f44f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/text-transform.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/text-transform.html",
+      "release_sha256": "1f13ffbf1aebdce6e99bee1e06e368c4c7382b712fe47ce8ab80febc7562f44f"
+    },
+    {
+      "original_sha256": "7937e190ba7d827f906075417c1d8560d45135075d3666ecc5a40d49232af923",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/tic-tac-toe.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/tic-tac-toe.html",
+      "release_sha256": "7937e190ba7d827f906075417c1d8560d45135075d3666ecc5a40d49232af923"
+    },
+    {
+      "original_sha256": "60c5cd8675f9263a114d9ce71146465a0d9af21640d68e0c688d88699e4e347e",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/unicode-test.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/unicode-test.html",
+      "release_sha256": "60c5cd8675f9263a114d9ce71146465a0d9af21640d68e0c688d88699e4e347e"
+    },
+    {
+      "original_sha256": "3cdd46751c981fd3a3612d903752fcb2c33df2d378426658ebbcdce12979a99b",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/use-autocomplete-nodelay.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/use-autocomplete-nodelay.html",
+      "release_sha256": "3cdd46751c981fd3a3612d903752fcb2c33df2d378426658ebbcdce12979a99b"
+    },
+    {
+      "original_sha256": "adae9f156209bde36c9ab134d7c06efecb2567921ce4d3a7cb6d203d11b6195f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/use-autocomplete.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/use-autocomplete.html",
+      "release_sha256": "adae9f156209bde36c9ab134d7c06efecb2567921ce4d3a7cb6d203d11b6195f"
+    },
+    {
+      "original_sha256": "da37ad0b27f24556115df0a09da02ca74f97b7bd227a5d0bd53a095f5e1ef245",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/use-colorwheel-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/use-colorwheel-2.html",
+      "release_sha256": "da37ad0b27f24556115df0a09da02ca74f97b7bd227a5d0bd53a095f5e1ef245"
+    },
+    {
+      "original_sha256": "c8c9c698211f9fa0164c2f6dfe78cd9483efb8e81c400a3dee8f8e640570154c",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/use-colorwheel.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/use-colorwheel.html",
+      "release_sha256": "c8c9c698211f9fa0164c2f6dfe78cd9483efb8e81c400a3dee8f8e640570154c"
+    },
+    {
+      "original_sha256": "85537824f72f1b347f85bb520c524d622c2d9de54626fd8faebf5311087c67f4",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/use-slider-2.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/use-slider-2.html",
+      "release_sha256": "85537824f72f1b347f85bb520c524d622c2d9de54626fd8faebf5311087c67f4"
+    },
+    {
+      "original_sha256": "f963ae65bdfe4e05684f2baef71215f154e93e642afadd3cd83c62e5a4dfbb8f",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/use-slider.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/use-slider.html",
+      "release_sha256": "f963ae65bdfe4e05684f2baef71215f154e93e642afadd3cd83c62e5a4dfbb8f"
+    },
+    {
+      "original_sha256": "7a8f15f34c67d13b108050985af04be16ffb09755736c15a4571564432c1f485",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/use-spinner.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/use-spinner.html",
+      "release_sha256": "7a8f15f34c67d13b108050985af04be16ffb09755736c15a4571564432c1f485"
+    },
+    {
+      "original_sha256": "42fa2a627721582d2dae15716e59691ac1e87ade875dc2be21db167ccd935b4d",
+      "origin": "vendor/miniwob-plusplus/miniwob/html/miniwob/visual-addition.html",
+      "release_path": "src/rsi_anything_gui/assets/miniwob_html/miniwob/visual-addition.html",
+      "release_sha256": "42fa2a627721582d2dae15716e59691ac1e87ade875dc2be21db167ccd935b4d"
+    }
+  ],
+  "workflow_migration": {
+    "previous_package": "rsi_anything",
+    "current_package": "rsi_anything_gui",
+    "moved_files": 377,
+    "namespace_updated_files": 2
+  }
+}

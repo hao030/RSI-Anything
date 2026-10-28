@@ -1,0 +1,115 @@
+{
+  "world.py": {
+    "original_path": "experiment-source/rsi_jepa_g6/src/world.py",
+    "original_sha256": "805b1f26123b54989fb0d715687c9e8f3b467324881bfc244122fca74bbc04ba",
+    "copied_definitions": "module",
+    "packaged_sha256": "f9e5b917704877a8bbc54dfa9fd6e4e6a963ac7da10ad0185ec4d3e581af39d4"
+  },
+  "semantic_world.py": {
+    "original_path": "experiment-source/rsi_jepa_g6/repairs/world_update_v3_global_quality/semantic_world.py",
+    "original_sha256": "840116f5e53a7d59e68f8b497cc94164e9f324645b2b4f006ef6028e6949c053",
+    "copied_definitions": "module",
+    "packaged_sha256": "0c7699bcd88f541e648c77130a798997e433bba915ff604d2cf8b5fa4963e698"
+  },
+  "artifacts.py": {
+    "original_path": "experiment-source/rsi_jepa_g6/src/artifacts.py",
+    "original_sha256": "ddbcd6c702dfb6e4e35048e2d398fc37d55a70e1acbe269acf5516bb148f5a39",
+    "copied_definitions": "module",
+    "packaged_sha256": "b64b28482d52bb0bf77269c4999887c386fec070c6ba9e5495f59e4d187280bf"
+  },
+  "grouping.py": {
+    "original_path": "experiment-source/rsi_jepa_g6/repairs/world_update_v2/repair_core.py",
+    "original_sha256": "464649b77b4edbde71f1c06fafca94bcdba650005b289e415fe9cfdf2ff457bb",
+    "copied_definitions": [
+      "group_indices",
+      "mixed",
+      "group_selection",
+      "grouped_batches",
+      "filter_whole_groups",
+      "geometry_scope"
+    ],
+    "packaged_sha256": "c36e7ffc16ee004f0a9e45d353208784da4f7d1b6f01abeba4d8d6d907e81f45"
+  },
+  "incumbent.py": {
+    "original_path": "experiment-source/rsi_jepa_g6/evaluations/historical_jepa_200_optimization_20261006/incumbent_aware_data.py",
+    "original_sha256": "38f687f09bac5e15ea8d22ea4062093ac00d7e2665e1954872cd9c2f2c12f6be",
+    "copied_definitions": [
+      "state_signature",
+      "make_units",
+      "batches_for"
+    ],
+    "packaged_sha256": "c933cc00a58f8dcb88e197d5e6d2055750443989d4a115e4720c099baa7ef2b7"
+  },
+  "losses.py": {
+    "original_path": "experiment-source/rsi_jepa_g6/evaluations/historical_jepa_200_optimization_20261006/train_incumbent_aware_world.py",
+    "original_sha256": "a742de644f27de925fa3e15b3b5d9869f338c711c76a2a6e1d481e77abfdad72",
+    "copied_definitions": [
+      "pair_loss",
+      "objective"
+    ],
+    "packaged_sha256": "61745c99cbcb375af5ca52519ab264aa2a2a76270c74d46586e24febc052dac7"
+  },
+  "initial_batches.py": {
+    "original_path": "experiment-source/rsi_jepa_g6/src/train_world.py",
+    "original_sha256": "349a2c054fbee41728b71ae69571b49ab19257d3c0e2c9de1622f97629d45e17",
+    "copied_definitions": [
+      "batch_indices"
+    ],
+    "packaged_sha256": "cfa442c5039022c1171e45973994a1498fc138de112fd109449fba6f586c4358"
+  },
+  "cure_wm.py": {
+    "original_path": "experiment-source/cure_wm_lite/code/cure_wm.py",
+    "original_sha256": "4a80b60ff5e802df7f6829eb9b251ac43c25d1079eec245055d405245af6f208",
+    "copied_definitions": [
+      "TestCase",
+      "TestResult",
+      "Execution",
+      "Candidate",
+      "_limits",
+      "_run_one",
+      "execute"
+    ],
+    "packaged_sha256": "d623ce305aee77ea839745a0ed6f3b5757ece8b31b15b66765f984f2cf4da831",
+    "baseline_packaged_sha256": "729bf6ca0a17b330827ec4378beba3ea3d1cb2c02173cbcf7928bf7c6352b821",
+    "runtime_update": "Check sandbox readiness with a known correct program and raise environment errors separately from candidate results."
+  },
+  "coder.py": {
+    "original_path": "experiment-source/cure_wm_lite/code/coder.py",
+    "original_sha256": "c14f3f84e7da389e9ebf6f790f6e9d3e5514cda63b734f69dc14ec61085afbcf",
+    "copied_definitions": "module",
+    "packaged_sha256": "f703235a8fd9fac119eaecaf1ae49a70068b58acc184d6be535a8b525325f10c"
+  },
+  "public_context.py": {
+    "original_path": "experiment-source/rsi_jepa_g6/src/texts.py",
+    "original_sha256": "1733971bc769ca3dff6f97e2def3dc227f7623599c248ff5781cf128fdc87ec0",
+    "copied_definitions": [
+      "feedback_text"
+    ],
+    "packaged_sha256": "230ed6795f3d922e7afd8f6456d7ca5fcff6b90553f59812664ddc70dbf50d8a"
+  },
+  "seed.py": {
+    "original_path": "experiment-source/cure_wm_lite/code/collect.py",
+    "original_sha256": "519bcb2c607ae6e656da868c3dc5e3ee674906edb29645661360d625a60af6d2",
+    "copied_definitions": [
+      "stable_seed"
+    ],
+    "packaged_sha256": "69bce2ae06084f545e3f448e9e36a978ae3b50e69c9436fb53fe4e5fa886617c"
+  },
+  "fixtures.py": {
+    "original_path": "experiment-source/cure_wm_lite/code/evaluate.py",
+    "original_sha256": "11960e0399e487e610ed5e3e5e305bea4ffc3203085574a97a8a24f45f65754f",
+    "copied_definitions": [
+      "execution_from_dict"
+    ],
+    "packaged_sha256": "602253a8655246d5dfd0d2b423b93d03856f4f86ca5b9439373b33f4a2096f54"
+  },
+  "dataset.py": {
+    "original_path": "experiment-source/cure_wm_lite/code/dataset.py",
+    "original_sha256": "c73a8ae9e24acab8297d31b68a8fe624f23ae84a6c5d1a6dc420aaa8f283f174",
+    "copied_definitions": [
+      "load_rows",
+      "tests_from_row"
+    ],
+    "packaged_sha256": "43bea4921322ef8266a7010db967499ab1c24e87864ce1566c7e3a44d52d6d0b"
+  }
+}
