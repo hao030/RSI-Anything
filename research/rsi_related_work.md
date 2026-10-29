@@ -27,8 +27,10 @@ RSI 能不能持续转起来，取决于模型对自己输出的判断（自评�
 | 工作 | 机构 | 发表 | 代码 | 宣传 | 一句话 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **TTRL** | 清华、上海 AI Lab（周伯文团队） | NeurIPS 2025 | [PRIME-RL/TTRL](https://github.com/PRIME-RL/TTRL) | 量子位报道 | 在无标签测试题上用多数投票当伪标签做 RL；训练后准确率超过伪标签本身 |
+| **STaR** | Stanford (Noah Goodman)，作者含 Google | NeurIPS 2022 | [ezelikman/STaR](https://github.com/ezelikman/STaR) | LLM 自我提升的早期代表作 | 用自己推理对的过程再训练自己；答错时给出正确答案，让模型反推推理过程 |
 | **SPIN** | UCLA (Quanquan Gu) | ICML 2024 | [uclaml/SPIN](https://github.com/uclaml/SPIN) | HF 上公开各轮模型和数据 | 和上一轮的自己博弈，只用 SFT 数据就能持续提升 |
 | **R-Zero** | 腾讯 AI Seattle Lab，作者含华盛顿大学圣路易斯分校（企业参与） | ICLR 2026 | [Chengsong-Huang/R-Zero](https://github.com/Chengsong-Huang/R-Zero) | — | Challenger 出难题、Solver 解题，奖励来自自身一致性 |
+| Self-Rewarding LM | Meta、NYU（大厂，仅作参照） | ICML 2024 | — | 影响很大 | 模型自己当评委打分，迭代 DPO；数学和逻辑推理上提升较小 |
 
 ## C. 多模态自我进化（你拉进仓库的那条线）
 
@@ -47,6 +49,7 @@ RSI 能不能持续转起来，取决于模型对自己输出的判断（自评�
 | **Reflexion** | Northeastern、MIT、Princeton（机构信息来自二手资料） | NeurIPS 2023 | [noahshinn/reflexion](https://github.com/noahshinn/reflexion) | 智能体领域的奠基工作之一 | 失败后用文字反思，存进记忆，下次重试时参考 |
 | **Self-Refine** | CMU 主导，含 AI2、UW 等 | NeurIPS 2023 | [madaan/self-refine](https://github.com/madaan/self-refine) | [项目主页](https://selfrefine.info/) | 同一个模型生成、自评、修改，循环迭代 |
 | **ExpeL** | 清华（黄高组） | AAAI 2024 | [LeapLabTHU/ExpeL](https://github.com/LeapLabTHU/ExpeL) | Paper Digest 评为 AAAI 2024 最具影响力论文第 4 名 | 从训练任务的成败中提炼经验规则，不更新模型参数 |
+| Voyager | NVIDIA 主导（Anima Anandkumar、Linxi Fan 等），企业参与 | TMLR 2024 | [项目主页](https://voyager.minedojo.org/)，代码和 prompt 已开源 | 影响很大，具身自我进化的代表作 | Minecraft 里自动设计课程、积累技能库，终身学习 |
 | **Steve-Evolving** | 作者含中科大（据代码账号推测） | arXiv 2603.13131 | [xzw-ustc/MC-MineEvolve](https://github.com/xzw-ustc/MC-MineEvolve) | — | Minecraft 长程任务，细粒度诊断失败原因 + 双轨知识沉淀；可能和 NeurIPS 2026 的 MineEvolve 是同一工作，待核 |
 
 ## E. 世界模型预测信号
