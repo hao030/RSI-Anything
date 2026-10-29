@@ -26,43 +26,11 @@
 
 ---
 
-## 二、相关工作（以高校 / 实验室为主，有代码、有宣传）
+## 二、相关工作
 
-### A. 文本 / 智能体自我改进（方法源头）
+通用的 RSI 相关工作（已逐条核实机构、会议、代码和宣传情况）单独整理在 [rsi_related_work.md](rsi_related_work.md)。这里只保留和低空 / 无人机 / 灾害场景相关的部分。
 
-| 工作 | 机构 | 发表 | 代码 | 说明 |
-| :--- | :--- | :--- | :--- | :--- |
-| Absolute Zero | 清华 LeapLab、BIGAI、Penn State | arXiv 2505.03335 | LeapLabTHU/Absolute-Zero-Reasoner | 零数据自己出题、用代码执行器验证；宣传很多 |
-| TTRL | 清华、上海 AI Lab | NeurIPS 2025 | PRIME-RL/TTRL | 在无标签测试题上用多数投票当奖励做 RL |
-| Darwin Gödel Machine | UBC (Jeff Clune)、Vector、Sakana AI | ICLR 2026 | jennyzzt/dgm | 智能体改自己的代码，SWE-bench 从 20% 提到 50% |
-| ADAS | UBC (Jeff Clune) | ICLR 2025 | ShengranHu/ADAS | 自动设计智能体（待核） |
-| Reflexion | Northeastern、Princeton 等 | NeurIPS 2023 | noahshinn/reflexion | 语言反思 + 记忆，免训练（待核） |
-| Self-Refine | CMU 等 | NeurIPS 2023 | madaan/self-refine | 自我反馈迭代修改（待核） |
-| SPIN | UCLA (Quanquan Gu) | ICML 2024 | uclaml/SPIN | 自我博弈微调（待核） |
-| ExpeL | 清华 | AAAI 2024 | LeapLabTHU/ExpeL | 从经验中提炼规则，免训练（待核） |
-
-### B. 多模态自我进化（和你拉进仓库的论文同一条线）
-
-| 工作 | 机构 | 发表 | 代码 | 说明 |
-| :--- | :--- | :--- | :--- | :--- |
-| VisPlay | UIUC 等 | CVPR 2026 | bruno686/VisPlay | 同一个 VLM 既出题又答题，GRPO 训练 |
-| Vision-Zero | Duke、NUS、UMD、Adobe | ICLR 2026 | wangqinsi1/Vision-Zero | 「谁是卧底」式视觉游戏自我博弈 |
-| Vision-SR1 | Zongxia Li 等（含腾讯 AI Lab） | ICLR 2026 | zli12321/Vision-SR1 | 拆成感知 + 推理，自己给奖励 |
-| Ranked from Within | ANU、悉尼大学 | ICML 2025 | 待核 | 不用标签，用不确定性给多模态模型排序 |
-| Efficient Test-Time Scaling for Small VLMs (Kaya et al.) | 待核 | ICLR 2026 | 待核 | 小 VLM 的测试时增强 + 伪标签自适应，面向资源受限场景 |
-| RISE | 阿里高德 | arXiv 2605.20914 | AMAP-ML/RISE | 大厂工作，作为参照：给出题质量加监督 |
-| 多模态自我改进综述 (Deng et al.) | UT Dallas 等 | Findings of EMNLP 2025 | - | 入门综述 |
-
-### C. 具身 / 世界模型 + 自我改进
-
-| 工作 | 机构 | 发表 | 代码 | 说明 |
-| :--- | :--- | :--- | :--- | :--- |
-| RSI-Anything | Gen-Verse | arXiv 2610.13912 | 本仓库 | 世界模型预测后果再选动作，跨 5 个领域 |
-| Dream-RSI | UMD 牵头，含 Google | arXiv 2609.14858 | zhengkid/Dream-RSI | 用日志构建回放模拟器，在「梦」里改进探索策略 |
-| Self-evolving Embodied AI | 清华（朱文武组） | arXiv 2602.04411 | - | 具身自我进化框架 + 综述：记忆、任务、环境预测、本体适应、模型进化 |
-| Steve-Evolving | 待核 | arXiv 2603.13131 | 待核 | Minecraft 长程任务，免参数更新的自我进化 |
-
-### D. 低空 / 无人机 / 灾害（可以当实验底座的数据和环境）
+### 低空 / 无人机 / 灾害（可以当实验底座的数据和环境）
 
 | 工作 | 类型 | 发表 | 说明 |
 | :--- | :--- | :--- | :--- |
