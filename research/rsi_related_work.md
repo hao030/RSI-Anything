@@ -36,9 +36,9 @@ RSI 能不能持续转起来，取决于模型对自己输出的判断（自评�
 
 | 工作 | 机构 | 发表 | 代码 | Star | 宣传 | 一句话 |
 | :--- | :--- | :--- | :--- | ---: | :--- | :--- |
-| **Vision-Zero** | Duke、NUS、UMD、Adobe | ICLR 2026 | [wangqinsi1/Vision-Zero](https://github.com/wangqinsi1/Vision-Zero) | 194 | 没找到中文媒体报道 | 用「谁是卧底」式视觉游戏自我博弈，交替做 RLVR 防止停滞 |
+| **Vision-Zero** | Duke、NUS、UMD、Adobe | ICLR 2026 | [wangqinsi1/Vision-Zero](https://github.com/wangqinsi1/Vision-Zero) | 194 | 搜狐、CSDN 有中文解读 | 用「谁是卧底」式视觉游戏自我博弈，交替做 RLVR 防止停滞 |
 | Vision-SR1 | 第一作者来自 UMD，作者含腾讯 AI Lab | ICLR 2026 | [zli12321/Vision-SR1](https://github.com/zli12321/Vision-SR1) | 186 | — | 推理拆成「看」和「想」两步，模型自己验证、自己给奖励 |
-| **VisPlay** | UIUC 等 | CVPR 2026 | [bruno686/VisPlay](https://github.com/bruno686/VisPlay) | 80 | [项目主页](https://bruno686.github.io/VisPlay/)；没找到中文媒体报道 | 同一个 VLM 既出视觉题又答题，只用无标签图像 |
+| **VisPlay** | UIUC、华盛顿大学圣路易斯分校、UMD、NUS | CVPR 2026 | [bruno686/VisPlay](https://github.com/bruno686/VisPlay) | 80 | [项目主页](https://bruno686.github.io/VisPlay/)；腾讯新闻、网易、科技行者有中文解读 | 同一个 VLM 既出视觉题又答题，只用无标签图像 |
 | **Ranked from Within** | 澳大利亚国立大学、悉尼大学 | ICML 2025 | **没找到代码**（论文内也没有链接） | — | ICML 有演讲视频 | 不用标签，靠 softmax 不确定性给 47 个多模态模型排序 |
 | RISE | 阿里高德 | arXiv 2605.20914 | [AMAP-ML/RISE](https://github.com/AMAP-ML/RISE) | 24 | — | 指出自我进化中出题质量会下降、题型会收窄，加质量监督 |
 
@@ -46,11 +46,11 @@ RSI 能不能持续转起来，取决于模型对自己输出的判断（自评�
 
 | 工作 | 机构 | 发表 | 代码 | Star | 宣传 | 一句话 |
 | :--- | :--- | :--- | :--- | ---: | :--- | :--- |
-| Voyager | NVIDIA 主导（Anima Anandkumar、Linxi Fan 等；单位按作者判断，未核实） | TMLR 2024 | [MineDojo/Voyager](https://github.com/MineDojo/Voyager) | 7.3k | 影响很大，具身自我进化的代表作 | Minecraft 里自动设计课程、积累技能库，终身学习 |
-| **Reflexion** | Northeastern、MIT、Princeton（机构信息来自二手资料） | NeurIPS 2023 | [noahshinn/reflexion](https://github.com/noahshinn/reflexion) | 3.4k | 智能体领域的奠基工作之一 | 失败后用文字反思，存进记忆，下次重试时参考 |
+| Voyager | NVIDIA 主导，合作方 Caltech、UT Austin、Stanford、UW Madison | TMLR 2024 | [MineDojo/Voyager](https://github.com/MineDojo/Voyager) | 7.3k | 影响很大，具身自我进化的代表作 | Minecraft 里自动设计课程、积累技能库，终身学习 |
+| **Reflexion** | Northeastern、MIT、Princeton (Shunyu Yao) | NeurIPS 2023 | [noahshinn/reflexion](https://github.com/noahshinn/reflexion) | 3.4k | 智能体领域的奠基工作之一 | 失败后用文字反思，存进记忆，下次重试时参考 |
 | **Self-Refine** | CMU 主导，含 AI2、UW 等 | NeurIPS 2023 | [madaan/self-refine](https://github.com/madaan/self-refine) | 844 | [项目主页](https://selfrefine.info/) | 同一个模型生成、自评、修改，循环迭代 |
 | **ExpeL** | 清华（黄高组） | AAAI 2024 | [LeapLabTHU/ExpeL](https://github.com/LeapLabTHU/ExpeL) | 248 | Paper Digest 评为 AAAI 2024 最具影响力论文第 4 名 | 从训练任务的成败中提炼经验规则，不更新模型参数 |
-| **Steve-Evolving** | 作者含中科大（据代码账号推测） | arXiv 2603.13131 | [xzw-ustc/MC-MineEvolve](https://github.com/xzw-ustc/MC-MineEvolve) | 14 | — | Minecraft 长程任务，细粒度诊断失败原因 + 双轨知识沉淀；可能和 NeurIPS 2026 的 MineEvolve 是同一工作，待核 |
+| **MineEvolve**（原名 Steve-Evolving） | 中科大牵头，合作方含 NTU、港大、清华等 | NeurIPS 2026 | [xzw-ustc/MC-MineEvolve](https://github.com/xzw-ustc/MC-MineEvolve) | 14 | — | Minecraft 长程任务，从成败中积累知识实现自我进化（arXiv 2603.13131，v3 改名） |
 
 ## E. 世界模型预测信号
 
@@ -89,8 +89,6 @@ Darwin Gödel Machine 和 ADAS 影响力大，但大量调用闭源 API，复现
 
 ---
 
-## 没核实到的
+## 核实情况
 
-- Reflexion 和 Voyager 的作者机构；
-- Steve-Evolving 和 MineEvolve 是不是同一个工作；
-- VisPlay、Vision-Zero 是否有中文媒体报道（检索没找到，不代表没有）。
+所有条目的会议、机构、代码和 star 数都已核实。机构信息来自论文首页或会议页面；VisPlay、Vision-Zero 的中文解读来自门户网站和博客转载，没有找到机器之心、量子位等头部媒体的报道。
