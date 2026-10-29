@@ -28,6 +28,7 @@ RSI 能不能持续转起来，取决于模型对自己输出的判断（自评�
 | :--- | :--- | :--- | :--- | ---: | :--- | :--- |
 | **SPIN** | UCLA (Quanquan Gu) | ICML 2024 | [uclaml/SPIN](https://github.com/uclaml/SPIN) | 1.3k | HF 上公开各轮模型和数据 | 和上一轮的自己博弈，只用 SFT 数据就能持续提升 |
 | **TTRL** | 清华、上海 AI Lab（周伯文团队） | NeurIPS 2025 | [PRIME-RL/TTRL](https://github.com/PRIME-RL/TTRL) | 1.1k | 量子位报道 | 在无标签测试题上用多数投票当伪标签做 RL；训练后准确率超过伪标签本身 |
+| **HarnessPro** | 清华（唐杰、赵虹组），合作方含智谱 Z.AI、上交、Warwick、可灵 | arXiv 2610.26770（在审） | [pzs19/HarnessPro](https://github.com/pzs19/HarnessPro) | 118 | B 站有 UP 主视频解读 | 递归改进智能体的 harness；不用标准答案，用 LLM 生成的测试评估候选，按 Pareto 给出省钱 / 均衡 / 高性能三档 |
 | R-Zero | 腾讯 AI Seattle Lab，作者含华盛顿大学圣路易斯分校 | ICLR 2026 | [Chengsong-Huang/R-Zero](https://github.com/Chengsong-Huang/R-Zero) | 861 | — | Challenger 出难题、Solver 解题，奖励来自自身一致性 |
 | **STaR** | Stanford (Noah Goodman)，作者含 Google | NeurIPS 2022 | [ezelikman/STaR](https://github.com/ezelikman/STaR) | 233 | LLM 自我提升的早期代表作 | 用自己推理对的过程再训练自己；答错时给出正确答案，让模型反推推理过程 |
 | Self-Rewarding LM | Meta、NYU | ICML 2024 | — | — | 影响很大 | 模型自己当评委打分，迭代 DPO；数学和逻辑推理上提升较小 |
